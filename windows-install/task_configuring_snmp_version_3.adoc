@@ -8,6 +8,7 @@ summary: 'You can also configure OnCommand Workflow Automation \(WFA\) to send S
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can also configure OnCommand Workflow Automation (WFA) to send Simple Network Management Protocol (SNMP) Version 3 traps about the status of workflow operations.
 
 Version 3 offers two additional security options:

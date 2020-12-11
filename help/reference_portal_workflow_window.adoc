@@ -8,6 +8,7 @@ summary: 'The Workflows window displays the workflows that are marked ready for 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Workflows window displays the workflows that are marked ready for production. You can edit or execute the workflows for which you have authorization. You can access this window by clicking the Workflows tab.
 
 == Category pane

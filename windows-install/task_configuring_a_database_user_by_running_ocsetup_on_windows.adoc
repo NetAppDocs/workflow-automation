@@ -8,6 +8,7 @@ summary: 'You can run the ocsetup file on the DataFabric Manager 5.x server to c
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can run the ocsetup file on the DataFabric Manager 5.x server to configure read-only access of the DataFabric Manager 5.x database to OnCommand Workflow Automation.
 
 . Download the wfa_ocsetup.exe file to a directory in the DataFabric Manager 5.x server from the following location: https://WFA_Server_IP/download/wfa_ocsetup.exe.

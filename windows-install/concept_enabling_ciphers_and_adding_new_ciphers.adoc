@@ -8,6 +8,7 @@ summary: 'OnCommand Workflow Automation 5.1 supports a number of ciphers out of 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 OnCommand Workflow Automation 5.1 supports a number of ciphers out of the box. Also, you can add additional ciphers as required.
 
 The following ciphers can be enabled out of the box:

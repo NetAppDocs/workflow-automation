@@ -8,6 +8,7 @@ summary: 'Oracle JRE is no longer supported in OnCommand Workflow Automation. In
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 Oracle JRE is no longer supported in OnCommand Workflow Automation. In this release, OpenJDK replaces Oracle JRE for Linux. You can upgrade to a newer version of OpenJDK on the Linux server on which OnCommand Workflow Automation is installed to obtain fixes for security vulnerabilities.
 
 You must have root privileges for the Linux system on which WFA is installed.

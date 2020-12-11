@@ -8,4 +8,5 @@ summary: 'You must create a database user on DataFabric Manager 5.x to configure
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You must create a database user on DataFabric Manager 5.x to configure read-only access of the DataFabric Manager 5.x database to OnCommand Workflow Automation.

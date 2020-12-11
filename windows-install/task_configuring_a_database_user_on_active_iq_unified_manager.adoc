@@ -8,6 +8,7 @@ summary: 'You must create a database user on Active IQ Unified Manager to config
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You must create a database user on Active IQ Unified Manager to configure read-only access of the Active IQ Unified Manager database to OnCommand Workflow Automation.
 
 . Log in to Active IQ Unified Manager with administrator credentials.
