@@ -18,15 +18,15 @@ You must know the appropriate SQL syntaxes to create the filter.
 . In the Query tab, enter the appropriate SQL query for the filter.
 +
 You must enter a single SQL query and optionally use input parameters. You should use the following syntax to use an input parameter: $\{ParameterName}.
-
-`+
-    SELECT
-    	array.ip
-    FROM
-    	storage.array
-    WHERE
-    	array.name = '${ArrayName}'
-   +`
++
+----
+SELECT
+	array.ip
+FROM
+	storage.array
+WHERE
+	array.name = '${ArrayName}'
+----
 
 . Click *Refresh* to populate the *Input Parameters* table and the *Returned Attributes* list.
 +

@@ -28,26 +28,25 @@ OpenJDK_path is the path to OpenJDK.
 /opt/NTAPdfm/java
 +
 The following output is displayed in the terminal, indicating a successful setup:
-
++
 ----
-    Verifying archive integrity... All good.
-    Uncompressing WFA OnCommand Setup.....
-    *** Welcome to OnCommand Setup Utility for Linux ***
-        <Help information>
-    *** Please override the default credentials below ***
-    Override DB Username [wfa] :
-    ```
-
-4.  Enter a user name and password to override the default credentials.
-
-    A new database user account is created with access to the DataFabric Manager 5.x database.
-
-    **Note:** If you do not create a user account, the default credentials are used. You must create a user account for security purposes.
-
-    The following output is displayed in the terminal, indicating a successful setup:
+Verifying archive integrity... All good.
+Uncompressing WFA OnCommand Setup.....
+*** Welcome to OnCommand Setup Utility for Linux ***
+    <Help information>
+*** Please override the default credentials below ***
+Override DB Username [wfa] :
 ----
 
-....
+. Enter a user name and password to override the default credentials.
++
+A new database user account is created with access to the DataFabric Manager 5.x database.
++
+NOTE: If you do not create a user account, the default credentials are used. You must create a user account for security purposes.
++
+The following output is displayed in the terminal, indicating a successful setup:
++
+----
 ***** Start of response from the database *****
 >>> Connecting to database
 <<< Connected
@@ -57,6 +56,4 @@ The following output is displayed in the terminal, indicating a successful setup
 <<< Granted access
 ***** End of response from the database *****
 ***** End of Setup *****
-
-```
-....
+----

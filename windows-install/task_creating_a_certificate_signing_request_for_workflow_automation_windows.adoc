@@ -24,10 +24,10 @@ file_name is the name of the CSR file.
 . When prompted, provide the password (default or new).
 +
 changeit is the default password. If you do not want to use the default password, you must change the password attribute of the SSL element in the standalone-full.xml file from the WFA_install_location\WFA\jboss\standalone\configuration\ location.
-
-`
-    <ssl name="ssl" password="new_password" certificate-key-file="${jboss.server.config.dir}/keystore/wfa.keystore"
-   `
++
+----
+<ssl name="ssl" password="new_password" certificate-key-file="${jboss.server.config.dir}/keystore/wfa.keystore"
+----
 
 . Send the file_name.csr file to the CA to obtain a signed certificate.
 +
