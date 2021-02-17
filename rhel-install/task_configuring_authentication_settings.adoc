@@ -1,0 +1,45 @@
+---
+permalink: rhel-install/task_configuring_authentication_settings.html
+sidebar: sidebar
+keywords: OnCommand Workflow Automation
+summary: 'You can configure OnCommand Workflow Automation \(WFA\) to use a Microsoft Active Directory \(AD\) Lightweight Directory Access Protocol \(LDAP\) server for authentication and authorization.'
+---
+= Configuring authentication settings
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure OnCommand Workflow Automation (WFA) to use a Microsoft Active Directory (AD) Lightweight Directory Access Protocol (LDAP) server for authentication and authorization.
+
+You must have configured a Microsoft AD LDAP server in your environment.
+
+Only Microsoft AD LDAP authentication is supported for WFA. You cannot use any other LDAP authentication methods, including Microsoft AD Lightweight Directory Services (AD LDS) or Microsoft Global Catalog.
+
+NOTE: During communication, LDAP sends the user name and password in plain text. However, LDAPS (LDAP secure) communication is encrypted and secure.
+
+. Log in to WFA through a web browser as an admin.
+. Add a list of Active Directory group names to the required roles.
++
+NOTE: You can add a list of AD group names to the required roles in the Active Directory Groups Window.
++
+xref:task_adding_active_directory_group_names.adoc[Active Directory Groups window]
+
+. Click *Administration* > *WFA Configuration*.
+. In the WFA Configuration dialog box, click the *Authentication* tab, and then select the *Enable Active Directory* check box.
+. Enter the required information in the fields:
+ .. If you want to use the user@domain format for domain users, replace sAMAccountName with userPrincipalName in the *User name attribute* field.
+ .. If unique values are required for your environment, edit the required fields.
+. Click *Add* to add the Active Directory in the Active Directory Servers table with a URI format: `ldap://active_directory_server_address\[:port\]`
++
+ldap://NB-T01.example.com[:389]
++
+If you have enabled LDAP over SSL, you can use the following URI format: `ldaps://active_directory_server_address\[:port\]`
+
+. Provide the credentials to bind the LDAP server and the base DN.
+. Test the authentication of the given user:
+ .. Enter the user name and password.
+ .. Click *Test Authentication*.
+
++
+NOTE: You must have added the Active Directory Group to test the authentication of the given user in WFA.
+. Click *Save*.
