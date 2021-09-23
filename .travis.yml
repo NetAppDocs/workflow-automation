@@ -2,6 +2,9 @@ dist: xenial
 language: ruby
 rvm:
 - 2.4.3
+env:
+  global:
+    - FRAMEWORK_BRANCH=main
 if: repo =~ /-internal/
 before_install:
 - echo -e "machine github.com\n login $GH_TOKEN" > ~/.netrc && chmod 600 ~/.netrc
