@@ -24,7 +24,7 @@ perl-core
 a|
 DBI
 a|
-per-DBI
+perl-DBI
 a|
 XML::DOM
 a|
@@ -97,3 +97,5 @@ If the DBD::mysql module is not detected: `yum search perl-DBD-MySQL`
 . Install any missing Perl modules from the configured repository: `yum -y install Perl-module-name`
 +
 Install the DBD::mysql module from the configured repository: `yum -y install perl-DBD-MySQL`
+
+// BURT 1429278, 2021-11-22
