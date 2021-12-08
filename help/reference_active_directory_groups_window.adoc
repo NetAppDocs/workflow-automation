@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_active_directory_groups_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Active Directory Groups window enables you to view, create, edit, and delete the OnCommand Workflow Automation \(WFA\) Active Directory groups. You can access this window by selecting Settings, and under Management click Active Directory Groups.'
+keywords: active, directory, group, window, enable, view, create, edit, delete, oncommand, workflow, automation, access, select, settings, management, click
+summary: "The Active Directory Groups window enables you to view, create, edit, and delete the OnCommand Workflow Automation (WFA) Active Directory groups. You can access this window by selecting Settings, and under Management click Active Directory Groups."
 ---
 = Active Directory Groups window
 :icons: font
@@ -28,7 +28,7 @@ The Active Directory Groups window displays existing Active Directory groups. Yo
 * Clicking the *Search* filter text box allows you to search for specific content. In addition, you can search using supported operators for the applicable column type, Alphabetic or Numeric.
 
 The following table lists the supported operators for alphabetic and numeric columns in the Active Directory Groups table, available from the *Search* filter text box.
-
+[cols="2*",options="header"]
 |===
 | Alphabetic| Numeric
 a|

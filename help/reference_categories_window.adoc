@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_categories_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Categories window enables you to manage the workflow categories.'
+keywords: category, window, enable, manage, workflow
+summary: "The Categories window enables you to manage the workflow categories."
 ---
 = Categories window
 :icons: font
@@ -104,10 +104,10 @@ Enables you to export the selected category.
 +
 Opens the Add To Pack Categories dialog box, which enables you to add the category and its dependable entities to a pack, which is editable.
 +
-NOTE: The Add To Pack feature is enabled only for categories for which the certification is set to None.
+NOTE: The Add To Pack feature is enabled only for categories for which the certification is set to *None.*
 
 * *image:../media/remove_from_pack.png[remove from pack icon] (Remove From Pack)*
 +
 Opens the Remove From Pack Categories dialog box for the selected category, which enables you to delete or remove the category from the pack.
 +
-NOTE: The Remove From Pack feature is enabled only for categories for which the certification is set to None.
+NOTE: The Remove From Pack feature is enabled only for categories for which the certification is set to *None.*

@@ -1,8 +1,8 @@
 ---
 permalink: help/concept_how_you_define_user_input.html
 sidebar: sidebar
-keywords: 
-summary: 'The OnCommand Workflow Automation \(WFA\) user inputs are data input options that are available during the execution of workflows. You must define the user input parameters for your workflows to enhance the flexibility and usability of your workflows.'
+keywords: oncommand, workflow, automation, wfa, user, input, data, options, available, execution, define, parameters, enhance, flexibility, usability
+summary: "The OnCommand Workflow Automation (WFA) user inputs are data input options that are available during the execution of workflows. You must define the user input parameters for your workflows to enhance the flexibility and usability of your workflows."
 ---
 = How user inputs are defined
 :icons: font
@@ -57,17 +57,19 @@ You can use the table type of user input to specify the column headers of a tabl
  ** Enum
  ** Boolean
  ** Query
+
 String is the default user input type for the column headers. You must double-click the Type column to specify a different user input type.
 
-+
+
 You can open the Create SnapMirror policy and rules workflow in the Designer to see how the user input types are used in the "`SnapMirrorPolicyRule`" user input.
-+
+
 You can use the following functions when using the table type of user input:
 
  ** getSize
  ** getValueAt
  ** getValueAt2D
  ** getValueFrom2DByRowKey
+
 You can open the *Create and configure a Storage Virtual Machine with Infinite Volume* workflow in the Designer to see how the table type is used.
 
 * *Password*
@@ -86,7 +88,7 @@ You can add the table data for the selected dictionary entry. The dictionary ent
 For example, you can specify a rule for aggregates by listing all aggregates with name starting with the string "`aggr`" and have an available size greater than 5 GB. The first rule in the group is the attribute `name`, with the operator `starts-with`, and the value aggr. The second rule for the same group is the attribute `available_size_mb`, with the operator `>` and the value 5000.
 
 The following table lists the options that you can apply to the user input types:
-
+[cols="2*",options="header"]
 |===
 | Option| Description
 a|
