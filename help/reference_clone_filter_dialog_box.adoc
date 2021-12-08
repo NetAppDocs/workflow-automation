@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_clone_filter_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Clone Filter dialog box enables you to copy a filter and edit the filter.'
+keywords: clone, filter, dialog box, enable, copy, edit
+summary: "The Clone Filter dialog box enables you to copy a filter and edit the filter."
 ---
 = Clone Filter dialog box
 :icons: font
@@ -28,7 +28,7 @@ Enables you to select a dictionary object from the list.
 
 * *Entity Version*
 +
-Enables you to enter the version number for the filter in major.minor.revision format--for example, 1.0.0.
+Enables you to enter the version number for the filter in `major.minor.revision` format--for example, 1.0.0.
 
 * *Description*
 +
