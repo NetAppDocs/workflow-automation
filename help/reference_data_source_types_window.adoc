@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_data_source_types_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Data Source Types window displays the available data source types. You can manage the data source types from this window.'
+keywords: data, source, types, window, display, available, manage
+summary: "The Data Source Types window displays the available data source types. You can manage the data source types from this window."
 ---
 = Data Source Types window
 :icons: font

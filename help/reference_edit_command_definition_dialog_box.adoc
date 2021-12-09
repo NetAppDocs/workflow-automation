@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_edit_command_definition_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Edit Command Definition dialog box enables you to edit the selected command.'
+keywords: edit, command, definition, dialog box, enable, select
+summary: "The Edit Command Definition dialog box enables you to edit the selected command."
 ---
 = Edit Command Definition dialog box
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_data_sources_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Data Sources window enables you to view, edit, and delete existing data sources, create new data sources, and acquire a data source. You can access this window by selecting Settings, and under Setup click Data Sources.'
+keywords: data, source, window, enable, view, edit, delete, exist, acquire, access, settings, setup
+summary: "The Data Sources window enables you to view, edit, and delete existing data sources, create new data sources, and acquire a data source. You can access this window by selecting Settings, and under Setup click Data Sources."
 ---
 = Data Sources window
 :icons: font
@@ -29,7 +29,7 @@ The Data Sources table lists the existing data sources. You can customize the ta
 * Clicking the *Search* filter text box allows you to search for specific content. In addition, you can search using supported operators for the applicable column type, Alphabetic or Numeric.
 
 The following table lists the supported operators for alphabetic and numeric columns in the Data Sources table, available from the *Search* filter text box.
-
+[cols="2*",options="header"]
 |===
 | Alphabetic| Numeric
 a|
@@ -117,7 +117,7 @@ The History table displays in the header the name of the data source that was se
 * Clicking the *Search* filter text box allows you to search for specific content. In addition, you can search using supported operators for the applicable column type, Alphabetic or Numeric.
 
 The following table lists the supported operators for alphabetic and numeric columns in the History table, available from the *Search* filter text box.
-
+[cols="2*",options="header"]
 |===
 | Alphabetic| Numeric
 a|
