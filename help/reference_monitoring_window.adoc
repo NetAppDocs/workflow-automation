@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_monitoring_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Monitoring window displays details about results of the planning or execution phase of the workflow. The tabs in the window display read-only content. You can access this window from various areas of the WFA application when selecting the Details, Preview, or Execute options.'
+keywords: monitoring, window, display, details, result, planning, execution, phase, workflow, tab, read-only, content, areas, application, select, preview, option
+summary: "The Monitoring window displays details about results of the planning or execution phase of the workflow. The tabs in the window display read-only content. You can access this window from various areas of the WFA application when selecting the Details, Preview, or Execute options."
 ---
 = Monitoring window
 :icons: font
@@ -112,7 +112,7 @@ The History tab lists changes in the statuses for the workflow, when the status 
 
 * *Download Logs*
 +
-Enables you to download a zip file of all the log files, including the specific execution logs.
+Enables you to download a `zip` file of all the log files, including the specific execution logs.
 
 * *Column Visibility*
 +

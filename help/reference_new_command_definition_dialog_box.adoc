@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_new_command_definition_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The New Command Definition dialog box enables you to define a new command. You can create new commands for your workflows if the predefined commands do not meet your requirements.'
+keywords: new, command, definition, dialog box, enable, define, create, workflow, predefined, meet, requirements
+summary: "The New Command Definition dialog box enables you to define a new command. You can create new commands for your workflows if the predefined commands do not meet your requirements."
 ---
 = New Command Definition dialog box
 :icons: font
@@ -28,7 +28,7 @@ Enables you to specify a name for the command. You must specify a name in order 
 
 * *Entity Version*
 +
-Enables you to specify the version number for the command in major.minor.revision format--for example, 1.0.0.
+Enables you to specify the version number for the command in `major.minor.revision` format--for example, 1.0.0.
 
 * *Description*
 +
