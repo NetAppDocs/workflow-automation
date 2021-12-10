@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_filters_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Filters window displays the available filters in alphabetical order. You can access this window by selecting Workflow Design \> Filters.'
+keywords: filter, window, display, available, alphabetical, order, access, select, workflow, design
+summary: "The Filters window displays the available filters in alphabetical order. You can access this window by selecting Workflow Design > Filters."
 ---
 = Filters window
 :icons: font
@@ -65,7 +65,7 @@ You can search for filters by entering the type in the Search filter text box.
 
 * *Entity Version*
 +
-Displays the version number of the object in major.minor.revision format--for example, 1.0.0.
+Displays the version number of the object in `major.minor.revision` format--for example, 1.0.0.
 +
 You can search for a filter by entering the version number in the Search filter text box.
 

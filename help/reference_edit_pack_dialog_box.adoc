@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_edit_pack_dialog_box.html
 sidebar: sidebar
-keywords: Workflow Automation
-summary: 'The Edit Pack dialog box enables you to edit the pack.'
+keywords: edit, pack, dialog, enable
+summary: "The Edit Pack dialog box enables you to edit the pack."
 ---
 = Edit Pack dialog box
 :icons: font
