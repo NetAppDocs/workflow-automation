@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_schedules_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Schedules window enables you to create, edit, and delete the schedule of a workflow. You can schedule a workflow to be executed at a particular date and time. You can access this window by selecting Execution \> Schedules.'
+keywords: schedules, window, enable, create, edit, delete, schedule, workflow, particular, date, time, execution
+summary: "The Schedules window enables you to create, edit, and delete the schedule of a workflow. You can schedule a workflow to be executed at a particular date and time. You can access this window by selecting Execution > Schedules."
 ---
 = Schedules window
 :icons: font
@@ -26,7 +26,7 @@ The Schedules table lists the existing schedules for workflow execution in a tab
 * Clicking the *Search* filter text box allows you to search for specific content. In addition, you can search using supported operators for the applicable column type, Alphabetic or Numeric.
 
 The following table lists the supported operators for alphabetic and numeric columns in the Schedules table, available from the *Search* filter text box.
-
+[cols="2*",options="header"]
 |===
 | Alphabetic| Numeric
 a|

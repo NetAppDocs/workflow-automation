@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_recurring_executions_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Recurring Executionswindow enables you to suspend, resume, or delete a recurring execution that is associated with a workflow. A workflow that has a recurring execution is executed on a recurring basis at a specified frequency. You can access this window by selecting Execution \> Recurring Executions.'
+keywords: recurring, execution, window, enable, suspend, resume, delete, associate, workflow, specified, frequency, access
+summary: "The Recurring Executions window enables you to suspend, resume, or delete a recurring execution that is associated with a workflow. A workflow that has a recurring execution is executed on a recurring basis at a specified frequency. You can access this window by selecting Execution > Recurring Executions."
 ---
 = Recurring Executions window
 :icons: font
@@ -26,7 +26,7 @@ The Recurring Schedules table lists the existing recurring schedules that are as
 * Clicking the *Search* filter text box allows you to search for specific content. In addition, you can search using supported operators for the applicable column type, Alphabetic or Numeric.
 
 The following table outlines the supported operators for alphabetic and numeric columns in the Recurring Executions table, available in the *Search* filter text box.
-
+[cols="2*",options="header"]
 |===
 | Alphabetic| Numeric
 a|
