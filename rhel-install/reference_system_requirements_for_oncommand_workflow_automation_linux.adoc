@@ -1,8 +1,8 @@
 ---
 permalink: rhel-install/reference_system_requirements_for_oncommand_workflow_automation_linux.html
 sidebar: sidebar
-keywords: OnCommand Workflow Automation
-summary: 'You must be aware of the OnCommand Workflow Automation \(WFA\) hardware and software requirements before installing WFA.'
+keywords: oncommand, workflow, automation, install, system requirements
+summary: "You must be aware of the OnCommand Workflow Automation (WFA) hardware and software requirements before installing WFA."
 ---
 = System requirements for installing OnCommand Workflow Automation
 :icons: font
@@ -15,6 +15,7 @@ You must be aware of the OnCommand Workflow Automation (WFA) hardware and softwa
 
 The following table lists the minimum hardware requirements and the recommended hardware specifications for the WFA server.
 
+[cols="3*",options="header"]
 |===
 | Component| Minimum requirements| Recommended specifications
 a|
@@ -36,8 +37,10 @@ a|
 a|
 20 GB
 |===
-*Note:* If you are installing WFA on a virtual machine (VM), you should reserve the required memory and CPU so that the VM has sufficient resources. The installer does not verify the CPU speed.
-
+[NOTE]
+====
+If you are installing WFA on a virtual machine (VM), you should reserve the required memory and CPU so that the VM has sufficient resources. The installer does not verify the CPU speed.
+====
 == Software requirements for installing WFA
 
 The following table lists all the operating system versions compatible with the WFA server.
@@ -56,8 +59,10 @@ CentOS
 a|
 7.1, 7.2, 7.3, 7.4, 7.5, and 7.6 64-bit operating systems
 |===
-*Note:* WFA should be installed on dedicated physical machines or VMs. You must not install any other application on the server that runs WFA.
-
+[NOTE]
+====
+WFA should be installed on dedicated physical machines or VMs. You must not install any other application on the server that runs WFA.
+====
 * One of the following supported browsers:
  ** Mozilla Firefox
  ** Microsoft Internet Explorer
@@ -78,7 +83,5 @@ To avoid this issue, configure antivirus scanning exclusions for the following W
 * The MySQL Data Directory
 
 *Related information*
-
-xref:reference_ports_required_for_oncommand_workflow_automation.adoc[Ports required for Workflow Automation]
 
 https://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool]
