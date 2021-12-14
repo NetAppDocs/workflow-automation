@@ -1,8 +1,8 @@
 ---
 permalink: help/task_deleting_a_scheme.html
 sidebar: sidebar
-keywords: 
-summary: 'You can delete a scheme that you created from OnCommand Workflow Automation \(WFA\) if you no longer require it.'
+keywords: delete, scheme, create, oncommand, workflow, automation, require
+summary: "You can delete a scheme that you created from OnCommand Workflow Automation (WFA) if you no longer require it."
 ---
 = Deleting a scheme
 :icons: font
@@ -15,6 +15,8 @@ You can delete a scheme that you created from OnCommand Workflow Automation (WFA
 * You must have administrator privileges or architect credentials for WFA.
 
 You cannot delete predefined schemes.
+
+*Steps*
 
 . Log in to WFA through a web browser as an administrator or architect.
 . Click *Data Source Design* > *Schemes*.

@@ -1,8 +1,8 @@
 ---
 permalink: help/task_configuring_a_database_user_on_active_iq_unified_manager.html
 sidebar: sidebar
-keywords: 
-summary: 'You must create a database user on Active IQ Unified Manager to configure read-only access of the Active IQ Unified Manager database to OnCommand Workflow Automation.'
+keywords: create, database, user, active iq, unified manager, configure, read-only, access, oncommand, workflow, automation
+summary: "You must create a database user on Active IQ Unified Manager to configure read-only access of the Active IQ Unified Manager database to OnCommand Workflow Automation."
 ---
 = Configuring a database user on Active IQ Unified Manager
 :icons: font

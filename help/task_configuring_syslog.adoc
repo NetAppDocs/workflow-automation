@@ -1,8 +1,8 @@
 ---
 permalink: help/task_configuring_syslog.html
 sidebar: sidebar
-keywords: 
-summary: 'You can configure OnCommand Workflow Automation \(WFA\) to send log data to a specific Syslog server for purposes such as event logging and log information analysis.'
+keywords: configure, oncommand, workflow, automation, send, log, data, specific, syslog, server, purposes, event, log, information, analysis
+summary: "You can configure OnCommand Workflow Automation (WFA) to send log data to a specific Syslog server for purposes such as event logging and log information analysis."
 ---
 = Configuring Syslog
 :icons: font

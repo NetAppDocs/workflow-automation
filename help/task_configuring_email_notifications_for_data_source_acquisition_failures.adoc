@@ -1,8 +1,8 @@
 ---
 permalink: help/task_configuring_email_notifications_for_data_source_acquisition_failures.html
 sidebar: sidebar
-keywords: 
-summary: 'You can control the notifications that are generated in OnCommand Workflow Automation \(WFA\) when a data source acquisition fails. You can configure the threshold and interval factor for the notifications.'
+keywords: control, notifications, generate, oncommand, workflow, automation, data, source, acquisition, fail, configure, threshold, interval, factor, notifications
+summary: "You can control the notifications that are generated in OnCommand Workflow Automation (WFA) when a data source acquisition fails. You can configure the threshold and interval factor for the notifications."
 ---
 = Configuring email notifications for data source acquisition failures
 :icons: font
@@ -12,6 +12,8 @@ summary: 'You can control the notifications that are generated in OnCommand Work
 You can control the notifications that are generated in OnCommand Workflow Automation (WFA) when a data source acquisition fails. You can configure the threshold and interval factor for the notifications.
 
 You must have configured email notifications in OnCommand Workflow Automation (WFA).
+
+*Steps*
 
 . Log in to WFA through a web browser as an administrator.
 . Configure the notification threshold:

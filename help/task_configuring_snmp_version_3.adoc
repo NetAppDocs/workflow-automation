@@ -1,8 +1,8 @@
 ---
 permalink: help/task_configuring_snmp_version_3.html
 sidebar: sidebar
-keywords: SNMP Version 3,SNMP traps
-summary: 'You can also configure OnCommand Workflow Automation \(WFA\) to send Simple Network Management Protocol \(SNMP\) Version 3 traps about the status of workflow operations.'
+keywords: configure, oncommand, workflow, automation, simple, network, management, protocol, version 3, traps, about, status, operations
+summary: "You can also configure OnCommand Workflow Automation (WFA) to send Simple Network Management Protocol (SNMP) Version 3 traps about the status of workflow operations."
 ---
 = Configuring SNMP Version 3
 :icons: font

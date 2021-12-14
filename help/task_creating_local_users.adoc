@@ -1,8 +1,8 @@
 ---
 permalink: help/task_creating_local_users.html
 sidebar: sidebar
-keywords: OnCommand Workflow Automation
-summary: 'OnCommand Workflow Automation \(WFA\) enables you to create and manage local WFA users with specific permissions for various roles, such as guest, operator, approver, architect, admin, and backup.'
+keywords: oncommand, workflow, automation, enable, create, manage, local, users, specific, permissions, roles, guest, operator, approver, architect, admin, backup
+summary: "OnCommand Workflow Automation (WFA) enables you to create and manage local WFA users with specific permissions for various roles, such as guest, operator, approver, architect, admin, and backup."
 ---
 = Creating local users
 :icons: font
@@ -43,5 +43,5 @@ This is the only user who can remotely generate backups of the WFA server. Howev
 
 . Click *Settings*, and under *Management* click *Users*.
 . Create a new user by clicking image:../media/new_wfa_icon.gif[New icon] on the toolbar.
-. Enter the required information in the New User dialog box.
+. Enter the required information in the *New User* dialog box.
 . Click *Save*.

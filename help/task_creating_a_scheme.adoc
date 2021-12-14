@@ -1,8 +1,8 @@
 ---
 permalink: help/task_creating_a_scheme.html
 sidebar: sidebar
-keywords: 
-summary: 'You must create a scheme when data has to be cached from a new data source type or when data has to be stored by workflows directly in the database.'
+keywords: create, scheme, data, cached, new, data, source, type, store, workflows, directly, database
+summary: "You must create a scheme when data has to be cached from a new data source type or when data has to be stored by workflows directly in the database."
 ---
 = Creating a scheme
 :icons: font
@@ -18,6 +18,8 @@ By default, WFA supports two types of schemes: Data Source Acquisition and Other
 
 * Data Source Acquisition schemes: The tables in these schemes are cached by data sources defined to acquire data from remote systems.
 * Other schemes: The tables in these schemes are populated with data through workflows that are customized to solve specific problems.
+
+*Steps*
 
 . Log in to WFA through a web browser as an administrator or architect.
 . Click *Data Source Design* > *Schemes*.
