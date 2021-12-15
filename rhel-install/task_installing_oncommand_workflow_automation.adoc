@@ -1,8 +1,8 @@
 ---
 permalink: rhel-install/task_installing_oncommand_workflow_automation.html
 sidebar: sidebar
-keywords: OnCommand Workflow Automation
-summary: 'You can install OnCommand Workflow Automation \(WFA\) by using the command-line interface \(CLI\).'
+keywords: oncommand, workflow, automation, install, linux
+summary: "You can install OnCommand Workflow Automation (WFA) by using the command-line interface (CLI)."
 ---
 = Installing OnCommand Workflow Automation on Linux
 :icons: font
@@ -25,6 +25,7 @@ If you change the default installation location, the MySQL data directory is not
 
 NOTE: Before reinstalling WFA 4.2 or later, you must delete the MySQL data directory if you have uninstalled MySQL.
 
+.Steps
 . Log in to the Linux server as a `root` user.
 . Navigate to the directory where the executable .bin file is located.
 . Install WFA by choosing one of the following methods:
@@ -57,6 +58,7 @@ At the shell prompt: `./WFA-version_number.bin [-u admin_user_ name] [-p admin_u
 +
 If you want to perform a silent installation, you must specify values for all of the command options. The command options are as follows:
 +
+[cols="2*",options="header"]
 |===
 | Option| Description
 a|
@@ -94,9 +96,9 @@ a|
 a|
 HTTP port
 a|
- 
+
 a|
- 
+
 a|
 -s
 a|
@@ -121,7 +123,5 @@ Option to display        Displays the Help
 |===
 
 *Related information*
-
-xref:reference_prerequisites_for_installing_workflow_automation.adoc[Prerequisites for installing Workflow Automation]
 
 https://mysupport.netapp.com/site/[NetApp Support]
