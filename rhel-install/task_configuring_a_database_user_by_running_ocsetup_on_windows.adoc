@@ -1,8 +1,8 @@
 ---
 permalink: rhel-install/task_configuring_a_database_user_by_running_ocsetup_on_windows.html
 sidebar: sidebar
-keywords: 
-summary: 'You can run the ocsetup file on the DataFabric Manager 5.x server to configure read-only access of the DataFabric Manager 5.x database to OnCommand Workflow Automation.'
+keywords: configure, database, user, run, ocsetup, windows
+summary: "You can run the ocsetup file on the DataFabric Manager 5.x server to configure read-only access of the DataFabric Manager 5.x database to OnCommand Workflow Automation."
 ---
 = Configuring a database user by running ocsetup on Windows
 :icons: font
@@ -11,6 +11,7 @@ summary: 'You can run the ocsetup file on the DataFabric Manager 5.x server to c
 [.lead]
 You can run the ocsetup file on the DataFabric Manager 5.x server to configure read-only access of the DataFabric Manager 5.x database to OnCommand Workflow Automation.
 
+.Steps
 . Download the wfa_ocsetup.exe file to a directory in the DataFabric Manager 5.x server from the following location: https://WFA_Server_IP/download/wfa_ocsetup.exe.
 +
 WFA_Server_IP is the IP address (IPv4 or IPv6 address) of your WFA server.
