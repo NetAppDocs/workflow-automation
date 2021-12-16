@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/concept_known_limitations_and_enhancements.html
 sidebar: sidebar
-keywords: OnCommand Workflow Automation
-summary: 'OnCommand Workflow Automation \(WFA\) 5.1 includes some limitations and unsupported features that you should be aware of before you install and configure WFA.'
+keywords: oncommand, workflow, automation, limitations, enhancements
+summary: "OnCommand Workflow Automation (WFA) 5.1 includes some limitations and unsupported features that you should be aware of before you install and configure WFA."
 ---
 = Known limitations and enhancements
 :icons: font
