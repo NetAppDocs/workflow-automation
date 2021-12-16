@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/reference_prerequisites_for_installing_workflow_automation.html
 sidebar: sidebar
-keywords: 
-summary: 'Before installing OnCommand Workflow Automation \(WFA\), you must ensure that you have the required information and you have completed certain tasks.'
+keywords: prerequisites, install, workflow, automation
+summary: "Before installing OnCommand Workflow Automation (WFA), you must ensure that you have the required information and you have completed certain tasks."
 ---
 = Prerequisites for installing Workflow Automation
 :icons: font
@@ -21,7 +21,11 @@ NOTE: You must have valid credentials to log in to the NetApp Support Site. If y
  ** Storage controllers
  ** Active IQ Unified Manager
  ** VMware vCenter
-*Note:* If your environment requires Secure Shell (SSH) accessibility, you must ensure that SSH is enabled on the target controllers.
+
+[NOTE]
+====
+If your environment requires Secure Shell (SSH) accessibility, you must ensure that SSH is enabled on the target controllers.
+====
 * Verifying that PowerShell 3.0 or later is installed
 * Ensuring that VMware Power CLI is installed, if you are using WFA to execute workflows on VMware vSphere
 * Collecting the required configuration information
@@ -29,6 +33,7 @@ NOTE: You must have valid credentials to log in to the NetApp Support Site. If y
 
 == Required configuration information
 
+[cols="3*",options="header"]
 |===
 | Unit or system| Details| Purpose
 a|
@@ -112,7 +117,5 @@ a|
 Send log data
 |===
 *Related information*
-
-xref:reference_ports_required_for_oncommand_workflow_automation.adoc[Ports required for Workflow Automation]
 
 https://mysupport.netapp.com/site/[NetApp Support]
