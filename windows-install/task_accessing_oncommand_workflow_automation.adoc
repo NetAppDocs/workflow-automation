@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/task_accessing_oncommand_workflow_automation.html
 sidebar: sidebar
-keywords: 
-summary: 'You can access OnCommand Workflow Automation \(WFA\) through a web browser from any system that has access to the WFA server.'
+keywords: access, oncommand, workflow, automation
+summary: "You can access OnCommand Workflow Automation (WFA) through a web browser from any system that has access to the WFA server."
 ---
 = Accessing OnCommand Workflow Automation
 :icons: font
@@ -13,6 +13,7 @@ You can access OnCommand Workflow Automation (WFA) through a web browser from an
 
 You must have installed Adobe Flash Player for your web browser.
 
+.Steps
 . Open a web browser and enter one of the following in the address bar:
  ** `+https://wfa_server_ip+`
 +

@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/reference_system_requirements_for_oncommand_workflow_automation_windows.html
 sidebar: sidebar
-keywords: OnCommand Workflow Automation
-summary: 'You must be aware of the OnCommand Workflow Automation \(WFA\) hardware and software requirements before installing WFA.'
+keywords: oncommand, workflow, automation, system requirements, install
+summary: "You must be aware of the OnCommand Workflow Automation (WFA) hardware and software requirements before installing WFA."
 ---
 = System requirements for installing OnCommand Workflow Automation
 :icons: font
@@ -15,6 +15,7 @@ You must be aware of the OnCommand Workflow Automation (WFA) hardware and softwa
 
 The following table lists the minimum hardware requirements and the recommended hardware specifications for the WFA server.
 
+[cols="3*",options="header"]
 |===
 | Component| Minimum requirements| Recommended specifications
 a|
@@ -67,7 +68,5 @@ To avoid this issue, configure antivirus scanning exclusions for the following W
 For more details, see the https://mysupport.netapp.com/matrix[Interoperability Matrix Tool].
 
 *Related information*
-
-xref:reference_ports_required_for_oncommand_workflow_automation.adoc[Ports required for Workflow Automation]
 
 https://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool]
