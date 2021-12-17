@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/task_configuring_snmp_version_3.html
 sidebar: sidebar
-keywords: SNMP Version 3,SNMP traps
-summary: 'You can also configure OnCommand Workflow Automation \(WFA\) to send Simple Network Management Protocol \(SNMP\) Version 3 traps about the status of workflow operations.'
+keywords: snmp Version 3, snmp traps, configure
+summary: "You can also configure OnCommand Workflow Automation (WFA) to send Simple Network Management Protocol (SNMP) Version 3 traps about the status of workflow operations."
 ---
 = Configuring SNMP Version 3
 :icons: font
@@ -21,6 +21,7 @@ Traps are sent unencrypted over the network. SNMP management applications, which
 +
 Traps are sent encrypted over the network. To receive and decrypt these traps, you must configure SNMP management applications with the same authentication parameters and encryption key as the SNMP traps.
 
+.Steps
 . Log in to WFA through a web browser as an admin user, and then access the WFA server.
 . Click *Settings*, and under *Setup* click *SNMP*.
 . Select the *Enable SNMP* check box.

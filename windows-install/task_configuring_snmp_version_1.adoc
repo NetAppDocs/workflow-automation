@@ -1,13 +1,14 @@
 ---
 permalink: windows-install/task_configuring_snmp_version_1.html
 sidebar: sidebar
-keywords: SNMP Version 1,SNMP traps
-summary: ''
+keywords: snmp, version 1, snmp traps, configure
+summary: " "
 ---
 = Configuring SNMP Version 1
 :icons: font
 :imagesdir: ../media/
 
+.Steps
 . Log in to WFA through a web browser as an admin user, and then access the WFA server.
 . Click *Settings*, and under *Setup* click *SNMP*.
 . Select the *Enable SNMP* check box.
