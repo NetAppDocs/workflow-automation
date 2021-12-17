@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/task_enabling_remote_access_to_the_oncommand_workflow_automation_database.html
 sidebar: sidebar
-keywords: 
-summary: 'By default, the OnCommand Workflow Automation \(WFA\) database can be accessed only by clients that are running on the WFA host system. You can change the default settings if you want to access the WFA database from a remote system.'
+keywords: enable, remote access, oncommand, workflow, automation, database, windows
+summary: "By default, the OnCommand Workflow Automation (WFA) database can be accessed only by clients that are running on the WFA host system. You can change the default settings if you want to access the WFA database from a remote system."
 ---
 = Enabling remote access to the OnCommand Workflow Automation database on Windows
 :icons: font
@@ -16,9 +16,11 @@ By default, the OnCommand Workflow Automation (WFA) database can be accessed onl
 
 The default WFA installation path is used in this procedure. If you changed the default location during installation, you must use the custom WFA installation path.
 
+.Steps
 . Open Windows Explorer, and navigate to the following directory: WFA_install_location\WFA\bin
 . Perform one of the following actions:
 +
+[cols="2*",options="header"]
 |===
 | To...| Enter the following command...
 a|
@@ -30,7 +32,3 @@ Disable remote access
 a|
 `.\wfa --db-access=default --restart`
 |===
-
-*Related information*
-
-xref:reference_ports_required_for_oncommand_workflow_automation.adoc[Ports required for Workflow Automation]

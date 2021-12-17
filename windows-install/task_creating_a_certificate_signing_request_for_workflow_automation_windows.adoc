@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/task_creating_a_certificate_signing_request_for_workflow_automation_windows.html
 sidebar: sidebar
-keywords: Workflow Automation \(WFA\) for Windows
-summary: 'You can create a certificate signing request \(CSR\) in Windows so that you can use the SSL certificate that is signed by a Certificate Authority \(CA\) instead of the default SSL certificate for Workflow Automation \(WFA\).'
+keywords: workflow, automation, wfa, windows, create, certificate, sign, request
+summary: "You can create a certificate signing request (CSR) in Windows so that you can use the SSL certificate that is signed by a Certificate Authority (CA) instead of the default SSL certificate for Workflow Automation (WFA)."
 ---
 = Creating a certificate signing request for Workflow Automation
 :icons: font
@@ -16,9 +16,12 @@ You can create a certificate signing request (CSR) in Windows so that you can us
 
 The default WFA installation path is used in this procedure. If you have changed the default path during installation, then you must use the custom WFA installation path.
 
+.Steps
 . Log in as an admin user on the WFA host machine.
 . Open a command prompt on the WFA server, and then change directories to the following location: <OpenJDK_install_location>\bin
-. Create a CSR: `keytool -certreq -keystore WFA_install_location\WFA\jboss\standalone\configuration\keystore\wfa.keystore -alias "ssl keystore" -file C:\file_name.csr`
+. Create a CSR:
++
+`keytool -certreq -keystore WFA_install_location\WFA\jboss\standalone\configuration\keystore\wfa.keystore -alias "ssl keystore" -file C:\file_name.csr`
 +
 file_name is the name of the CSR file.
 
@@ -38,7 +41,9 @@ See the CA web site for details.
 +
 C:\chain_cert.cer is the chain certificate file that is received from the CA. The file must be in the X.509 format.
 
-. Import the signed certificate that you received from the CA: `keytool -import -alias "ssl keystore" -keystore "WFA_install_location\WFA\jboss\standalone\configuration\keystore\wfa.keystore" -file C:\certificate.cer`
+. Import the signed certificate that you received from the CA:
++
+`keytool -import -alias "ssl keystore" -keystore "WFA_install_location\WFA\jboss\standalone\configuration\keystore\wfa.keystore" -file C:\certificate.cer`
 +
 C:\certificate.cer is the chain certificate file that is received from the CA.
 

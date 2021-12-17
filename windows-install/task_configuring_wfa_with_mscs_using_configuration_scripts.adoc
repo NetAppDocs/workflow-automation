@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/task_configuring_wfa_with_mscs_using_configuration_scripts.html
 sidebar: sidebar
-keywords: 
-summary: 'After you install Workflow Automation \(WFA\) in Microsoft Cluster Server \(MSCS\), you must configure WFA for high availability in MSCS using configuration scripts.'
+keywords: configure, workflow, automation, mscs
+summary: "After you install Workflow Automation (WFA) in Microsoft Cluster Server (MSCS), you must configure WFA for high availability in MSCS using configuration scripts."
 ---
 = Configuring Workflow Automation with MSCS
 :icons: font
@@ -15,8 +15,10 @@ You must have created a backup of WFA.
 
 NOTE: Before you start your configuration make sure that the WFA encryption key is set consistently on both MSCS cluster nodes. If it is not set on both nodes, then when failover occurs, the credentials cannot be decrypted on the second node causing workflow failures.
 
+.Steps
 . Log in to the first node of the MSCS cluster, and perform the following steps:
 +
+[cols="2*",options="header"]
 |===
 | For...| Do this...
 a|
@@ -81,6 +83,7 @@ The ha_setup.pl script expects an input using the IP Address resource for the MS
 
 . Stop the WFA services from the Failover Cluster Manager:
 +
+[cols="2*",options="header"]
 |===
 | For...| Do this...
 a|
@@ -105,6 +108,7 @@ The ha_setup.pl script is available at WFA_install_location\WFA\bin\ha\.
 
 . From the Failover Cluster Manager, bring the WFA resources online:
 +
+[cols="2*",options="header"]
 |===
 | For...| Do this...
 a|
