@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/task_configuring_mscs_to_install_wfa.html
 sidebar: sidebar
-keywords: 
-summary: 'Before you install Workflow Automation \(WFA\) in Microsoft Cluster Server \(MSCS\), you must configure your MSCS environment.'
+keywords: configure, mscs, install, workflow, automation
+summary: "Before you install Workflow Automation (WFA) in Microsoft Cluster Server (MSCS), you must configure your MSCS environment."
 ---
 = Configuring MSCS to install Workflow Automation
 :icons: font
@@ -21,6 +21,7 @@ The minimum supported version is Windows 2012.
 
 You must complete this task by using Cluster Manager in the MSCS interface.
 
+.Steps
 . Log in to Cluster Manager as a domain admin.
 . Verify that the LUNs are accessible to both the nodes using one of the following options:
  ** Managing the LUNs natively.

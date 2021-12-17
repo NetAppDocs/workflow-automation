@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/task_configuring_an_earlier_version_of_wfa_foir_high_availability_windows.html
 sidebar: sidebar
-keywords: 
-summary: 'You can configure OnCommand Workflow Automation \(WFA\) versions earlier than 3.1 for high availability.'
+keywords: configure, earlier versions, oncommand, workflow, automation, high availability
+summary: "You can configure OnCommand Workflow Automation (WFA) versions earlier than 3.1 for high availability."
 ---
 = Configuring earlier versions of OnCommand Workflow Automation for high availability
 :icons: font
@@ -11,6 +11,7 @@ summary: 'You can configure OnCommand Workflow Automation \(WFA\) versions earli
 [.lead]
 You can configure OnCommand Workflow Automation (WFA) versions earlier than 3.1 for high availability.
 
+.Steps
 . Upgrade the existing version of WFA to the latest available version of WFA.
 +
 xref:task_upgrading_oncommand_workflow_automation.adoc[Upgrading WFA]

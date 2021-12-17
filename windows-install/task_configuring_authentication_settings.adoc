@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/task_configuring_authentication_settings.html
 sidebar: sidebar
-keywords: OnCommand Workflow Automation
-summary: 'You can configure OnCommand Workflow Automation \(WFA\) to use a Microsoft Active Directory \(AD\) Lightweight Directory Access Protocol \(LDAP\) server for authentication and authorization.'
+keywords: oncommand, workflow, automation, configure, authentication settings
+summary: "You can configure OnCommand Workflow Automation (WFA) to use a Microsoft Active Directory (AD) Lightweight Directory Access Protocol (LDAP) server for authentication and authorization."
 ---
 = Configuring authentication settings
 :icons: font
@@ -17,6 +17,7 @@ Only Microsoft AD LDAP authentication is supported for WFA. You cannot use any o
 
 NOTE: During communication, LDAP sends the user name and password in plain text. However, LDAPS (LDAP secure) communication is encrypted and secure.
 
+.Steps
 . Log in to WFA through a web browser as an admin.
 . Click *Settings*, and under *Setup* click *Authentication*.
 . Select the *Enable Active Directory* check box.
