@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/task_installing_workflow_automation_on_windows.html
 sidebar: sidebar
-keywords: OnCommand Workflow Automation
-summary: 'You can install OnCommand Workflow Automation \(WFA\) to create and customize storage workflows for automating the storage tasks that are performed in your environment.'
+keywords: oncommand, workflow, automation, install, windows
+summary: "You can install OnCommand Workflow Automation (WFA) to create and customize storage workflows for automating the storage tasks that are performed in your environment."
 ---
 = Installing OnCommand Workflow Automation on Windows
 :icons: font
@@ -24,6 +24,7 @@ This installation does not affect any other instances of ActivePerl that you hav
 
 * Before you reinstall WFA 4.2 or later, you must delete MySQL data directory if you have uninstalled MySQL.
 
+.Steps
 . Log in to Windows using an account with administrative permissions.
 . Open Windows Explorer, and then navigate to the directory where the installation file is located.
 . Install WFA:
@@ -73,6 +74,7 @@ NOTE: The /qn option is not supported by WFA.
 +
 The command parameters are as follows:
 +
+[cols="2*",options="header"]
 |===
 | Parameter| Description
 a|
@@ -141,12 +143,15 @@ a|
 WFA_SERVICE_LOGON_USERNAME
 a|
 User name for WFA service logon        Optional parameter. If you do not specify a value, the default user name is "wfa".
-+
+
 For a domain user provide a user name in the format DOMAIN\USER. For a local system user the format is just a user name.
-+
+
 WFA installer creates a local user if one does not exist. If a local user exists and the password entered is different than the existing password, WFA updates the password.
-+
-NOTE: Ensure the password conforms to the password policy configured for local users on the system. If the password does not conform to the password policy, the install fails.
+
+[NOTE]
+====
+Ensure the password conforms to the password policy configured for local users on the system. If the password does not conform to the password policy, the install fails.
+====
 a|
 WFA_SERVICE_LOGON_PASSWORD
 a|
@@ -161,9 +166,5 @@ Available for fresh install only.
 |===
 
 *Related information*
-
-xref:task_upgrading_oncommand_workflow_automation.adoc[Upgrading OnCommand Workflow Automation]
-
-xref:reference_prerequisites_for_installing_workflow_automation.adoc[Prerequisites for installing Workflow Automation]
 
 https://mysupport.netapp.com/site/[NetApp Support]

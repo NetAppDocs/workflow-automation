@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/task_managing_site_specific_perl_modules.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the ActiveState Perl Package Manager \(PPM\) to manage your site-specific Perl modules. You must install your site-specific Perl modules outside the OnCommand Workflow Automation \(WFA\) installation directory to avoid deletion of your Perl modules during a WFA upgrade.'
+keywords: manage, site-specific, perl modules
+summary: "You can use the ActiveState Perl Package Manager (PPM) to manage your site-specific Perl modules. You must install your site-specific Perl modules outside the OnCommand Workflow Automation (WFA) installation directory to avoid deletion of your Perl modules during a WFA upgrade."
 ---
 = Managing site-specific Perl modules
 :icons: font
@@ -15,6 +15,7 @@ Using the PERL5LIB environment variable, you can configure the Perl interpreter 
 
 Installation of the Try-Tiny Perl module in the user area at c:\Perl is used as an example in this procedure. This user area is not deleted when you uninstall WFA, and you can reuse the area after WFA is reinstalled or upgraded.
 
+.Steps
 . Set the PERL5LIB environment variable to the location where you want to install your Perl modules.
 +
 `c:\>echo %PERL5LIB%` `c:\Perl`

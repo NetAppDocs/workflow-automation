@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/task_restoring_oncommand_workflow_automation_database_using_web_portal.html
 sidebar: sidebar
-keywords: OnCommand Workflow Automation
-summary: 'You can restore the OnCommand Workflow Automation \(WFA\) database that you backed up previously.'
+keywords: oncommand, workflow, automation, restore, wfa, database
+summary: "You can restore the OnCommand Workflow Automation (WFA) database that you backed up previously."
 ---
 = Restoring the WFA database
 :icons: font
@@ -18,6 +18,7 @@ You can restore the OnCommand Workflow Automation (WFA) database that you backed
 +
 For example, if you created a backup on a system running OnCommand Workflow Automation 4.2, the backup can be restored only to systems running OnCommand Workflow Automation 4.2 or later.
 
+.Steps
 . Log in to the WFA web GUI as an admin.
 . Click *Settings* and under *Maintenance*, click *Backup & Restore*.
 . Click *Choose file*.
