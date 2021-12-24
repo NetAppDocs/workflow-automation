@@ -1,10 +1,10 @@
 ---
-permalink: workflows/task_creating_a_function.html
+permalink: workflows/task_create_a_function.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a WFA function that can be used as a utility, if there is no predefined WFA function that is suitable for your task.'
+keywords: create, wfa, function, use, utility, predefined, suitable, task
+summary: "You can create a WFA function that can be used as a utility, if there is no predefined WFA function that is suitable for your task."
 ---
-= Creating a function
+= Create a function
 :icons: font
 :imagesdir: ../media/
 
@@ -23,7 +23,7 @@ You must not use a reserved word in MVEL syntax. Each function must have a uniqu
 
 . Click *Workflow Design* > *Functions*.
 . Click image:../media/new_wfa_icon.gif[New icon] on the toolbar.
-. In the New Function dialog box, enter or select the required details in the *Function description* and *Function definition* fields.
+. In the *New Function* dialog box, enter or select the required details in the *Function description* and *Function definition* fields.
 +
 ----
 def actualVolumeSize(data_size, snap_pct)
@@ -52,9 +52,3 @@ The test result is displayed.
 
  .. Close the dialog box.
 . Click *Save*.
-
-*Related information*
-
-xref:reference_reserved_words.adoc[Reserved words]
-
-xref:reference_references_to_learning_material.adoc[References to learning material]

@@ -1,10 +1,10 @@
 ---
-permalink: workflows/task_exporting_oncommand_workflow_automation_content.html
+permalink: workflows/task_export_oncommand_workflow_automation_content.html
 sidebar: sidebar
-keywords: 
-summary: 'You can save user-created OnCommand Workflow Automation \(WFA\) content as a .dar file and share the content with other users. The WFA content can include the entire user-created content or specific items such as workflows, finders, commands, and dictionary terms.'
+keywords: save, user-created, oncommand, workflow, automation, content, file, share, users, include, entire, specific, items, finders, commands, dictionary, terms
+summary: "You can save user-created OnCommand Workflow Automation (WFA) content as a .dar file and share the content with other users. The WFA content can include the entire user-created content or specific items such as workflows, finders, commands, and dictionary terms."
 ---
-= Exporting OnCommand Workflow Automation content
+= Export OnCommand Workflow Automation content
 :icons: font
 :imagesdir: ../media/
 
@@ -28,9 +28,12 @@ For example, exporting a workflow also exports the dependent commands, filters, 
 +
 The objects remain in the locked state when they are imported by other users.
 
+*Steps*
+
 . Log in to WFA through a web browser.
 . Export the necessary content:
 +
+[cols="2*",options="header"]
 |===
 | If you want to...| Do this...
 a|
@@ -51,4 +54,4 @@ a|
 +
 |===
 
-. In the Save As dialog box, specify the location where you want to save the .dar file, and then click *Save*.
+. In the *Save As* dialog box, specify the location where you want to save the `.dar` file, and then click *Save*.

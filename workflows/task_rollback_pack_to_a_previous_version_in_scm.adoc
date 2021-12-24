@@ -1,10 +1,10 @@
 ---
 permalink: workflows/task_rollback_pack_to_a_previous_version_in_scm.html
 sidebar: sidebar
-keywords: OnCommand Workflow Automation
-summary: 'You can roll back a pack to the previous version in Source Control Management \(SCM\) and import it to OnCommand Workflow Automation \(WFA\).'
+keywords: roll, pack, previous, version, source, control, management, import, oncommand, workflow, automation
+summary: "You can roll back a pack to the previous version in Source Control Management (SCM) and import it to OnCommand Workflow Automation (WFA)."
 ---
-= Rolling back a WFA workflow pack to its previous version in SCM
+= Roll back a WFA workflow pack to its previous version in SCM
 :icons: font
 :imagesdir: ../media/
 
