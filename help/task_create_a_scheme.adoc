@@ -1,10 +1,10 @@
 ---
-permalink: help/task_creating_a_scheme.html
+permalink: help/task_create_a_scheme.html
 sidebar: sidebar
 keywords: create, scheme, data, cached, new, data, source, type, store, workflows, directly, database
 summary: "You must create a scheme when data has to be cached from a new data source type or when data has to be stored by workflows directly in the database."
 ---
-= Creating a scheme
+= Create a scheme
 :icons: font
 :imagesdir: ../media/
 

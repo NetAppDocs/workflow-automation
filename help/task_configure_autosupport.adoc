@@ -1,10 +1,10 @@
 ---
-permalink: help/task_configuring_autosupport.html
+permalink: help/task_configure_autosupport.html
 sidebar: sidebar
 keywords: configure, several, autosupport, settings, schedule, content, messages, proxy, server, weekly, logs, select, technical, support, archiving, issue, analysis
 summary: "You can configure several AutoSupport settings such as the schedule, content of the AutoSupport messages, and the proxy server. AutoSupport sends weekly logs of the content that you selected to technical support for archiving and issue analysis."
 ---
-= Configuring AutoSupport
+= Configure AutoSupport
 :icons: font
 :imagesdir: ../media/
 

@@ -1,10 +1,10 @@
 ---
-permalink: help/task_configuring_a_database_user_by_running_ocsetup_on_linux.html
+permalink: help/task_configure_a_database_user_by_running_ocsetup_on_linux.html
 sidebar: sidebar
 keywords: run, ocstep, datafabric, manager, server, configure, read-only, access, oncommand, workflow, automation
 summary: "You can run the ocsetup file on the DataFabric Manager 5.x server to configure read-only access of the DataFabric Manager 5.x database to OnCommand Workflow Automation."
 ---
-= Configuring a database user by running ocsetup on Linux
+= Configure a database user by running ocsetup on Linux
 :icons: font
 :imagesdir: ../media/
 

@@ -1,10 +1,10 @@
 ---
-permalink: help/task_configuring_protocols_for_connecting_to_remote_systems.html
+permalink: help/task_configure_protocols_for_connecting_to_remote_systems.html
 sidebar: sidebar
 keywords: configure, protocol, oncommand, workflow, automation, connect, remote, systems, organization, security, requirements, support, remote
 summary: "You can configure the protocol used by OnCommand Workflow Automation (WFA) to connect to remote systems. You can configure the protocol based on your organization’s security requirements and the protocol supported by the remote system."
 ---
-= Configuring protocols for connecting to remote systems
+= Configure protocols for connecting to remote systems
 :icons: font
 :imagesdir: ../media/
 

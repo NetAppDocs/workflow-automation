@@ -1,10 +1,10 @@
 ---
-permalink: help/task_creating_local_users.html
+permalink: help/task_create_local_users.html
 sidebar: sidebar
 keywords: oncommand, workflow, automation, enable, create, manage, local, users, specific, permissions, roles, guest, operator, approver, architect, admin, backup
 summary: "OnCommand Workflow Automation (WFA) enables you to create and manage local WFA users with specific permissions for various roles, such as guest, operator, approver, architect, admin, and backup."
 ---
-= Creating local users
+= Create local users
 :icons: font
 :imagesdir: ../media/
 

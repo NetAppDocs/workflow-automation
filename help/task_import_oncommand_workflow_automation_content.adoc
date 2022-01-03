@@ -1,10 +1,10 @@
 ---
-permalink: help/task_importing_oncommand_workflow_automation_content.html
+permalink: help/task_import_oncommand_workflow_automation_content.html
 sidebar: sidebar
 keywords: import, user-created, oncommand, workflow, automation, content, finders, commands, installation, downloaded, storage, community, packs, include, data, ontap, powershell, toolkits, perl, nmsdk
 summary: "You can import user-created OnCommand Workflow Automation (WFA) content such as workflows, finders, and commands. You can also import content that is exported from another WFA installation, content that is downloaded from the Storage Automation Store or the WFA community, as well as packs, including Data ONTAP PowerShell toolkits and Perl NMSDK toolkits."
 ---
-= Importing OnCommand Workflow Automation content
+= Import OnCommand Workflow Automation content
 :icons: font
 :imagesdir: ../media/
 

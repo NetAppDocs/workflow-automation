@@ -1,10 +1,10 @@
 ---
-permalink: help/task_adding_a_new_remote_system_type.html
+permalink: help/task_add_a_new_remote_system_type.html
 sidebar: sidebar
 keywords: new, remote, system, type, oncommand, Workflow, automation, predefined, meet, requirement, change, configuration, predefined
 summary: "You can add a new remote system type to OnCommand Workflow Automation (WFA) if a predefined system type does not meet your requirement or if you want to change the configuration of a predefined system type."
 ---
-= Adding a new remote system type
+= Add a new remote system type
 :icons: font
 :imagesdir: ../media/
 

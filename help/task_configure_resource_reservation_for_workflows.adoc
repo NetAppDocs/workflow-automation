@@ -1,10 +1,10 @@
 ---
-permalink: help/task_configuring_resource_reservation_for_workflows.html
+permalink: help/task_configure_resource_reservation_for_workflows.html
 sidebar: sidebar
 keywords: configure, resource, reservation, capability, oncommand, workflow, automation, ensure, required, available, successful, execution
 summary: "You can configure the resource reservation capability for OnCommand Workflow Automation (WFA) workflows to ensure that the required resources are available for successful execution of workflows."
 ---
-= Configuring resource reservation for workflows
+= Configure resource reservation for workflows
 :icons: font
 :imagesdir: ../media/
 

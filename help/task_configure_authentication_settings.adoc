@@ -1,10 +1,10 @@
 ---
-permalink: help/task_configuring_authentication_settings.html
+permalink: help/task_configure_authentication_settings.html
 sidebar: sidebar
 keywords: configure, oncommand, workflow, automation, use, microsoft, active, directory, lightweight, access, protocol, server, authentication, authorization
 summary: "You can configure OnCommand Workflow Automation (WFA) to use a Microsoft Active Directory (AD) Lightweight Directory Access Protocol (LDAP) server for authentication and authorization."
 ---
-= Configuring authentication settings
+= Configure authentication settings
 :icons: font
 :imagesdir: ../media/
 
