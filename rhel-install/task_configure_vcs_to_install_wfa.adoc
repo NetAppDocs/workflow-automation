@@ -1,10 +1,10 @@
 ---
-permalink: rhel-install/task_configuring_vcs_to_install_wfa.html
+permalink: rhel-install/task_configure_vcs_to_install_wfa.html
 sidebar: sidebar
 keywords: configure, vcs, install, oncommand, workflow, automation
 summary: "Before you install OnCommand Workflow Automation (WFA) in Veritas Cluster Server (VCS), you must ensure that the cluster nodes are properly configured to support WFA."
 ---
-= Configuring VCS to install OnCommand Workflow Automation
+= Configure VCS to install OnCommand Workflow Automation
 :icons: font
 :imagesdir: ../media/
 

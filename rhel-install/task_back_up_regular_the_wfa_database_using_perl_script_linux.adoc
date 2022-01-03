@@ -1,10 +1,10 @@
 ---
-permalink: rhel-install/task_backing_up_regular_the_wfa_database_using_perl_script_linux.html
+permalink: rhel-install/task_back_up_regular_the_wfa_database_using_perl_script_linux.html
 sidebar: sidebar
 keywords: oncommand, workflow, automation, back up, regular, wfa database, cli
 summary: "You can perform a regular backup of the OnCommand Workflow Automation (WFA) database by using the WFA command-line interface (CLI). In a regular backup, only the WFA database is backed up."
 ---
-= Backing up (regular) the WFA database using the CLI
+= Back up (regular) the WFA database using the CLI
 :icons: font
 :imagesdir: ../media/
 

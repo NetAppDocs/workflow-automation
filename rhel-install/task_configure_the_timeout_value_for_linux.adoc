@@ -1,10 +1,10 @@
 ---
-permalink: rhel-install/task_configuring_the_timeout_value_for_linux.html
+permalink: rhel-install/task_configure_the_timeout_value_for_linux.html
 sidebar: sidebar
 keywords: oncommand, workflow, automation, configure, timeout value
 summary: "You can configure the timeout value for the Workflow Automation (WFA) web GUI, instead of using the default timeout value of 180 seconds."
 ---
-= Configuring the timeout value for Workflow Automation
+= Configure the timeout value for Workflow Automation
 :icons: font
 :imagesdir: ../media/
 

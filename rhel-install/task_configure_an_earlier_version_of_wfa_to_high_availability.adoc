@@ -1,10 +1,10 @@
 ---
-permalink: rhel-install/task_configuring_an_earlier_version_of_wfa_to_high_availability.html
+permalink: rhel-install/task_configure_an_earlier_version_of_wfa_to_high_availability.html
 sidebar: sidebar
 keywords: configure, earlier version, oncommand, workflow, automation, high availability
 summary: "You can configure OnCommand Workflow Automation (WFA) versions earlier than 3.1 for high availability."
 ---
-= Configuring an earlier version of OnCommand Workflow Automation for high availability
+= Configure an earlier version of OnCommand Workflow Automation for high availability
 :icons: font
 :imagesdir: ../media/
 

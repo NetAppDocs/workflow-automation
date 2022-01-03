@@ -1,10 +1,10 @@
 ---
-permalink: rhel-install/task_adding_active_directory_group_names.html
+permalink: rhel-install/task_add_active_directory_group_names.html
 sidebar: sidebar
 keywords: oncommand, workflow, automation, add, active directory groups
 summary: "You can add Active Directory groups in OnCommand Workflow Automation (WFA)."
 ---
-= Adding Active Directory groups
+= Add Active Directory groups
 :icons: font
 :imagesdir: ../media/
 

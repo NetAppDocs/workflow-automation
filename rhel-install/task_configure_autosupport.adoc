@@ -1,10 +1,10 @@
 ---
-permalink: rhel-install/task_configuring_autosupport.html
+permalink: rhel-install/task_configure_autosupport.html
 sidebar: sidebar
 keywords: configure, autoSupport
 summary: "You can configure several AutoSupport settings such as the schedule, content of the AutoSupport messages, and the proxy server. AutoSupport sends weekly logs of the content that you selected to technical support for archiving and issue analysis."
 ---
-= Configuring AutoSupport
+= Configure AutoSupport
 :icons: font
 :imagesdir: ../media/
 

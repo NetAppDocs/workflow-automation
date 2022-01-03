@@ -1,10 +1,10 @@
 ---
-permalink: rhel-install/task_accessing_oncommand_workflow_automation.html
+permalink: rhel-install/task_access_oncommand_workflow_automation.html
 sidebar: sidebar
 keywords: access, oncommand, workflow, automation
 summary: "You can access OnCommand Workflow Automation (WFA) through a web browser from any system that has access to the WFA server."
 ---
-= Accessing OnCommand Workflow Automation
+= Access OnCommand Workflow Automation
 :icons: font
 :imagesdir: ../media/
 

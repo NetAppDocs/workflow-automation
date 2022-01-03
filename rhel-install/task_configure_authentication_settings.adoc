@@ -1,10 +1,10 @@
 ---
-permalink: rhel-install/task_configuring_authentication_settings.html
+permalink: rhel-install/task_configure_authentication_settings.html
 sidebar: sidebar
 keywords: oncommand, workflow, automation, configure, authentication, settings
 summary: "You can configure OnCommand Workflow Automation (WFA) to use a Microsoft Active Directory (AD) Lightweight Directory Access Protocol (LDAP) server for authentication and authorization."
 ---
-= Configuring authentication settings
+= Configure authentication settings
 :icons: font
 :imagesdir: ../media/
 
