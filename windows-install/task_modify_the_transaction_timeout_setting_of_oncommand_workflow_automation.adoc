@@ -1,10 +1,10 @@
 ---
-permalink: windows-install/task_modifying_the_transaction_timeout_setting_of_oncommand_workflow_automation.html
+permalink: windows-install/task_modify_the_transaction_timeout_setting_of_oncommand_workflow_automation.html
 sidebar: sidebar
 keywords: modify, transaction, timeout, set, oncommand, workflow, automation
 summary: "The OnCommand Workflow Automation (WFA) database transaction times out in 300 seconds by default. You can increase the default timeout duration when restoring a large-sized WFA database from a backup to avoid potential failure of the database restoration."
 ---
-= Modifying the transaction timeout setting of OnCommand Workflow Automation
+= Modify the transaction timeout setting of OnCommand Workflow Automation
 :icons: font
 :imagesdir: ../media/
 
