@@ -1,10 +1,10 @@
 ---
-permalink: rhel-install/task_migrating_the_oncommand_workflow_automation_installation_linux.html
+permalink: rhel-install/task_migrate_the_oncommand_workflow_automation_installation_linux.html
 sidebar: sidebar
 keywords: migrate, oncommand, workflow, automation, installation
 summary: "You can migrate an OnCommand Workflow Automation (WFA) installation to maintain the unique WFA database key that is installed during the WFA installation."
 ---
-= Migrating the OnCommand Workflow Automation installation
+= Migrate the OnCommand Workflow Automation installation
 :icons: font
 :imagesdir: ../media/
 

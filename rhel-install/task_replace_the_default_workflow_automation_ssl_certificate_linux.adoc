@@ -1,10 +1,10 @@
 ---
-permalink: rhel-install/task_replacing_the_default_workflow_automation_ssl_certificate_linux.html
+permalink: rhel-install/task_replace_the_default_workflow_automation_ssl_certificate_linux.html
 sidebar: sidebar
 keywords: replace, default, workflow, automation, ssl, certificate
 summary: "You can replace the default Workflow Automation (WFA) SSL certificate if the certificate has expired or if you want to increase the validity period of the certificate."
 ---
-= Replacing the default Workflow Automation SSL certificate
+= Replace the default Workflow Automation SSL certificate
 :icons: font
 :imagesdir: ../media/
 

@@ -1,10 +1,10 @@
 ---
-permalink: rhel-install/task_installing_oncommand_workflow_automation.html
+permalink: rhel-install/task_install_oncommand_workflow_automation.html
 sidebar: sidebar
 keywords: oncommand, workflow, automation, install, linux
 summary: "You can install OnCommand Workflow Automation (WFA) by using the command-line interface (CLI)."
 ---
-= Installing OnCommand Workflow Automation on Linux
+= Install OnCommand Workflow Automation on Linux
 :icons: font
 :imagesdir: ../media/
 

@@ -1,10 +1,10 @@
 ---
-permalink: rhel-install/task_restoring_oncommand_workflow_automation_database_using_web_portal.html
+permalink: rhel-install/task_restore_oncommand_workflow_automation_database_using_web_portal.html
 sidebar: sidebar
 keywords: oncommand, workflow, automation, restore, wfa, database
 summary: "You can restore the OnCommand Workflow Automation (WFA) database that you backed up previously."
 ---
-= Restoring the WFA database
+= Restore the WFA database
 :icons: font
 :imagesdir: ../media/
 
