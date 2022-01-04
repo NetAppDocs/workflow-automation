@@ -1,10 +1,10 @@
 ---
-permalink: windows-install/task_configuring_mail.html
+permalink: windows-install/task_configure_mail.html
 sidebar: sidebar
 keywords: configure, email, notifications
 summary: "You can configure OnCommand Workflow Automation (WFA) to send you email notifications about workflow operations—for example, workflow started or workflow failed."
 ---
-= Configuring email notifications
+= Configure email notifications
 :icons: font
 :imagesdir: ../media/
 

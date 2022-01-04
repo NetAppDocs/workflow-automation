@@ -1,10 +1,10 @@
 ---
-permalink: windows-install/task_backing_up_oncommand_workflow_automation_database_using_the_web_portal.html
+permalink: windows-install/task_back_up_oncommand_workflow_automation_database_using_the_web_portal.html
 sidebar: sidebar
 keywords: oncommand, workflow, automation, back up, wfa, database, web portal
 summary: "You can back up the OnCommand Workflow Automation (WFA) database from the web portal and use the backup file for data recovery purposes. You cannot perform a full backup from the web portal."
 ---
-= Backing up the WFA database from the web portal
+= Back up the WFA database from the web portal
 :icons: font
 :imagesdir: ../media/
 

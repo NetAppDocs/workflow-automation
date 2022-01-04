@@ -1,10 +1,10 @@
 ---
-permalink: windows-install/task_backing_up_full_the_wfa_database_using_perl_script_linux.html
+permalink: windows-install/task_back_up_full_the_wfa_database_using_perl_script_linux.html
 sidebar: sidebar
 keywords: oncommand, workflow, automation, back up, wfa, database, cli
 summary: "You can perform a full backup of the OnCommand Workflow Automation (WFA) database by using the WFA command-line interface (CLI). In a full backup, the WFA database, WFA configuration, and key are backed up."
 ---
-= Backing up (full) the WFA database using the CLI
+= Back up (full) the WFA database using the CLI
 :icons: font
 :imagesdir: ../media/
 
@@ -27,7 +27,7 @@ WFA_install_location is the WFA installation directory.
 `.\wfa --backup --user=USER [--password=PASS] [--location=PATH] [--full]`
 +
  ** user is the user name of the backup user.
- 
+
  ** password is the password of the backup user.
 +
 If you have not provided the password, you must enter the password when prompted.
