@@ -20,7 +20,11 @@ NOTE: You must have valid credentials to log in to the NetApp Support Site. If y
 * Verifying that the system has access to the following, as applicable:
  ** Storage controllers
  ** Active IQ Unified Manager
-*Note:* If your environment requires Secure Shell (SSH) accessibility, you must ensure that SSH is enabled on the target controllers.
+
+[NOTE]
+====
+If your environment requires Secure Shell (SSH) accessibility, you must ensure that SSH is enabled on the target controllers.
+====
 * Verifying that Perl v5.10.1 is installed
 
 == Required configuration information
