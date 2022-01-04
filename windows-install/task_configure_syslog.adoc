@@ -1,10 +1,10 @@
 ---
-permalink: windows-install/task_configuring_syslog.html
+permalink: windows-install/task_configure_syslog.html
 sidebar: sidebar
 keywords: configure, syslog
 summary: "You can configure OnCommand Workflow Automation (WFA) to send log data to a specific Syslog server for purposes such as event logging and log information analysis."
 ---
-= Configuring Syslog
+= Configure Syslog
 :icons: font
 :imagesdir: ../media/
 

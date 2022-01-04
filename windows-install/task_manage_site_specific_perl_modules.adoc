@@ -1,10 +1,10 @@
 ---
-permalink: windows-install/task_managing_site_specific_perl_modules.html
+permalink: windows-install/task_manage_site_specific_perl_modules.html
 sidebar: sidebar
 keywords: manage, site-specific, perl modules
 summary: "You can use the ActiveState Perl Package Manager (PPM) to manage your site-specific Perl modules. You must install your site-specific Perl modules outside the OnCommand Workflow Automation (WFA) installation directory to avoid deletion of your Perl modules during a WFA upgrade."
 ---
-= Managing site-specific Perl modules
+= Manage site-specific Perl modules
 :icons: font
 :imagesdir: ../media/
 

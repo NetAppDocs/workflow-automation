@@ -1,10 +1,10 @@
 ---
-permalink: windows-install/task_creating_a_certificate_signing_request_for_workflow_automation_windows.html
+permalink: windows-install/task_create_a_certificate_signing_request_for_workflow_automation_windows.html
 sidebar: sidebar
 keywords: workflow, automation, wfa, windows, create, certificate, sign, request
 summary: "You can create a certificate signing request (CSR) in Windows so that you can use the SSL certificate that is signed by a Certificate Authority (CA) instead of the default SSL certificate for Workflow Automation (WFA)."
 ---
-= Creating a certificate signing request for Workflow Automation
+= Create a certificate signing request for Workflow Automation
 :icons: font
 :imagesdir: ../media/
 

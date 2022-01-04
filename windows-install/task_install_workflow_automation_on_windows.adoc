@@ -1,10 +1,10 @@
 ---
-permalink: windows-install/task_installing_workflow_automation_on_windows.html
+permalink: windows-install/task_install_workflow_automation_on_windows.html
 sidebar: sidebar
 keywords: oncommand, workflow, automation, install, windows
 summary: "You can install OnCommand Workflow Automation (WFA) to create and customize storage workflows for automating the storage tasks that are performed in your environment."
 ---
-= Installing OnCommand Workflow Automation on Windows
+= Install OnCommand Workflow Automation on Windows
 :icons: font
 :imagesdir: ../media/
 

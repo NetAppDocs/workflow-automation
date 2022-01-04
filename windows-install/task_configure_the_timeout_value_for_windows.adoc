@@ -1,10 +1,10 @@
 ---
-permalink: windows-install/task_configuring_the_timeout_value_for_windows.html
+permalink: windows-install/task_configure_the_timeout_value_for_windows.html
 sidebar: sidebar
 keywords: oncommand, workflow, automation, configure, timeout value
 summary: "You can configure the timeout value for the Workflow Automation (WFA) web GUI, instead of using the default timeout value."
 ---
-= Configuring the timeout value for Workflow Automation
+= Configure the timeout value for Workflow Automation
 :icons: font
 :imagesdir: ../media/
 

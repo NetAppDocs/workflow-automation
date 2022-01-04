@@ -1,10 +1,10 @@
 ---
-permalink: windows-install/task_migrating_oncommand_workflow_automation.html
+permalink: windows-install/task_migrate_oncommand_workflow_automation.html
 sidebar: sidebar
 keywords: migrate, oncommand, workflow, automation, installation
 summary: "You can migrate an OnCommand Workflow Automation (WFA) installation to maintain the unique WFA database key that is installed during the WFA installation. For example, you can migrate the WFA installation from a Windows 2012 server to a Windows 2016 server."
 ---
-= Migrating the OnCommand Workflow Automation installation
+= Migrate the OnCommand Workflow Automation installation
 :icons: font
 :imagesdir: ../media/
 

@@ -1,10 +1,10 @@
 ---
-permalink: windows-install/task_configuring_wfa_with_mscs_using_configuration_scripts.html
+permalink: windows-install/task_configure_wfa_with_mscs_using_configuration_scripts.html
 sidebar: sidebar
 keywords: configure, workflow, automation, mscs
 summary: "After you install Workflow Automation (WFA) in Microsoft Cluster Server (MSCS), you must configure WFA for high availability in MSCS using configuration scripts."
 ---
-= Configuring Workflow Automation with MSCS
+= Configure Workflow Automation with MSCS
 :icons: font
 :imagesdir: ../media/
 
