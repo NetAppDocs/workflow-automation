@@ -19,7 +19,9 @@ The default WFA installation path is used in this procedure. If you have changed
 .Steps
 . Log in as a root user on the WFA host machine.
 . Open a shell prompt on the WFA server, and then change directories to the following location: <OpenJDK_install_location>/bin
-. Create a CSR file: `keytool -certreq -keystore WFA_install_location/wfa/jboss/standalone/configuration/keystore/wfa.keystore -alias "ssl keystore" -file /root/file_name.csr`
+. Create a CSR file:
++
+`keytool -certreq -keystore WFA_install_location/wfa/jboss/standalone/configuration/keystore/wfa.keystore -alias "ssl keystore" -file /root/file_name.csr`
 +
 file_name is the name of the CSR file.
 
@@ -39,8 +41,12 @@ See the CA web site for details.
 +
 C:\chain_cert.cer is the chain certificate file that is received from the CA. The file must be in the X.509 format.
 
-. Import the signed certificate that you received from the CA: `keytool -import -alias "ssl keystore" -keystore WFA_install_location/wfa/jboss/standalone/configuration/keystore/wfa.keystore" -trustcacerts -file C:\certificate.cer`
+. Import the signed certificate that you received from the CA:
++
+`keytool -import -alias "ssl keystore" -keystore WFA_install_location/wfa/jboss/standalone/configuration/keystore/wfa.keystore" -trustcacerts -file C:\certificate.cer`
 +
 C:\certificate.cer is the chain certificate file that is received from the CA.
 
-. Start the WFA services: `./wfa --start=DB``./wfa --start=WFA`
+. Start the WFA services:
++
+`./wfa --start=DB`./wfa --start=WFA

@@ -22,7 +22,8 @@ TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384,TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256,TLS_
 TLS_RSA_WITH_AES_128_GCM_SHA256,TLS_RSA_WITH_AES_256_GCM_SHA384"
 ----
 
-Additional ciphers can be added to this configuration in the `standalone-full.xml` file. This file is located at: `<installdir>/jboss/standalone/configuration/standalone-full.xml`.
+Additional ciphers can be added to this configuration in the `standalone-full.xml` file. This file is located at:
+`<installdir>/jboss/standalone/configuration/standalone-full.xml`.
 
 The file can be modified to support additional ciphers as follows:
 

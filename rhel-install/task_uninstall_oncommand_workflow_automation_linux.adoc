@@ -15,6 +15,8 @@ You must have root user access to the Red Hat Enterprise Linux machine from whic
 
 .Steps
 . Log in as root user to the Red Hat Enterprise Linux machine from which you want to uninstall WFA.
-. At the shell prompt, enter the following command: `rpm -e wfa`
+. At the shell prompt, enter the following command:
++
+`rpm -e wfa`
 +
 If the default installation location was changed, the MySQL data directory is not deleted when you uninstall WFA. You must manually delete the directory.
