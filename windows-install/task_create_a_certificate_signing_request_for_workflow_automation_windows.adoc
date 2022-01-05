@@ -18,7 +18,8 @@ The default WFA installation path is used in this procedure. If you have changed
 
 .Steps
 . Log in as an admin user on the WFA host machine.
-. Open a command prompt on the WFA server, and then change directories to the following location: <OpenJDK_install_location>\bin
+. Open a command prompt on the WFA server, and then change directories to the following location: +
+<OpenJDK_install_location>\bin
 . Create a CSR:
 +
 `keytool -certreq -keystore WFA_install_location\WFA\jboss\standalone\configuration\keystore\wfa.keystore -alias "ssl keystore" -file C:\file_name.csr`

@@ -16,7 +16,9 @@ You must have installed the required Perl distribution on the WFA server.
 You must not uninstall or overwrite the default ActivePerl installation. You must install your preferred Perl distribution at a separate location.
 
 .Steps
-. Open Windows Explorer and navigate to the following directory: WFA_install_location\WFA\bin\
+. Open Windows Explorer and navigate to the following directory:
++
+`WFA_install_location\WFA\bin\`
 . Double-click the ps.cmd file.
 +
 A PowerShell command-line interface (CLI) prompt opens with ONTAP and WFA modules loaded in it.

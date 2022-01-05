@@ -44,7 +44,11 @@ a|
 * User name and password
 
 a|
-Perform operations on storage systems**Note:** Root or admin account credentials are required for storage (arrays).
+Perform operations on storage systems
+[NOTE]
+====
+Root or admin account credentials are required for storage (arrays).
+====
 
 a|
 vSphere
