@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/reference_ports_required_for_oncommand_workflow_automation.html
 sidebar: sidebar
-keywords: 
-summary: 'If you are using a firewall, you must be aware of the required ports for Workflow Automation \(WFA\).'
+keywords: ports, required, workflow, automation
+summary: "If you are using a firewall, you must be aware of the required ports for Workflow Automation (WFA)."
 ---
 = Ports required for Workflow Automation
 :icons: font
@@ -15,6 +15,7 @@ The default port numbers are listed in this section. If you want to use a non-de
 
 The following table lists the default ports that should be open on the WFA server:
 
+[cols="4*",options="header"]
 |===
 | Port| Protocol| Direction| Purpose
 a|
@@ -84,6 +85,7 @@ Sending logs to a syslog server
 |===
 The following table lists the default ports that should be open on the Unified Manager server:
 
+[cols="4*",options="header"]
 |===
 | Port| Protocol| Direction| Purpose
 a|
@@ -113,6 +115,7 @@ Caching data from Performance Advisor, which is a part of Active IQ Unified Mana
 |===
 The following table lists the default port that should be open on the VMware vCenter:
 
+[cols="4*",options="header"]
 |===
 | Port| Protocol| Direction| Purpose
 a|
@@ -126,6 +129,7 @@ Caching data from VMware vCenter
 |===
 The following table lists the default port that should be open on the SNMP host machine:
 
+[cols="4*",options="header"]
 |===
 | Port| Protocol| Direction| Purpose
 a|

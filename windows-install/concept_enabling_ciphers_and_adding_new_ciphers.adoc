@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/concept_enabling_ciphers_and_adding_new_ciphers.html
 sidebar: sidebar
-keywords: enable ciphers,add new ciphers,ciphers
-summary: 'OnCommand Workflow Automation 5.1 supports a number of ciphers out of the box. Also, you can add additional ciphers as required.'
+keywords: enable ciphers, add new ciphers, ciphers
+summary: "OnCommand Workflow Automation 5.1 supports a number of ciphers out of the box. Also, you can add additional ciphers as required."
 ---
 = Enabling ciphers and adding new ciphers
 :icons: font
