@@ -11,6 +11,8 @@ summary: "You can configure the resource reservation capability for OnCommand Wo
 [.lead]
 You can configure the resource reservation capability for OnCommand Workflow Automation (WFA) workflows to ensure that the required resources are available for successful execution of workflows.
 
+*Steps*
+
 . Log in to WFA through a web browser as an administrator.
 . Click *Settings*, and under *Setup* click *Workflow Settings*.
 . Ensure that the *Enable reservation for commands* check box is selected.
