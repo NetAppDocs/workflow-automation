@@ -1,10 +1,10 @@
 ---
-permalink: workflows/task_checking_in_a_new_pack_to_scm.html
+permalink: workflows/task_check_in_a_new_pack_to_scm.html
 sidebar: sidebar
-keywords: OnCommand Workflow Automation
-summary: 'You can create a new workflow pack with OnCommand Workflow Automation \(WFA\) and check it in to Source Control Management \(SCM\).'
+keywords: create, new, workflow, pack, oncommand, automation, check, source, control, management
+summary: "You can create a new workflow pack with OnCommand Workflow Automation (WFA) and check it in to Source Control Management (SCM)."
 ---
-= Checking in a new workflow pack to SCM
+= Check in a new workflow pack to SCM
 :icons: font
 :imagesdir: ../media/
 
@@ -13,7 +13,9 @@ You can create a new workflow pack with OnCommand Workflow Automation (WFA) and 
 
 SCM must be set up and you must have admin or architect credentials.
 
-. Log in to the WFA window through a web browser.
+*Steps*
+
+. Log in to the *WFA* window through a web browser.
 . Create a new workflow pack.
 +
 xref:task_creating_a_workflow_automation_pack.adoc[Creating a workflow automation pack]

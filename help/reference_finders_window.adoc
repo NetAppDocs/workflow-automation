@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_finders_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Finders window displays the available finders in alphabetical order. You can access this window by selecting Workflow Design \> Finders.'
+keywords: finders, window, display, available, alphabetical order, access, select, workflow, design
+summary: "The Finders window displays the available finders in alphabetical order. You can access this window by selecting Workflow Design > Finders."
 ---
 = Finders window
 :icons: font
@@ -67,7 +67,7 @@ You can search for finders by entering the type in the Search filter text box.
 
 * *Entity Version*
 +
-Displays the version number of the object in major.minor.revision format--for example, 1.0.0.
+Displays the version number of the object in `major.minor.revision` format--for example, 1.0.0.
 +
 You can search for a finder by entering the version number in the Search filter text box.
 
@@ -143,10 +143,10 @@ Opens the Test Finder dialog box, which enables you to test the selected finder.
 +
 Opens the Add To Pack Finders dialog box, which enables you to add the finder and its dependable entities to a pack, which is editable.
 +
-NOTE: The Add To Pack feature is enabled only for finders for which the certification is set to None.
+NOTE: The Add To Pack feature is enabled only for finders for which the certification is set to *None.*
 
 * *image:../media/remove_from_pack.png[remove from pack icon] (Remove From Pack)*
 +
 Opens the Remove From Pack Finders dialog box for the selected finder, which enables you to delete or remove the finder from the pack.
 +
-NOTE: The Remove From Pack feature is enabled only for finders for which the certification is set to None.
+NOTE: The Remove From Pack feature is enabled only for finders for which the certification is set to *None.*

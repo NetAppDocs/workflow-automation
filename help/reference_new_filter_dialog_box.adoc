@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_new_filter_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the New Filter dialog box to create a new filter. You can use the filter to develop finders.'
+keywords: use, new, filter, dialog box, create, develop, finders
+summary: "You can use the New Filter dialog box to create a new filter. You can use the filter to develop finders."
 ---
 = New Filter dialog box
 :icons: font
@@ -28,7 +28,7 @@ Enables you to select a dictionary object from the list.
 
 * *Entity Version*
 +
-Enables you to enter the version number for the filter in major.minor.revision format--for example, 1.0.0.
+Enables you to enter the version number for the filter in `major.minor.revision` format--for example, 1.0.0.
 
 * *Description*
 +

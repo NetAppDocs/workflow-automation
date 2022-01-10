@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_resource_selection_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Resource Selection dialog box enables you to search for resources and map the resources to a command.'
+keywords: resource, selection, dialog box, enable, search, map, command
+summary: "The Resource Selection dialog box enables you to search for resources and map the resources to a command."
 ---
 = Resource Selection dialog box
 :icons: font
@@ -75,7 +75,7 @@ Executes the search only when the value of the optional attribute specified in t
 
 * *Sorting table*
 +
-Displays the attributes and the sort order for the filters selected in the *Select <dictionary object> by* tab. The sort order is significant for resource selection--for example, if you selected descending as the sort order for aggregates, the aggregate with maximum available_space is selected as the resource. To change the sort order for an attribute, you can click the status column of the attribute and select the required sort order from the list.
+Displays the attributes and the sort order for the filters selected in the *Select <dictionary object> by* tab. The sort order is significant for resource selection--for example, if you selected descending as the sort order for aggregates, the aggregate with maximum `available_space` is selected as the resource. To change the sort order for an attribute, you can click the status column of the attribute and select the required sort order from the list.
 
 * *Command buttons*
  ** *Up*

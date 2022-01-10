@@ -1,10 +1,10 @@
 ---
-permalink: workflows/task_creating_a_workflow.html
+permalink: workflows/task_create_a_workflow.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use Workflow Automation \(WFA\) to create workflows for tasks such as provisioning, migrating, and decommissioning storage for databases or file systems. You should create workflows when the predefined WFA workflows do not match your requirements.'
+keywords: use, workflow, automation, create, tasks, provisioning, migrate, decommissioning, storage, databases, file, systems, predefined, wfa, match, requirements
+summary: "You can use Workflow Automation (WFA) to create workflows for tasks such as provisioning, migrating, and decommissioning storage for databases or file systems. You should create workflows when the predefined WFA workflows do not match your requirements."
 ---
-= Creating a workflow
+= Create a workflow
 :icons: font
 :imagesdir: ../media/
 
@@ -20,7 +20,7 @@ The construction of each workflow might vary based on the goal and requirement o
 
 . Click *Workflow Design* > *Workflows*.
 . Click image:../media/new_wfa_icon.gif[New icon] on the toolbar.
-. In the Workflow tab, perform the following steps:
+. In the *Workflow* tab, perform the following steps:
  .. Expand the required schema, and then double-click the required image:../media/wfa_command_icon.gif[Command icon] (command) or image:../media/wfa_workflow_icon.gif[Workflow icon] (workflow) from the *Available Steps* list.
 +
 You can repeat this step as required. You can drag-and-drop steps to rearrange the steps in the workflow editor.
@@ -30,7 +30,8 @@ You can repeat this step as required. You can drag-and-drop steps to rearrange t
 Each step is executed based on the specified step details at the specified row and column. The steps are executed from left to right and in the top to bottom order.
 
  .. Position your cursor below the step you have added and click image:../media/add_object_wfa_icon.gif[command details icon] to add step details for the step execution, at the required row.
-+
+
+[cols="2*",options="header"]
 |===
 | For this step...| Do this...
 a|
@@ -47,11 +48,12 @@ a|
 Select the dictionary entry object that should be searched for or defined.
 |===
 The following illustration shows the available options for defining the object attributes:
-+
+
 image::../media/define_object_options.gif[]
-+
+
 Choose the appropriate action:
-+
+
+[cols="2*",options="header"]
 |===
 | For...| Do this...
 a|
@@ -67,11 +69,11 @@ Enter the value for attributes using the following options:
 You must position your cursor over the attribute fields and click image:../media/elipsisicon.gif[] to use the resource selection or incremental naming capabilities.
 
 a|
-by using a previously defined object
+by using a previously defined `object`
 a|
 Select the previously defined object in the box before the option list.
 a|
-by searching for an existing object
+by searching for an existing `object`
 a|
 
   ... Click *Enter search criteria* to search for the object using the resource selection capability.
@@ -113,7 +115,7 @@ You can use this option and then specify a search criteria for an object. The co
 
  ** Add a condition for execution of the row.
  ** Remove the row.
-. In the Details tab, perform the following steps:
+. In the *Details* tab, perform the following steps:
  .. Specify the required information in the *Workflow name* and *Workflow Description* fields.
 +
 The workflow name and description must be unique for each workflow.
@@ -124,7 +126,7 @@ The workflow name and description must be unique for each workflow.
 . If you want to edit the user inputs, perform the following steps:
  .. Click the *User Inputs* tab.
  .. Double-click the user input you want to edit.
- .. In the Edit Variable: <user input> dialog box, edit the user input.
+ .. In the *Edit Variable: <user input>* dialog box, edit the user input.
 . If you want to add constants, perform the following steps
  .. Click the *Constants* tab, and then add the required constants for your workflow by using the *Add* button.
 +
@@ -139,28 +141,29 @@ Aggregate: You can specify aggregate as a return parameter to see which aggregat
 +
 If you have included a child workflow in your workflow and if the child workflow return parameter names contain a space, dollar sign ($), or a function, you should specify the return parameter name within square brackets in the parent workflow to view the child workflow return parameter value in your parent workflow.
 +
+[cols="2*",options="header"]
 |===
 | If the parameter name is...| Specify as...
 a|
-ChildWorkflow1.abc$value
+`ChildWorkflow1.abc$value`
 a|
-ChildWorkflow1["abc$"+"value"]
+`ChildWorkflow1["abc$"+"value"]`
 a|
-ChildWorkflow1.$value
+`ChildWorkflow1.$value`
 a|
-ChildWorkflow1["$"+"value"]
+`ChildWorkflow1["$"+"value"]`
 a|
-ChildWorkflow1.value$
+`ChildWorkflow1.value$`
 a|
-ChildWorkflow1.value$
+`ChildWorkflow1.value$`
 a|
-ChildWorkflow1.P N
+`ChildWorkflow1.P N`
 a|
-ChildWorkflow1["P N"]
+`ChildWorkflow1["P N"]`
 a|
-ChildWorkflow1.return_string("HW")
+`ChildWorkflow1.return_string("HW")`
 a|
-ChildWorkflow1["return_string(\"HW\")"]
+`ChildWorkflow1["return_string(\"HW\")"]`
 |===
 
 . Click the *Help Content* tab to add the help content file you have created for the workflow.
@@ -169,27 +172,3 @@ ChildWorkflow1["return_string(\"HW\")"]
 . Click *Save*.
 
 Test the workflow in your test environment, and then mark the workflow as ready for production in *WorkflowName* > *Details*.
-
-*Related information*
-
-xref:reference_workflow_requirements_checklist.adoc[Sample workflow requirements checklist]
-
-xref:concept_how_you_define_workflows.adoc[How you define workflows]
-
-xref:concept_how_you_define_user_input.adoc[How user inputs are defined]
-
-xref:concept_how_repeat_row_works.adoc[How repeat row works]
-
-xref:concept_what_approval_points_are.adoc[What approval points are]
-
-xref:concept_how_resource_selection_works.adoc[How resource selection works]
-
-xref:concept_how_reservation_works.adoc[How reservation works]
-
-xref:concept_what_incremental_naming_is.adoc[What incremental naming is]
-
-xref:concept_what_conditional_execution_is.adoc[What conditional execution is]
-
-xref:concept_what_return_parameters_are.adoc[How return parameters work]
-
-xref:task_creating_workflow_help_content.adoc[Creating workflow help content]

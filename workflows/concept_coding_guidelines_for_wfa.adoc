@@ -1,8 +1,8 @@
 ---
 permalink: workflows/concept_coding_guidelines_for_wfa.html
 sidebar: sidebar
-keywords: 
-summary: 'You should understand the general OnCommand Workflow Automation \(WFA\) coding guidelines, naming conventions, and recommendations on creating various building blocks such as filters, functions, commands, and workflows.'
+keywords: understand, general, oncommand, workflow, automation, coding, guidelines, naming, conventions, recommendations, creating, various, building, blocks, filters, functions, commands
+summary: "You should understand the general OnCommand Workflow Automation (WFA) coding guidelines, naming conventions, and recommendations on creating various building blocks such as filters, functions, commands, and workflows."
 ---
 = Coding guidelines for WFA
 :icons: font

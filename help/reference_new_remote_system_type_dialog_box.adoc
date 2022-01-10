@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_new_remote_system_type_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The New Remote System Type dialog box enables you to add a new remote system type to OnCommand Workflow Automation \(WFA\) if a predefined system type does not meet your requirement or if you want to change the configuration of a predefined system type.'
+keywords: new, remote, system, type, dialog box, enable, add, oncommand, workflow, automation, predefined, meet, requirement, change, configuration
+summary: "The New Remote System Type dialog box enables you to add a new remote system type to OnCommand Workflow Automation (WFA) if a predefined system type does not meet your requirement or if you want to change the configuration of a predefined system type."
 ---
 = New Remote System Type dialog box
 :icons: font
@@ -28,7 +28,7 @@ Enables you to enter a description for the remote system type.
 
 * *Version*
 +
-Enables you to specify the version number for the remote system type in major.minor.revision format--for example, 1.0.0.
+Enables you to specify the version number for the remote system type in `major.minor.revision` format--for example, 1.0.0.
 
 * *Connection Protocol*
 +
@@ -41,6 +41,7 @@ The connection primarily uses HTTPS. If connection through HTTPS fails, HTTP is 
  ** HTTPS Only
  ** HTTP Only
  ** Custom
+
 When you select a connection protocol, the protocol, default port, and default timeout (sec) fields are populated with data.
 
 == Validation Script tab

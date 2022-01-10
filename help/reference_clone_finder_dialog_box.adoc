@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_clone_finder_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Clone Finder dialog box enables you to create a copy of the finder and edit the cloned finder.'
+keywords: clone, finder, dialog box, enable, create, copy, finder, edit
+summary: "The Clone Finder dialog box enables you to create a copy of the finder and edit the cloned finder."
 ---
 = Clone Finder dialog box
 :icons: font
@@ -29,7 +29,7 @@ Enables you to select the type of object from the list. The filters for the sele
 
 * *Entity Version*
 +
-Enables you to enter the version number for the finder in major.minor.revision format--for example, 1.0.0.
+Enables you to enter the version number for the finder in `major.minor.revision` format--for example, 1.0.0.
 
 * *Description*
 +

@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_test_connectivity_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Test Connectivity dialog box enables you to test the connection to the system associated with a credential. The test connectivity operation triggers the search path and first looks for an exact match, then for a pattern match, and finally for LDAP service authentication.'
+keywords: test, connectivity, dialog box, enable, test, system, associated, credential, operation, trigger, search, path, first, look, exact, match, pattern, service, authentication
+summary: "The Test Connectivity dialog box enables you to test the connection to the system associated with a credential. The test connectivity operation triggers the search path and first looks for an exact match, then for a pattern match, and finally for LDAP service authentication."
 ---
 = Test Connectivity dialog box
 :icons: font

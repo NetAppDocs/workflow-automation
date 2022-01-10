@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_new_workflow_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The New Workflow window displays a newly created workflow and its associated commands.'
+keywords: new, workflow, window, display, created, associated, command
+summary: "The New Workflow window displays a newly created workflow and its associated commands."
 ---
 = New Workflow window
 :icons: font
