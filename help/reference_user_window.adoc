@@ -13,9 +13,6 @@ The Users window enables you to view, create, edit, and delete the OnCommand Wor
 
 NOTE: Depending on your role and account privileges, this window might not be displayed.
 
-* <<SECTION_1AADE8ECC3594193BAE664C58DFE34FE,#SECTION_1AADE8ECC3594193BAE664C58DFE34FE>>
-* <<SECTION_2155631DE7F442539F244CAEE80C1D36,#SECTION_2155631DE7F442539F244CAEE80C1D36>>
-
 == Users table
 
 The Users window displays existing users. You can customize the table display by using the filtering and sorting features available for each column, as well as by rearranging the column order.

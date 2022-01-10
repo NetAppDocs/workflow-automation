@@ -31,7 +31,7 @@ This group can only view the status of a workflow execution or be notified about
 
 ** *Operator*
 +
- This group is allowed to preview and execute the workflows for which the group is provided access.
+This group is allowed to preview and execute the workflows for which the group is provided access.
 
  ** *Approver*
 +

@@ -11,7 +11,7 @@ summary: "The OnCommand Workflow Automation (WFA) user inputs are data input opt
 [.lead]
 The OnCommand Workflow Automation (WFA) user inputs are data input options that are available during the execution of workflows. You must define the user input parameters for your workflows to enhance the flexibility and usability of your workflows.
 
-User inputs are shown as input fields, which can be filled out with relevant data when previewing or executing workflows. You can create a user input field when specifying the command details in a workflow by prefixing a label or variable with the dollar sign ($). For example, $VolumeName creates a Volume Name user input field. WFA automatically populates the User Inputs tab in the Workflow <workflow name> window with the user input labels that you have created. You can also define the type of the user input and customize the input fields by modifying the user input attributes, such as type, display name, default values, and validation values.
+User inputs are shown as input fields, which can be filled out with relevant data when previewing or executing workflows. You can create a user input field when specifying the command details in a workflow by prefixing a label or variable with the dollar sign ($). For example, `$VolumeName` creates a `Volume Name` user input field. WFA automatically populates the User Inputs tab in the Workflow <workflow name> window with the user input labels that you have created. You can also define the type of the user input and customize the input fields by modifying the user input attributes, such as type, display name, default values, and validation values.
 
 == User input type options
 
@@ -31,7 +31,7 @@ You can create enumeration values that can be selected when filling the user inp
 
 * *Query*
 +
-You can select the query type when you want the user input to be selected from the values available in the WFA cache. For example, you can use the following query to automatically populate the user input fields with the IP address and name values from the WFA cache: SELECT ip, name FROM storage.array. You can optionally lock the values retrieved by a query so that only the results retried by the query are selected.
+You can select the query type when you want the user input to be selected from the values available in the WFA cache. For example, you can use the following query to automatically populate the user input fields with the IP address and name values from the WFA cache: `SELECT ip, name FROM storage.array.` You can optionally lock the values retrieved by a query so that only the results retried by the query are selected.
 
 * *Query (multi-select)*
 +

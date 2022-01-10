@@ -11,6 +11,8 @@ summary: "You must set up a connection with a data source in OnCommand Workflow 
 [.lead]
 You must set up a connection with a data source in OnCommand Workflow Automation (WFA) to acquire data from the data source.
 
+*What you'll need*
+
 * For Active IQ Unified Manager versions earlier than 6.0, you must have run the latest version of the ocsetup tool on the Unified Manager server to enable and configure remote read-only access to the database.
 * For Active IQ Unified Manager6.0 and later, you must have created a database user account on the Unified Manager server.
 +
@@ -47,11 +49,15 @@ See the _OnCommand Unified Manager Online Help_ for details.
 +
 The default TCP port number is 443. See the documentation on your firewall for details.
 
+*About this task*
+
 You can add multiple Unified Manager server data sources to WFA using this procedure. However, you must not use this procedure if you want to pair Unified Manager server 6.3 and later with WFA and use the protection functionality in Unified Manager server.
 
 For more information about pairing WFA with Unified Manager server 6.x, see the _OnCommand Unified Manager Online Help_.
 
 NOTE: While setting up a data source with WFA, you must be aware that Active IQ Unified Manager 6.0, 6.1, and 6.2 data source types are deprecated in the WFA 4.0 release, and these data source types will not be supported in future releases.
+
+*Steps*
 
 . Access WFA using a web browser.
 . Click *Settings*, and under *Setup* click *Data Sources*.

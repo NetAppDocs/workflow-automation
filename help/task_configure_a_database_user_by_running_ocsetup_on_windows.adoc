@@ -11,11 +11,11 @@ summary: "You can run the ocsetup file on the DataFabric Manager 5.x server to c
 [.lead]
 You can run the `ocsetup` file on the DataFabric Manager 5.x server to configure read-only access of the DataFabric Manager 5.x database to OnCommand Workflow Automation.
 
-. Download the `wfa_ocsetup.exe` file to a directory in the DataFabric Manager 5.x server from the following location: https://WFA_Server_IP/download/wfa_ocsetup.exe.
+. Download the `wfa_ocsetup.exe` file to a directory in the DataFabric Manager 5.x server from the following location: https://`WFA_Server_IP`/download/wfa_ocsetup.exe.
 +
 `WFA_Server_IP` is the IP address (IPv4 or IPv6 address) of your WFA server.
 +
-If you have specified a non-default port for WFA, you must include the port number as follows: https://wfa_server_ip:port/download/wfa_ocsetup.exe.
+If you have specified a non-default port for WFA, you must include the port number as follows: https://`wfa_server_ip:port`/download/wfa_ocsetup.exe.
 +
 port is the TCP port number that you have used for the WFA server during installation.
 +

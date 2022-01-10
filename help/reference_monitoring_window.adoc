@@ -49,6 +49,7 @@ The following table shows the following:
 * The color scheme used to display the status of the command or workflow execution
 * The icons used in the window
 
+[cols="2*"]
 |===
 a|
 image:../media/execution_successful.gif[green box]
