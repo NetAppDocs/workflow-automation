@@ -14,8 +14,13 @@ You should be aware of certain scripting and programming practices to create adv
 == Windows PowerShell
 
 WFA uses PowerShell scripts for workflow operations. The following table includes references to learning material for PowerShell:
-[cols="2*"]
+
+[cols="2*",options="header"]
 |===
+a|
+PowerShell
+a|
+Learning material
 a|
 Getting Started with Windows PowerShell
 a|
@@ -54,13 +59,18 @@ http://msdn.microsoft.com/en-us/library/windows/desktop/dd901844(v=vs.85).aspx
 
 The Data ONTAP PowerShell toolkit is bundled along with WFA. You can use the PowerShell toolkit cmdlets to invoke Data ONTAP commands from a PowerShell script. For more information, see the _Data ONTAP PowerShell Toolkit Help_, which you can access from the following location:
 
-`WFA_install_location\WFA\PoSH\Modules\DataONTAP\webhelp\index.html.`
+`_WFA_install_location\WFA\PoSH\Modules\DataONTAP\webhelp\index.html._`
 
-`WFA_install_location` is the WFA installation directory, and `C:\Program Files\NetApp` is the default installation directory.
+`_WFA_install_location_` is the WFA installation directory, and `_C:\Program Files\NetApp_` is the default installation directory.
 
 The following table includes references to information about the Data ONTAP PowerShell toolkit:
-[cols="2*"]
+
+[cols="2*",options="header"]
 |===
+a|
+PowerShell Toolkit
+a|
+ References
 a|
 ONTAP PowerShell Toolkit Articles
 a|
@@ -75,15 +85,20 @@ https://communities.netapp.com/community/products_and_solutions/microsoft/powers
 
 WFA supports Perl commands for workflow operations. When you install WFA, the required Perl and Perl modules are installed on the WFA server.
 
-http://docs.activestate.com/activeperl/5.16/[ActivePerl User Guide]
+http://docs.activestate.com/activeperl/5.16/[ActivePerl User Guide^]
 
 You can also access the _ActivePerl User Guide_ from the following location: `WFA_install_location\WFA\Perl64\html\index.html.`
 
 `WFA_install_location` is the WFA installation directory, and `C:\Program Files\NetApp` is the default installation directory.
 
 WFA uses Perl scripts for workflow operations. The following table includes references to learning material for Perl:
-[cols="2*"]
+
+[cols="2*",options="header"]
 |===
+a|
+Perl
+a|
+References
 a|
 Modern Perl: 2014
 a|
@@ -109,7 +124,7 @@ The required Perl modules of the NetApp Manageability SDK are bundled along with
 
 The SQL SELECT syntax is used in filters and to populate user inputs.
 
-http://dev.mysql.com/doc/refman/5.1/en/select.html[MySQL SELECT syntax]
+http://dev.mysql.com/doc/refman/5.1/en/select.html[MySQL SELECT syntax^]
 
 == MVFLEX Expression Language (MVEL)
 
@@ -121,4 +136,4 @@ For more information, see the _MVEL Language Guide_.
 
 You can use regular expression (regex) in WFA.
 
-https://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/RegExp.html[ActionScript 3.0 Using regular expressions]
+https://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/RegExp.html[ActionScript 3.0 Using regular expressions^]

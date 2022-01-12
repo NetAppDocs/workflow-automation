@@ -59,8 +59,8 @@ entries:
     - title: OnCommand Workflow Automation data sources
       url: "/rhel-install/concept_wfa_data_sources.html"
       entries:
-      - title: Configure a database user on DataFabric Manager
-        url: "/rhel-install/reference_configure_a_database_user_on_datafabric_manager.html"
+      - title: Configuring a database user on DataFabric Manager
+        url: "/rhel-install/reference_configuring_a_database_user_on_datafabric_manager.html"
         entries:
         - title: Configure a database user by running ocsetup on Windows
           url: "/rhel-install/task_configure_a_database_user_by_running_ocsetup_on_windows.html"
@@ -102,8 +102,8 @@ entries:
       url: "/rhel-install/task_modify_the_transaction_timeout_setting_of_oncommand_workflow_automation_linux.html"
     - title: Configure the timeout value for Workflow Automation
       url: "/rhel-install/task_configure_the_timeout_value_for_linux.html"
-    - title: Enable ciphers and adding new ciphers
-      url: "/rhel-install/concept_enable_ciphers_and_adding_new_ciphers.html"
+    - title: Enabling ciphers and adding new ciphers
+      url: "/rhel-install/concept_enabling_ciphers_and_adding_new_ciphers.html"
   - title: Upgrade from OnCommand Workflow Automation 3.1 or later
     url: "/rhel-install/task_upgrade_from_wfa_4_2.html"
     entries:
@@ -128,8 +128,8 @@ entries:
         url: "/rhel-install/task_back_up_full_the_wfa_database_using_perl_script_linux.html"
       - title: Back up (regular) the WFA database using the CLI
         url: "/rhel-install/task_back_up_regular_the_wfa_database_using_perl_script_linux.html"
-    - title: Back up the WFA database using REST APIs
-      url: "/rhel-install/concept_back_up_the_wfa_database_using_rest_apis.html"
+    - title: Backing up the WFA database using the CLI
+      url: "/rhel-install/concept_backing_up_the_wfa_database_using_the_command_line_interface.html"
       entries:
       - title: Perform a full backup of the WFA database using REST APIs
         url: "/rhel-install/task_back_up_full_oncommand_workflow_automation_database_using_rest_api.html"
@@ -172,8 +172,8 @@ entries:
       url: "/rhel-install/task_replace_the_default_workflow_automation_ssl_certificate_linux.html"
     - title: Create a certificate signing request for Workflow Automation
       url: "/rhel-install/task_create_a_certificate_signing_request_for_workflow_automation_linux.html"
-  - title: Manage Perl and Perl modules
-    url: "/rhel-install/concept_manage_perl_and_perl_modules.html"
+  - title: Managing Perl and Perl modules
+    url: "/rhel-install/concept_managing_perl_and_perl_modules.html"
     entries:
     - title: Configure your preferred Perl distribution
       url: "/rhel-install/task_configure_your_preferred_perl_distribution_linux.html"

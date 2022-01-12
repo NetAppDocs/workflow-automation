@@ -106,7 +106,7 @@ The required Perl modules of the NetApp Manageability SDK are bundled along with
 
 The SQL SELECT syntax is used in filters and to populate user inputs.
 
-http://dev.mysql.com/doc/refman/5.1/en/select.html[MySQL SELECT syntax]
+http://dev.mysql.com/doc/refman/5.1/en/select.html[MySQL SELECT syntax^]
 
 == MVFLEX Expression Language (MVEL)
 
@@ -118,4 +118,4 @@ For more information, see the _MVEL Language Guide_.
 
 You can use regular expression (regex) in WFA.
 
-https://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/RegExp.html[ActionScript 3.0 Using regular expressions]
+https://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/RegExp.html[ActionScript 3.0 Using regular expressions^]

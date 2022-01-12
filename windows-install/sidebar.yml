@@ -36,9 +36,9 @@ entries:
       url: "/windows-install/task_configure_an_earlier_version_of_wfa_foir_high_availability_windows.html"
     - title: Uninstall Workflow Automation in an MSCS environment
       url: "/windows-install/task_uninstall_wfa_in_an_mscs_environment.html"
-    - title: Back up and restoring the OnCommand Workflow Automation database and
+    - title: Back up and restore the OnCommand Workflow Automation database and
         configurations on Windows
-      url: "/windows-install/task_back_up_and_restoring_the_wfa_database_and_configurations_windows.html"
+      url: "/windows-install/task_back_up_and_restore_the_wfa_database_and_configurations_windows.html"
   - title: Set up Workflow Automation in MSCS for high availability
     url: "/windows-install/task_set_up_wfa_in_mscs.html"
     entries:
@@ -48,8 +48,8 @@ entries:
       url: "/windows-install/task_install_workflow_automation_on_windows.html"
     - title: Configure Workflow Automation with MSCS
       url: "/windows-install/task_configure_wfa_with_mscs_using_configuration_scripts.html"
-  - title: Set up OnCommand Workflow Automation
-    url: "/windows-install/concept_set_up_oncommand_workflow_automation.html"
+  - title: Setting up OnCommand Workflow Automation
+    url: "/windows-install/concept_setting_up_oncommand_workflow_automation.html"
     entries:
     - title: Access OnCommand Workflow Automation
       url: "/windows-install/task_access_oncommand_workflow_automation.html"
@@ -153,8 +153,8 @@ entries:
     entries:
     - title: Restore the WFA database
       url: "/windows-install/task_restore_oncommand_workflow_automation_database_using_web_portal.html"
-    - title: Restore the WFA database using the CLI
-      url: "/windows-install/concept_restore_the_oncommand_workflow_automation_database_using_cli.html"
+    - title: Restoring the WFA database using the CLI
+      url: "/windows-install/concept_restoring_the_oncommand_workflow_automation_database_using_cli.html"
       entries:
       - title: Restore (full) WFA database using the CLI
         url: "/windows-install/task_fully_restore_the_oncommand_workflow_automation_database_using_clis_windows.html"
@@ -178,15 +178,15 @@ entries:
     url: "/windows-install/task_migrate_oncommand_workflow_automation.html"
   - title: Uninstall OnCommand Workflow Automation
     url: "/windows-install/task_uninstall_oncommand_workflow_automation.html"
-  - title: Manage OnCommand Workflow Automation SSL certificate
-    url: "/windows-install/reference_manage_oncommand_workflow_automation_ssl_certificates.html"
+  - title: Managing OnCommand Workflow Automation SSL certificate
+    url: "/windows-install/reference_managing_oncommand_workflow_automation_ssl_certificates.html"
     entries:
     - title: Replace the default Workflow Automation SSL certificate
       url: "/windows-install/task_replace_the_default_workflow_automation_ssl_certificate.html"
     - title: Create a certificate signing request for Workflow Automation
       url: "/windows-install/task_create_a_certificate_signing_request_for_workflow_automation_windows.html"
-  - title: Manage Perl and Perl modules
-    url: "/windows-install/reference_manage_perl_and_perl_modules.html"
+  - title: Managing Perl and Perl modules
+    url: "/windows-install/reference_managing_perl_and_perl_modules.html"
     entries:
     - title: Configure your preferred Perl distribution
       url: "/windows-install/task_configure_your_preferred_perl_interpreter.html"
