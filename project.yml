@@ -7,9 +7,13 @@ settings:
     pdf_enabled: true
 sidebar:
   entries:
-    - title: OnCommand Workflow Automation Documentation
+    - title: OnCommand Workflow Automation Docs
       url: "/index.html"
-    - section: help
+    - title: Release Notes
+      url: "/reference-releasenotes.html"
+    - section: rhel-install
+    - section: windows-install
     - section: workflow
+    - section: help
     - title: Legal notices
       url: "/reference-legal-notices.html"
