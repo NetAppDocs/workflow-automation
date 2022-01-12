@@ -1,13 +1,13 @@
 ---
 settings:
-  name: OnCommand Workflow Automation
+  name: OnCommand Workflow Automation 5.1.1
   internal:
     pdf_enabled: true
   prod:
     pdf_enabled: true
 sidebar:
   entries:
-    - title: OnCommand Workflow Automation Docs
+    - title: OnCommand Workflow 5.1 Documentation
       url: "/index.html"
     - title: Release Notes
       url: "/reference-releasenotes.html"
@@ -17,3 +17,19 @@ sidebar:
     - section: help
     - title: Legal notices
       url: "/reference-legal-notices.html"
+homepage:
+  tiles:
+    - title: Get started
+      links:
+        - title: Release Notes
+          url: reference-releasenotes.html
+    - title: Install & setup
+      links:
+        - title: Install OnCommand Workflow Automation on Linux systems
+          url: rhel-install/concept_oncommand_workflow_automation_installation_and_configuration_instructions.html
+        - title: Install OnCommand Workflow Automation on Windows
+          url: windows-install/concept_oncommand_workflow_automation_installation_and_configuration_instructions.html
+    - title: Build and manage workflows
+      links:
+        - title: Managing workflows
+          url: workflows/concept_managing_workflows.html
