@@ -71,7 +71,7 @@ WFA should be installed on dedicated physical machines or VMs. You must not inst
 +
 You can obtain information about the Perl modules that should be installed by using the `./WFA-version_number.bin -l` command.
 
-For more details, see the https://mysupport.netapp.com/matrix/[Interoperability Matrix Tool].
+For more details, see the https://mysupport.netapp.com/matrix/[Interoperability Matrix Tool^].
 
 NOTE: Antivirus applications might prevent WFA services from starting.
 
@@ -84,4 +84,4 @@ To avoid this issue, configure antivirus scanning exclusions for the following W
 
 *Related information*
 
-https://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool]
+https://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool^]
