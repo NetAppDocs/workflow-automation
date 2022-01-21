@@ -13,8 +13,8 @@ The Active Directory Groups window enables you to view, create, edit, and delete
 
 NOTE: Depending on your role and account privileges, this window might not be displayed.
 
-* <<SECTION_1AADE8ECC3594193BAE664C58DFE34FE,Active Directory groups table>>
-* <<SECTION_2155631DE7F442539F244CAEE80C1D36,Toolbar>>
+* Active Directory groups table
+* Toolbar
 
 == Active Directory Groups table
 
