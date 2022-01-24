@@ -112,7 +112,7 @@ NOTE: When you perform a rollback of an entity, the version of its immediate par
 
 * Import of new entities
 
-NOTE: You cannot selectively import entities from a .dar file.
+NOTE: You cannot selectively import entities from a `.dar` file.
 
 If a later version of an entity is imported, the version of its immediate parent entities is updated.
 
@@ -125,6 +125,7 @@ The revision part of the parent's version is incremented.
 * For an imported parent entity, if there is one child entity with a major change and another child entity with a minor change, the major change is applied to the parent entity.
 +
 The minor part of the parent's version is incremented.
+
 == Example of how the versions of imported child entities affect the parent's version
 
 Consider the following workflow in WFA: "`Create Volume and export using NFS - Custom`" 1.0.0.

@@ -34,7 +34,7 @@ Traps are sent encrypted over the network. To receive and decrypt these traps, y
  ** Version 3 with Authentication and Encryption
 . Select the SNMP configuration options that correspond to the specific SNMP Version 3 option you chose in Step 4.
 . Enter an IPv4 or IPv6 address or the host name, and the port number of the management host. WFA sends SNMP traps to the specified port number. The default port number is 162.
-. In the Notify On section, select one or more of the following check boxes:
+. In the *Notify On* section, select one or more of the following check boxes:
  ** Workflow planning started/failed/completed
  ** Workflow execution started
  ** Workflow execution completed successfully
