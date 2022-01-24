@@ -7,9 +7,9 @@ settings:
     pdf_enabled: true
 sidebar:
   entries:
-    - title: OnCommand Workflow 5.1 Documentation
+    - title: OnCommand Workflow 5.1 docs
       url: "/index.html"
-    - title: Release Notes
+    - title: Release notes
       url: "/reference-releasenotes.html"
     - section: rhel-install
     - section: windows-install
