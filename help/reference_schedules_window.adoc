@@ -11,8 +11,8 @@ summary: "The Schedules window enables you to create, edit, and delete the sched
 [.lead]
 The Schedules window enables you to create, edit, and delete the schedule of a workflow. You can schedule a workflow to be executed at a particular date and time. You can access this window by selecting *Execution* > *Schedules*.
 
-* <<GUID-1E417C67-1F31-4FA5-AAA7-2D5BB298C6AB,Schedules table>>
-* <<SECTION_819274C0AB2341B0915167A78A41F1D8,Toolbar>>
+* Schedules table
+* Toolbar
 
 == Schedules table
 

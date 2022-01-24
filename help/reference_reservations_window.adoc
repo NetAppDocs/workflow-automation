@@ -13,8 +13,8 @@ The Reservations window displays each workflow that is marked for reservation, a
 
 A reservation helps ensure that a selected resource is available for a specific scheduled workflow when that workflow is executed.
 
-* <<GUID-46A4D2D1-72DE-4AFB-B3A0-CB6077DB4081,Reservations table>>
-* <<GUID-757A6BAF-198D-4227-AD89-9359698CF77B,Toolbar>>
+* Reservations table
+* Toolbar
 
 == Reservations table
 

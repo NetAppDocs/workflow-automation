@@ -13,9 +13,9 @@ The Data Sources window enables you to view, edit, and delete existing data sour
 
 A data source is a read-only data structure that contains information about where the data in a specific database originates from. Data sources must be defined before environments can be polled. For example, a data source can be either an Active IQ Unified Manager database that contains information about a storage environment or a VMware database with information about a data center.
 
-* <<GUID-65BFF234-5FF3-498A-8597-787005532741,Data Sources table>>
-* <<GUID-E9AADB76-2F48-41F0-843C-38E4652240B7,History table>>
-* <<GUID-F54D39AA-60D5-4218-B0B9-A04A6C196BFD,Toolbar>>
+* Data Sources table
+* History table
+* Toolbar
 
 == Data Sources table
 

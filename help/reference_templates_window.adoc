@@ -13,8 +13,8 @@ The Templates window displays the available templates in alphabetical order. A t
 
 NOTE: Depending on your role and account privileges, this window might not be displayed.
 
-* <<GUID-03349071-D237-4048-A804-4B8393A4153B,Templates table>>
-* <<SECTION_56A8573F5684463E88DC7F15575E0EFF,Toolbar>>
+* Templates table
+* Toolbar
 
 == Templates table
 
