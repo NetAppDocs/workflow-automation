@@ -20,7 +20,7 @@ You must have configured a mail host in your environment.
 . Log in to WFA through a web browser as an admin.
 . Click *Settings*, and under *Setup* click *Mail*.
 . Enter the required information in the fields.
-. Test the mail settings by performing the following steps:
+. *Optional:* Test the mail settings by performing the following steps:
  .. Click *Send test mail*.
  .. In the *Test Connection* dialog box, enter the email address to which you want to send the email.
  .. Click *Test*.
