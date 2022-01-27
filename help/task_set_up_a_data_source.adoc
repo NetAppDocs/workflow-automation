@@ -99,10 +99,13 @@ Performance Advisor for (Active IQ Unified Manager versions earlier than 6.0)
 a|
 Enter the credentials of an Active IQ Unified Manager user with a minimum role of GlobalRead.
 
-*Note:* You must not provide the credentials of an Active IQ Unified Manager Database User account that was created using the command-line interface or the ocsetup tool.
+[NOTE]
+====
+You must not provide the credentials of an Active IQ Unified Manager Database User account that was created using the command-line interface or the ocsetup tool.
+====
 
 |===
 
 . Click *Save*.
-. In the Data Sources table, select the data source, and click image:../media/acquire_now_wfa_icon.gif[Acquire now icon] on the toolbar.
+. *Optioal:* In the Data Sources table, select the data source, and click image:../media/acquire_now_wfa_icon.gif[Acquire now icon] on the toolbar.
 . Verify the status of the data acquisition process.

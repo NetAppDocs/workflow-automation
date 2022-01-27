@@ -36,11 +36,12 @@ You must not include JavaScript files as part of the help content. The following
  ** `.html`
  ** `.css`
 
++
 You can also include the `Thumbs.db` file, which is created by Windows.
 
 . Verify that the `index.htm` file and other files associated with the help content, such as images, are available in the `workflow-help` folder.
 . Create a `.zip` file of the folder and ensure that the size of the `.zip` file is not more than 2 MB.
 +
-`Create an NFS volume-help.zip`
+*Example:* `Create an NFS volume-help.zip`
 
 . Edit the workflow for which you have created the help content, and then click *Setup* > *Help Content* > *Browse* to upload the `.zip` file.

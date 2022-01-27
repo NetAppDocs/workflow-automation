@@ -28,5 +28,5 @@ By default, WFA supports two types of schemes: Data Source Acquisition and Other
 . Log in to WFA through a web browser as an administrator or architect.
 . Click *Data Source Design* > *Schemes*.
 . Create a new scheme by clicking image:../media/new_wfa_icon.gif[New icon] on the toolbar.
-. Enter the required information such as the name, type, description, and entity version of the scheme in the New Schemes dialog box.
+. Enter the required information such as the name, type, description, and entity version of the scheme in the *New Schemes* dialog box.
 . Click *Save*.

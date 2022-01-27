@@ -50,7 +50,9 @@ Controller and shelf upgrade of an HA pair
 a|
 Yes
 a|
-YesSupported only for clusters running versions earlier than Data ONTAP 8.3.
+Yes
+
+Supported only for clusters running versions earlier than Data ONTAP 8.3.
 
 a|
 Create a basic Clustered Data ONTAP Volume
@@ -105,14 +107,18 @@ Create and configure NAS Storage Virtual Machine
 a|
 Yes
 a|
-YesSupported only for clusters running versions earlier than Data ONTAP 8.3.
+Yes
+
+Supported only for clusters running versions earlier than Data ONTAP 8.3.
 
 a|
 Create and configure SAN Storage Virtual Machine
 a|
 Yes
 a|
-YesSupported only for clusters running versions earlier than Data ONTAP 8.3.
+Yes
+
+Supported only for clusters running versions earlier than Data ONTAP 8.3.
 
 a|
 Create Clustered Data ONTAP SnapMirror Relationship on 8.1.x

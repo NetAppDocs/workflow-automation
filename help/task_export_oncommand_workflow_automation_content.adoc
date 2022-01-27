@@ -53,7 +53,7 @@ a|
 
  .. Navigate to the window from which you want to export content.
  .. Select one or more items from the window, and then click image:../media/export_wfa_icon.gif[Export icon].
- .. In the Export As dialog box, specify a file name for the .dar file, and then click *Export*.
+ .. In the Export As dialog box, specify a file name for the `.dar` file, and then click *Export*.
 
 +
 |===

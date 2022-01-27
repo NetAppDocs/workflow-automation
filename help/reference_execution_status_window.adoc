@@ -191,15 +191,15 @@ Opens a Reschedule Workflow dialog box, which enables you to change the time of 
 
 * *image:../media/resume_wfa_icon.gif[Resume icon] (Resume)*
 +
-Opens a Resume Workflow dialog box, which enables you to resume the execution of the workflow after modifying environment issues (for example, wrong credentials to an array, missing licenses, or array is down). The option is enabled for workflows that are in the Failed state.
+Opens a Resume Workflow dialog box, which enables you to resume the execution of the workflow after modifying environment issues (for example, wrong credentials to an array, missing licenses, or array is down). The option is enabled for workflows that are in the `Failed` state.
 
 * *image:../media/approve_resume_wfa_icon.gif[Approve and resume icon] (Approve & Resume)*
 +
-Enables you to approve the execution of the workflow and continue the execution process. This option is enabled for workflows that are in the Waiting For Approval state.
+Enables you to approve the execution of the workflow and continue the execution process. This option is enabled for workflows that are in the `Waiting For Approval state`.
 
 * *image:../media/reject_abort_wfa_icon.gif[Reject and abort icon] (Reject & Abort)*
 +
-Enables you to reject the execution of the workflow and stop the execution process. This option is enabled for workflows that are in the Waiting For Approval state.
+Enables you to reject the execution of the workflow and stop the execution process. This option is enabled for workflows that are in the `Waiting For Approval state`.
 
 * *image:../media/clean_reservation_wfa_icon.gif[Clean reservation icon] (Clean Reservation)*
 +
