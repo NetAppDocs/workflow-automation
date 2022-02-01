@@ -104,7 +104,7 @@ entries:
       - title: Check in a new version of a WFA workflow pack
         url: "/workflows/task_check_in_a_new_version_of_a_pack_to_a_new_location_in_scm.html"
       - title: Update WFA workflow packs from the SCM server
-        url: "/workflows/task_updat_the_pack_from_scm.html"
+        url: "/workflows/task_update_the_pack_from_scm.html"
       - title: Check in existing WFA workflow packs to the SCM server
         url: "/workflows/task_check_in_an_already_existing_pack_into_scm.html"
       - title: Remove WFA workflow packs from entities

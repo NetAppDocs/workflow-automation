@@ -26,8 +26,8 @@ You cannot use the web UI for backing up or restoring the WFA database during di
 .Steps
 . Back up the OnCommand Workflow Automation database.
 +
-link:reference_backing_up_of_the_oncommand_workflow_automation_database.md#[Backing up the OnCommand Workflow Automation database]
+link:reference_backing_up_of_the_oncommand_workflow_automation_database.html[Backing up the OnCommand Workflow Automation database]
 
 . Restore a previous backup of the OnCommand Workflow Automation database.
 +
-link:concept_restoring_the_wfa_database.md#[Restoring the OnCommand Workflow Automation database]
+link:concept_restoring_the_wfa_database.html[Restoring the OnCommand Workflow Automation database]
