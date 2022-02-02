@@ -89,8 +89,8 @@ a|
 ----
 # Get the latest job which moves the specified volume to the specified
  aggregate.
-$job = Get-NcJob -Query $query | where
-{$_.JobDescription -eq "Split" + $VolumeCloneName} | Select-Object -First 1
+$job = Get-NcJob -Query $query \| where
+{$_.JobDescription -eq "Split" + $VolumeCloneName} \| Select-Object -First 1
 ----
 
 a|
