@@ -107,5 +107,5 @@ You must not provide the credentials of an Active IQ Unified Manager Database Us
 |===
 
 . Click *Save*.
-. *Optioal:* In the Data Sources table, select the data source, and click image:../media/acquire_now_wfa_icon.gif[Acquire now icon] on the toolbar.
+. *Optional:* In the Data Sources table, select the data source, and click image:../media/acquire_now_wfa_icon.gif[Acquire now icon] on the toolbar.
 . Verify the status of the data acquisition process.
