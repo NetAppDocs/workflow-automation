@@ -11,8 +11,11 @@ summary: "You can create a WFA command to complete a specific task in your workf
 [.lead]
 You can create a WFA command to complete a specific task in your workflow if there is no predefined WFA command that is suitable for the task.
 
+== What you'll need
+
 You must know how to write the required code for the command using either PowerShell or Perl.
 
+.Steps
 . Click *Workflow Design* > *Commands*.
 . Click image:../media/new_wfa_icon.gif[New icon] on the toolbar.
 . In the *Properties* tab of the *New Command Definition* dialog box, enter or select the required details in the *Name*, *Description*, and *Timeout* fields.
@@ -22,7 +25,7 @@ You must know how to write the required code for the command using either PowerS
 +
 The string representation for a command is used to display the information you want to see in the workflow design during planning and execution. You must use only the parameters of the command in string representation for a command.
 
- .. If you are creating a wait command, select *Wait for condition* in the Command type section, and set the required value in the *Waiting interval (s)* field.
+ .. *Optional:* If you are creating a wait command, select *Wait for condition* in the *Command type* section, and set the required value in the *Waiting interval (s)* field.
 . In the *Code* tab, perform the following steps:
  .. Select the required scripting language for the command from the *Script Language* list.
 +
@@ -72,7 +75,7 @@ The object name is used for grouping the parameters under a tab in the Parameter
 +
 The unmapped parameters are displayed in the *Other parameters* tab of the Parameters for <command> dialog box when you are specifying the command details in a workflow.
 . In the *Reservation* tab, enter a reservation script using SQL queries to reserve the resources that are required by the command during a scheduled workflow execution:
- .. In the *Reservation Representation* field, enter a string representation for the reservation using MVEL syntax.
+ .. *Optional:* In the *Reservation Representation* field, enter a string representation for the reservation using MVEL syntax.
 +
 ``"Add rule for SnapMirror label ``" + SnapMirrorLabel + "[.code]`` to the SnapMirror policy ``" + PolicyName + "`"`
 +
@@ -80,7 +83,7 @@ The string representation is used to display the details of the resources reserv
 
 +
 NOTE: The reservation script must not perform any operation on databases except the cm_storage, cm_performance, storage, performance, vc, and custom schemes.
-. In the *Verification* tab, enter an SQL query to verify whether the command has affected the data sources and the WFA cache as expected so that the reservation can be removed.
+. *Optional:* In the *Verification* tab, enter an SQL query to verify whether the command has affected the data sources and the WFA cache as expected so that the reservation can be removed.
 +
 The SQL query that you enter can only consist of SQL SELECT statements.
 

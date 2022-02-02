@@ -11,6 +11,7 @@ summary: "You can create a template that can be used as a blueprint for filling 
 [.lead]
 You can create a template that can be used as a blueprint for filling up attributes in command details.
 
+.Steps
 . Click *Workflow Design* > *Templates*.
 . Click image:../media/new_wfa_icon.gif[New icon] on the toolbar.
 . In the *New Template* dialog box, enter or select the required details in the *Name*, *Type*, and *Description* fields.

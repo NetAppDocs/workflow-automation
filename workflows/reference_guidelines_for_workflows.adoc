@@ -56,7 +56,7 @@ a|
 
 * Scenario 1
 +
-If you create a workflow that first removes a volume by name using the command `Remove Volume` only if the volume exists, and the re-creates it using another command such as `Create Volume` or `Clone Volume,` then the workflow should not use this flag. The effect of removing the volume will not be available to the Create volume command, thereby causing the workflow to fail.
+If you create a workflow that first removes a volume by name using the command `Remove Volume` only if the volume exists, and the re-creates it using another command such as `Create Volume` or `Clone Volume,` then the workflow should not use this flag. The effect of removing the volume will not be available to the `Create volume` command, thereby causing the workflow to fail.
 
 * Scenario 2
 +
@@ -162,7 +162,7 @@ a|
 Type: Use Boolean type with values as "`true, false`" for user inputs that are Boolean in nature. This helps in writing internal expressions in the workflow design using the user input directly. For example, $UserInputName rather than $UserInputName == '`Yes'.
 
 a|
-$CreateCIFSShare: Boolean type with valid values as "`true`" or "`false`"
+`$CreateCIFSShare`: Boolean type with valid values as "`true`" or "`false`"
 a|
 Type:For string and number type, use regular expressions in the values column when you want to validate the value with specific formats.
 
@@ -201,7 +201,7 @@ None
 a|
 Constants: Define constants when using a common value for defining parameters to multiple commands.
 a|
-_AGGREGATE_OVERCOMMITMENT_THRESHOLD_ in the Create, map, and protect LUNs with SnapVault sample workflow.
+_AGGREGATE_OVERCOMMITMENT_THRESHOLD_ in the `Create, map, and protect LUNs with SnapVault sample workflow`.
 a|
 Constants:Names
 

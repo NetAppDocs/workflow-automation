@@ -30,11 +30,11 @@ By default, the timeout for standard commands is 600 seconds. The default timeou
 a|
 `Create Volume` command
 a|
-In case of long-running operations, create two commands--one to invoke the long-running operation and another to report the progress of the operation periodically. The first command should be a Standard Execution command type and the second should be Wait for Condition command type.
+In case of long-running operations, create two commands--one to invoke the long-running operation and another to report the progress of the operation periodically. The first command should be a `Standard Execution` command type and the second should be `Wait for Condition` command type.
 a|
 `Create VSM` and `Wait for VSM` commands
 a|
-Prefix the Wait for condition command names with "`Wait`" for easy identification.
+Prefix the `Wait for condition` command names with "`Wait`" for easy identification.
 a|
 `Wait for CM Volume Move`
 a|
@@ -42,7 +42,7 @@ Use an appropriate waiting interval for the "`Wait for condition`" commands. The
 a|
 60s sampling interval for the `Wait for VSM` command
 a|
-For the Wait for condition commands, use an appropriate timeout based on the expected time for the long-running operation to complete. The expected time might be considerably longer if the operation involves data transfer over a network.
+For the `Wait for condition` commands, use an appropriate timeout based on the expected time for the long-running operation to complete. The expected time might be considerably longer if the operation involves data transfer over a network.
 a|
 A VSM baseline transfer can take many days to complete. Therefore, the specified timeout is 6 days.
 |===
@@ -60,11 +60,11 @@ VolName 10.68.66.212[NA]aggr1/testVol7
 a|
 Separate different entries in the string representation using the following delimiters: [ ] , / :
 a|
-_ArrayName[ArrayIp]_
+`_ArrayName[ArrayIp]_`
 a|
 Provide meaningful labels to every value in string representation.
 a|
-_Volume name=VoumeName_
+`_Volume name=VoumeName_`
 |===
 
 == Command definition language

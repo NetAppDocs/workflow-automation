@@ -24,7 +24,7 @@ The guidelines for creating data source types are as follows:
 +
 The predefined data source type that collects information from Performance Advisor uses a SCRIPT-based data source type. The output files are named `array_performance.csv` and `aggregate_performance.csv.`
 
-* The .csv file should include the content in the exact order as that of the dictionary entry attributes.
+* The `.csv` file should include the content in the exact order as that of the dictionary entry attributes.
 +
 A dictionary entry includes attributes in the following order: array_ip, date, day, hour, cpu_busy, total_ops_per_sec, disk_throughput_per_sec.
 +

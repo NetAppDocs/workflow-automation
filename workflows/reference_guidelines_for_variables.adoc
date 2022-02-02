@@ -93,7 +93,7 @@ param(
 ----
 
 a|
-Comment all input variables using HelpMessage annotation with a meaningful help message.
+Comment all input variables using `_HelpMessage_` annotation with a meaningful help message.
 a|
 
 ----
@@ -106,7 +106,7 @@ Do not use "`Filer`" as a variable name; use "`Array`" instead.
 a|
 None
 a|
-Use ValidateSet annotation in cases where the argument gets enumerated values. This automatically translates to Enum data type for the parameter.
+Use `_ValidateSet_` annotation in cases where the argument gets enumerated values. This automatically translates to Enum data type for the parameter.
 a|
 
 ----
@@ -198,7 +198,7 @@ Do not use "`Filer`" as a variable name; use "`Array`" instead.
 a|
 None
 a|
-Perl does not include the ValidateSet annotation for enumerated values. Use explicit "`if`" statements for cases where argument gets enumerated values.
+Perl does not include the `_ValidateSet_` annotation for enumerated values. Use explicit "`if`" statements for cases where argument gets enumerated values.
 a|
 
 ----

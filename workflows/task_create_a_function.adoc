@@ -11,7 +11,11 @@ summary: "You can create a WFA function that can be used as a utility, if there 
 [.lead]
 You can create a WFA function that can be used as a utility, if there is no predefined WFA function that is suitable for your task.
 
+== What you'll need
+
 You must know MVFLEX Expression Language (MVEL) syntaxes to create a function.
+
+== About this task
 
 You must include the following for the function definitions:
 
@@ -21,6 +25,7 @@ You must not use a reserved word in MVEL syntax. Each function must have a uniqu
 
 * MVEL definition: a string specifying the MVEL syntax of the function definition
 
+.Steps
 . Click *Workflow Design* > *Functions*.
 . Click image:../media/new_wfa_icon.gif[New icon] on the toolbar.
 . In the *New Function* dialog box, enter or select the required details in the *Function description* and *Function definition* fields.
@@ -41,7 +46,7 @@ def actualVolumeSize(data_size, snap_pct)
 +
 The *Function name* field is populated from the data that is used in the MVEL syntax.
 
-. Click *Test* to test the function:
+. *Optional:* Click *Test* to test the function:
  .. In the *Expression* section of the *Test* dialog box, enter the required expression of function.
 +
 `actualVolumeSize(600, 1)`

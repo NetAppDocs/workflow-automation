@@ -18,7 +18,7 @@ You must be aware of the PowerShell or Perl modules for OnCommand Workflow Autom
 a|
 Use the Data ONTAP PS Toolkit to invoke APIs whenever the toolkit is available.
 a|
-The Add VLAN command uses the toolkit as follows:
+The `Add VLAN` command uses the toolkit as follows:
 
 `Add-NaNetVlan-Interface $Interface-Vlans$VlanID`
 
@@ -77,7 +77,10 @@ The following example shows how the NaServer module is used for a resume SnapMir
 a|
 If a Data ONTAP API is not available, invoke the Data ONTAP CLI using the executeSystemCli utility method.
 
-*Note:* executeSystemCli is not supported and is currently available only for Data ONTAP operating in 7-Mode.
+[NOTE]
+====
+executeSystemCli is not supported and is currently available only for Data ONTAP operating in 7-Mode.
+====
 
 a|
 None

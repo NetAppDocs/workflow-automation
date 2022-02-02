@@ -11,8 +11,11 @@ summary: "You can roll back a pack to the previous version in Source Control Man
 [.lead]
 You can roll back a pack to the previous version in Source Control Management (SCM) and import it to OnCommand Workflow Automation (WFA).
 
+== What you'll need
+
 The SCM must be set up and you must have admin or architect credentials.
 
+.Steps
 . In the SCM client location, roll back the pack to a previous version in the file system location using SCM tools.
 +
 The SCM client gets synced to the exact change number that you are interested in.

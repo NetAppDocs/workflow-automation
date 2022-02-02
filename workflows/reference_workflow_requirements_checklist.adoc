@@ -47,7 +47,7 @@ a|
  ** Use the *Space Guaranteed Settings* template for configuring the volume
  ** Volume name and size are provided by user.
 +
-The volume will be mounted in the SVM namespace as /volname (under the root namespace).
+The volume will be mounted in the SVM namespace as `/volname` (under the root namespace).
 
  ** Use the *actualVolumeSize* function because the snap reserve will be 5%.
  ** SVM reference is defined with the following resource selection logic:
