@@ -29,6 +29,4 @@ The NetApp-certified content packs can be downloaded from the Storage Automation
 
 *Related information*
 
-https://community.netapp.com/t5/Data-Infrastructure-Management-Software-Discussions/bd-p/oncommand-storage-management-software-discussions/label-name/workflow%20automation%20(wfa)?labels=workflow+automation+%28wfa%29[NetApp community: OnCommand Management Software]
-
-https://community.netapp.com/t5/OnCommand-Storage-Management-Software-Articles-and-Resources/tkb-p/oncommand-storage-management-software-articles-and-resources/label-name/workflow%20automation%20%28wfa%29?labels=workflow+automation+%28wfa%29[NetApp community: OnCommand Workflow Automation]
+https://community.netapp.com/t5/OnCommand-Storage-Management-Software-Articles-and-Resources/tkb-p/oncommand-storage-management-software-articles-and-resources/label-name/workflow%20automation%20%28wfa%29?labels=workflow+automation+%28wfa%29[NetApp community: OnCommand Workflow Automation^]
