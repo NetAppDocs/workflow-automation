@@ -36,11 +36,11 @@ http://get-powershell.com/post/2011/04/13/Extra-Points-for-Style-when-writing-Po
 a|
 PowerShell Try/Catch Finally
 a|
-http://technet.microsoft.com/en-us/library/dd315350.aspx
+http://technet.microsoft.com/en-us/library/dd315350.aspx[^]
 a|
 PowerShell Automatic Variables
 a|
-http://technet.microsoft.com/en-us/library/dd347675.aspx
+http://technet.microsoft.com/en-us/library/dd347675.aspx[^]
 a|
 PowerShell Error Reporting
 a|
@@ -86,15 +86,15 @@ WFA uses Perl scripts for workflow operations. The following table includes refe
 a|
 Modern Perl: 2014
 a|
-http://modernperlbooks.com/books/modern_perl_2014/index.html
+http://modernperlbooks.com/books/modern_perl_2014/index.html[^]
 a|
 Perl programming documentation
 a|
-http://perldoc.perl.org/
+http://perldoc.perl.org/[^]
 a|
 Perl programming language
 a|
-http://www.perl.org/
+http://www.perl.org/[^]
 |===
 
 == NetApp Manageability SDK
