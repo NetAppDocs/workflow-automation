@@ -1,8 +1,8 @@
 ---
 permalink: workflows/reference_guidelines_for_wfa_functions.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create functions to encapsulate commonly used and more complex logic in a named function, and then reuse the function as command parameter values or filter parameters values in OnCommand Workflow Automation \(WFA\).'
+keywords: create, functions, encapsulate, common, complex, logic, name, function, reuse, command, parameter, value, oncommand, workflow, automation
+summary: "You can create functions to encapsulate commonly used and more complex logic in a named function, and then reuse the function as command parameter values or filter parameters values in OnCommand Workflow Automation (WFA)."
 ---
 = Guidelines for WFA functions
 :icons: font
@@ -10,7 +10,7 @@ summary: 'You can create functions to encapsulate commonly used and more complex
 
 [.lead]
 You can create functions to encapsulate commonly used and more complex logic in a named function, and then reuse the function as command parameter values or filter parameters values in OnCommand Workflow Automation (WFA).
-
+[cols="2*",options="header"]
 |===
 | Guidelines| Example
 a|
@@ -34,6 +34,3 @@ The function definition should be specified according to the official Java Progr
 a|
 None
 |===
-*Related information*
-
-xref:reference_references_to_learning_material.adoc[References to learning material]

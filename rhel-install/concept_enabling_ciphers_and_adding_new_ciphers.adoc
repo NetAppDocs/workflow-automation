@@ -1,8 +1,8 @@
 ---
 permalink: rhel-install/concept_enabling_ciphers_and_adding_new_ciphers.html
 sidebar: sidebar
-keywords: enable ciphers,add new ciphers,ciphers
-summary: 'OnCommand Workflow Automation 5.1 supports a number of ciphers out of the box. Also, you can add additional ciphers as required.'
+keywords: enable ciphers, add new ciphers, ciphers
+summary: "OnCommand Workflow Automation 5.1 supports a number of ciphers out of the box. Also, you can add additional ciphers as required."
 ---
 = Enabling ciphers and adding new ciphers
 :icons: font
@@ -22,7 +22,8 @@ TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384,TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256,TLS_
 TLS_RSA_WITH_AES_128_GCM_SHA256,TLS_RSA_WITH_AES_256_GCM_SHA384"
 ----
 
-Additional ciphers can be added to this configuration in the `standalone-full.xml` file. This file is located at: `<installdir>/jboss/standalone/configuration/standalone-full.xml`.
+Additional ciphers can be added to this configuration in the `standalone-full.xml` file. This file is located at:
+`<installdir>/jboss/standalone/configuration/standalone-full.xml`.
 
 The file can be modified to support additional ciphers as follows:
 

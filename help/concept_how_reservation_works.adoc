@@ -1,8 +1,8 @@
 ---
 permalink: help/concept_how_reservation_works.html
 sidebar: sidebar
-keywords: 
-summary: 'OnCommand Workflow Automation resource reservation capability reserves the required resources to ensure that the resources are available for successful execution of workflows.'
+keywords: oncommand, workflow, automation, resource, reservation, capability, require, resource, ensure, available, successful, execution, workflow
+summary: "OnCommand Workflow Automation resource reservation capability reserves the required resources to ensure that the resources are available for successful execution of workflows."
 ---
 = How reservation works
 :icons: font

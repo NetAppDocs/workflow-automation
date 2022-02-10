@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_reservations_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Reservations window displays each workflow that is marked for reservation, and enables you to manage the reservations. You can access this window by selecting Execution \> Reservations.'
+keywords: reservations, window, display, workflow, marked, reservation, enable, manage, access, selecting, execution
+summary: "The Reservations window displays each workflow that is marked for reservation, and enables you to manage the reservations. You can access this window by selecting Execution > Reservations."
 ---
 = Reservations window
 :icons: font
@@ -13,8 +13,8 @@ The Reservations window displays each workflow that is marked for reservation, a
 
 A reservation helps ensure that a selected resource is available for a specific scheduled workflow when that workflow is executed.
 
-* <<GUID-46A4D2D1-72DE-4AFB-B3A0-CB6077DB4081,Reservations table>>
-* <<GUID-757A6BAF-198D-4227-AD89-9359698CF77B,Toolbar>>
+* Reservations table
+* Toolbar
 
 == Reservations table
 
@@ -28,7 +28,7 @@ The Reservations table lists the workflows that are submitted for reservation. Y
 * Clicking the *Search* filter text box allows you to search for specific content. In addition, you can search using supported operators for the applicable column type, Alphabetic or Numeric.
 
 The following table lists the supported operators for alphabetic and numeric columns in the Reservations table, available from the *Search* filter text box.
-
+[cols="2*",options="header"]
 |===
 | Alphabetic| Numeric
 a|

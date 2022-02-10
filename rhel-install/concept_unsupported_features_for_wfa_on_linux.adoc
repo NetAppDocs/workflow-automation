@@ -1,8 +1,8 @@
 ---
 permalink: rhel-install/concept_unsupported_features_for_wfa_on_linux.html
 sidebar: sidebar
-keywords: OnCommand Workflow Automation
-summary: 'OnCommand Workflow Automation \(WFA\) 5.1 includes some limitations and unsupported features that you should be aware of before you install and configure WFA.'
+keywords: oncommand, workflow, automation, limitations
+summary: "OnCommand Workflow Automation (WFA) 5.1 includes some limitations and unsupported features that you should be aware of before you install and configure WFA."
 ---
 = Known limitations for OnCommand Workflow Automation
 :icons: font
@@ -15,7 +15,11 @@ OnCommand Workflow Automation (WFA) 5.1 includes some limitations and unsupporte
  ** You can use only Microsoft Active Directory Lightweight Directory Access Protocol (LDAP) server for LDAP authentication.
  ** You must be a member of an LDAP group in order to use LDAP authentication.
  ** You must not use an LDAP user name that is part of a hierarchical structure of multiple domains for authentication or notification.
-*Note:* Microsoft Active Directory Lightweight Directory Services (AD LDS) is not supported.
+
+[NOTE]
+====
+Microsoft Active Directory Lightweight Directory Services (AD LDS) is not supported.
+====
 * *WFA data sources types*
 +
 OnCommand Unified Manager 6.0, 6.1, and 6.2 data source types are deprecated in the WFA 4.1 release, and these data source types will not be supported in future releases.

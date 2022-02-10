@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_dictionary_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Dictionary window displays the available dictionary entries in alphabetical order.'
+keywords: dictionary, window, display, available, entry, alphabetical order
+summary: "The Dictionary window displays the available dictionary entries in alphabetical order."
 ---
 = Dictionary window
 :icons: font
@@ -50,7 +50,7 @@ Displays the scheme associated with the dictionary entries. A scheme is a collec
 
 * *Entity Version*
 +
-Displays the version number of the object in major.minor.revision format--for example, 1.0.0.
+Displays the version number of the object in `major.minor.revision` format--for example, 1.0.0.
 
 * *Description*
 +
@@ -132,13 +132,12 @@ Enables you to reset the scheme associated with the selected dictionary entry.
 +
 Opens the Add To Pack Dictionary dialog box, which enables you to add the dictionary entry and its dependable entities to a pack, which is editable.
 +
-NOTE: The Add To Pack feature is enabled only for the dictionary entries for which the certification is set to None.
-
+NOTE: The Add To Pack feature is enabled only for the dictionary entries for which the certification is set to *None.*
 * *image:../media/remove_from_pack.png[remove from pack icon] (Remove From Pack)*
 +
 Opens the Remove From Pack Dictionary dialog box for the selected dictionary entry, which enables you to delete or remove the dictionary entry from the pack.
 +
-NOTE: The Remove From Pack feature is enabled only for dictionary entries for which the certification is set to None.
+NOTE: The Remove From Pack feature is enabled only for dictionary entries for which the certification is set to *None.*
 
 * *image:../media/inventory.png[] (Inventory)*
 +

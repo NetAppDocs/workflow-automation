@@ -1,8 +1,8 @@
 ---
 permalink: workflows/reference_guidelines_for_wfa_dictionary_entry.html
 sidebar: sidebar
-keywords: 
-summary: 'You must be aware of the guidelines for creating dictionary entries in OnCommand Workflow Automation \(WFA\).'
+keywords: aware, guidelines, create, dictionary, entries, oncommand, workflow, automation
+summary: "You must be aware of the guidelines for creating dictionary entries in OnCommand Workflow Automation (WFA)."
 ---
 = Guidelines for WFA dictionary entries
 :icons: font
@@ -10,7 +10,7 @@ summary: 'You must be aware of the guidelines for creating dictionary entries in
 
 [.lead]
 You must be aware of the guidelines for creating dictionary entries in OnCommand Workflow Automation (WFA).
-
+[cols="2*",options="header"]
 |===
 | Guidelines| Example
 a|
@@ -21,7 +21,7 @@ Cluster_License
 Switch_23
 
 a|
-Dictionary entry names must start with an uppercase character.Begin every word in the name with an uppercase character and separate each word with an underscore (_).
+Dictionary entry names must start with an uppercase character. Begin every word in the name with an uppercase character and separate each word with an underscore (_).
 
 a|
 Volume

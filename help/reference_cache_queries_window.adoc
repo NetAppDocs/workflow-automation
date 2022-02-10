@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_cache_queries_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Cache Queries window enables you to manage cache queries for the WFA dictionary entries and their associated data source types.'
+keywords: cache, queries, window, enable, manage, dictionary, entries, data, source, types
+summary: "The Cache Queries window enables you to manage cache queries for the WFA dictionary entries and their associated data source types."
 ---
 = Cache Queries window
 :icons: font
@@ -13,8 +13,8 @@ The Cache Queries window enables you to manage cache queries for the WFA diction
 
 A cache query is an SQL query that retrieves the required data from the table specified in the query. A cache query is associated with a dictionary entry and one or more data source types--for example, cache query for *Volume (storage)* is associated with both Active IQ Unified Manager 5.1 and 5.2 data source types. You can define a cache query when you want retrieve some information, such as volume from a table of a data source Active IQ Unified Manager 6.0 into WFA's cache.
 
-* <<SECTION_EACB13D7EB7B44F6B66845CD75CAFE0E,Cache Queries table>>
-* <<SECTION_819274C0AB2341B0915167A78A41F1D8,Toolbar>>
+* Cache Queries table
+* Toolbar
 
 == Cache Queries list
 
@@ -43,7 +43,7 @@ Displays the dictionary entry associated with the scheme.
 
 * *Entity Version*
 +
-Displays the version number of the object in major.minor.revision format--for example, 1.0.0.
+Displays the version number of the object in `major.minor.revision` format--for example, 1.0.0.
 
 * *Data Source Types*
 +
@@ -101,10 +101,10 @@ Opens the Test Cache Query dialog box, which enables you to test the selected ca
 +
 Opens the Add To Pack Cache Query dialog box, which enables you to add the cache query and its dependable entities to a pack, which is editable.
 +
-NOTE: The Add To Pack feature is enabled only for the cache query for which the certification is set to None.
+NOTE: The Add To Pack feature is enabled only for the cache query for which the certification is set to *None.*
 
 * *image:../media/remove_from_pack.png[remove from pack icon] (Remove From Pack)*
 +
 Opens the Remove From Pack Cache Query dialog box for the selected cache query, which enables you to delete or remove the cache query from the pack.
 +
-NOTE: The Remove From Pack feature is enabled only for cache query for which the certification is set to None.
+NOTE: The Remove From Pack feature is enabled only for cache query for which the certification is set to *None.*

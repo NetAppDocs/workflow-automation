@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_schemes_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Schemes window displays the available schemes and enables you to manage the schemes. OnCommand Workflow Automation \(WFA\) uses schemes to acquire data relevant to an environment.'
+keywords: scheme, window, display, available, scheme, enable, manage, oncommand, workflow, automation, acquire, data, relevant, environment
+summary: "The Schemes window displays the available schemes and enables you to manage the schemes. OnCommand Workflow Automation (WFA) uses schemes to acquire data relevant to an environment."
 ---
 = Schemes window
 :icons: font
@@ -11,7 +11,7 @@ summary: 'The Schemes window displays the available schemes and enables you to m
 [.lead]
 The Schemes window displays the available schemes and enables you to manage the schemes. OnCommand Workflow Automation (WFA) uses schemes to acquire data relevant to an environment.
 
-A scheme represents the data model for a system. The data model is a collection of dictionary entries. You can define a scheme and then define a data source type. The data source defines how the data is acquired and the scheme is populated. For example, a vc scheme contains data relevant to your virtual environment, such as virtual machines, hosts, and datastores.
+A scheme represents the data model for a system. The data model is a collection of dictionary entries. You can define a scheme and then define a data source type. The data source defines how the data is acquired and the scheme is populated. For example, a _vc scheme_ contains data relevant to your virtual environment, such as virtual machines, hosts, and datastores.
 
 == Schemes table
 
@@ -52,7 +52,7 @@ You can search for a scheme by entering its name in the *Search* filter text box
 
 * *Entity Version*
 +
-Displays the version number of the object in major.minor.revision format--for example, 1.0.0.
+Displays the version number of the object in `major.minor.revision` format--for example, 1.0.0.
 +
 You can search for a scheme by entering the version number in the *Search* filter text box.
 
@@ -130,13 +130,13 @@ Enables you to reset the scheme during the next data acquisition cycle.
 +
 Opens the Add To Pack Schemes dialog box, which enables you to add the scheme and its dependable entities to a pack, which is editable.
 +
-NOTE: The Add To Pack feature is enabled only for schemes for which the certification is set to None.
+NOTE: The Add To Pack feature is enabled only for schemes for which the certification is set to *None.*
 
 * *image:../media/remove_from_pack.png[remove from pack icon] (Remove From Pack)*
 +
 Opens the Remove From Pack Schemes dialog box for the selected scheme, which enables you to delete or remove the scheme from the pack.
 +
-NOTE: The Remove From Pack feature is enabled only for schemes for which the certification is set to None.
+NOTE: The Remove From Pack feature is enabled only for schemes for which the certification is set to *None.*
 
 *Related information*
 

@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_workflows_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Workflows window displays all of the available workflows, in alphabetical order. You can access this window by selecting Workflow Design \> Workflows.'
+keywords: workflow, window, display, available, workflow, alphabetical order, access, design
+summary: "The Workflows window displays all of the available workflows, in alphabetical order. You can access this window by selecting Workflow Design > Workflows."
 ---
 = Workflows window
 :icons: font
@@ -13,8 +13,8 @@ The Workflows window displays all of the available workflows, in alphabetical or
 
 Depending on your role and account privileges, this window might not be displayed.
 
-* <<GUID-7935D5A4-3C38-4508-BE74-9791E3E6477B,Workflows table>>
-* <<GUID-E18CB91B-E9E0-4BEA-8AB5-2054C4F883D4,Toolbar>>
+* Workflows table
+* Toolbar
 
 == Workflows table
 
@@ -49,7 +49,7 @@ You can search for a workflow by entering one of its schemes in the *Search* fil
 
 * *Entity Version*
 +
-Displays the version number of the object in major.minor.revision format--for example, 1.0.0.
+Displays the version number of the object in `major.minor.revision` format--for example, 1.0.0.
 +
 You can search for a workflow by entering the version number in the *Search* filter text box.
 
@@ -139,10 +139,10 @@ Opens the Execute Workflow <selected_workflow_name> dialog box for the selected 
 +
 Opens the Add To Pack Workflow dialog box, which enables you to add the workflow and its dependable entities to a pack, which is editable.
 +
-NOTE: The Add To Pack feature is enabled only for workflows for which the certification is set to None.
+NOTE: The Add To Pack feature is enabled only for workflows for which the certification is set to *None.*
 
 * *image:../media/remove_from_pack.png[remove from pack icon] (Remove From Pack)*
 +
 Opens the Remove From Pack Workflow dialog box for the selected workflow, which enables you to delete or remove the workflow from the pack.
 +
-NOTE: The Remove From Pack feature is enabled only for workflow for which the certification is set to None.
+NOTE: The Remove From Pack feature is enabled only for workflow for which the certification is set to *None.*

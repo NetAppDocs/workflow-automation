@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_execution_status_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Executions window displays the status of the execution process for each workflow that has been submitted for execution. The window enables you to view details of the execution process and control the execution of a workflow. You can access this window by selecting Execution \> Executions.'
+keywords: execution, window, display, status, process, workflow, submitted, enable, view, details, process, control, access, select
+summary: "The Executions window displays the status of the execution process for each workflow that has been submitted for execution. The window enables you to view details of the execution process and control the execution of a workflow. You can access this window by selecting Execution > Executions."
 ---
 = Executions window
 :icons: font
@@ -11,8 +11,8 @@ summary: 'The Executions window displays the status of the execution process for
 [.lead]
 The Executions window displays the status of the execution process for each workflow that has been submitted for execution. The window enables you to view details of the execution process and control the execution of a workflow. You can access this window by selecting *Execution* > *Executions*.
 
-* <<GUID-8FE47E3E-84F8-41AA-A2B6-ABA117178EE3,Workflow table>>
-* <<GUID-47F26249-8C14-410F-9CA8-19377388B7A1,Toolbar>>
+* Workflow table
+* Toolbar
 
 == Workflow table
 
@@ -26,7 +26,7 @@ The Workflow table lists the workflows submitted for execution. You can customiz
 * Clicking the *Search* filter text box allows you to search for specific content. In addition, you can search using supported operators for the applicable column type, Alphabetic or Numeric.
 
 The following table outlines the supported operators for alphabetic and numeric columns in the Workflow table, available in the *Search* filter text box.
-
+[cols="2*",options="header"]
 |===
 | Alphabetic| Numeric
 a|
@@ -178,6 +178,7 @@ Opens the Monitoring window for the selected workflow, which contains the follow
  ** User Inputs
  ** Return Parameters
  ** History
+
 You can also double-click an entry in the table to open the Monitoring window to view detailed information.
 
 * *image:../media/abort_wfa_icon.gif[Abort icon] (Abort)*
@@ -190,15 +191,15 @@ Opens a Reschedule Workflow dialog box, which enables you to change the time of 
 
 * *image:../media/resume_wfa_icon.gif[Resume icon] (Resume)*
 +
-Opens a Resume Workflow dialog box, which enables you to resume the execution of the workflow after modifying environment issues (for example, wrong credentials to an array, missing licenses, or array is down). The option is enabled for workflows that are in the Failed state.
+Opens a Resume Workflow dialog box, which enables you to resume the execution of the workflow after modifying environment issues (for example, wrong credentials to an array, missing licenses, or array is down). The option is enabled for workflows that are in the `Failed` state.
 
 * *image:../media/approve_resume_wfa_icon.gif[Approve and resume icon] (Approve & Resume)*
 +
-Enables you to approve the execution of the workflow and continue the execution process. This option is enabled for workflows that are in the Waiting For Approval state.
+Enables you to approve the execution of the workflow and continue the execution process. This option is enabled for workflows that are in the `Waiting For Approval state`.
 
 * *image:../media/reject_abort_wfa_icon.gif[Reject and abort icon] (Reject & Abort)*
 +
-Enables you to reject the execution of the workflow and stop the execution process. This option is enabled for workflows that are in the Waiting For Approval state.
+Enables you to reject the execution of the workflow and stop the execution process. This option is enabled for workflows that are in the `Waiting For Approval state`.
 
 * *image:../media/clean_reservation_wfa_icon.gif[Clean reservation icon] (Clean Reservation)*
 +

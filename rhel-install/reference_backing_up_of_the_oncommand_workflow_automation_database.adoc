@@ -1,8 +1,8 @@
 ---
 permalink: rhel-install/reference_backing_up_of_the_oncommand_workflow_automation_database.html
 sidebar: sidebar
-keywords: 
-summary: 'A backup of the OnCommand Workflow Automation \(WFA\) database includes the system configuration settings and cache information, including the playground database. You can use the backup for restoration purposes on the same system or on a different system.'
+keywords: back up, oncommand, workflow, automation, database
+summary: "A backup of the OnCommand Workflow Automation (WFA) database includes the system configuration settings and cache information, including the playground database. You can use the backup for restoration purposes on the same system or on a different system."
 ---
 = Backing up the OnCommand Workflow Automation database
 :icons: font
@@ -17,14 +17,14 @@ WFA saves up to five backups in the WFA-Backups directory, and replaces the olde
 
 You can also manually back up the WFA database when you have to save specific changes for restoration; for example, if you want to back up the changes that you have made before the automatic backup occurs.
 
-NOTE:
-
+[NOTE]
+====
 * You can restore a WFA database backup only to a system that is running the same version or a later version of WFA.
 +
 For example, if you created a backup on a system that is running WFA 4.2, the backup can be restored only to systems that are running WFA 4.2 or later.
 
 * You cannot use the web UI to back up the WFA database during disaster recovery in a high-availability setup.
-
+====
 == Backup and restoration of user credentials
 
 The backup of the WFA database includes the WFA user credentials.

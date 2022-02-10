@@ -1,8 +1,8 @@
 ---
 permalink: workflows/concept_how_you_map_command_parameters.html
 sidebar: sidebar
-keywords: 
-summary: 'The parameters in Workflow Automation \(WFA\) commands are mapped to specific attributes and dictionary entry references based on certain rules. You must be aware of the rules to map command parameters when you create or edit a WFA command.'
+keywords: parameter, workflow, automation, commands, mapped, specific, attributes, dictionary, entry, references, certain, rules, aware, map, command, create, edit
+summary: "The parameters in Workflow Automation (WFA) commands are mapped to specific attributes and dictionary entry references based on certain rules. You must be aware of the rules to map command parameters when you create or edit a WFA command."
 ---
 = How you map command parameters
 :icons: font

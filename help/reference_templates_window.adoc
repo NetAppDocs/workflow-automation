@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_templates_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Templates window displays the available templates in alphabetical order. A template is a collection of settings that can be used when creating workflows. You can use templates to create workflows quickly.'
+keywords: template, window, display, available, alphabetical, order, collection, settings, workflows, quickly
+summary: "The Templates window displays the available templates in alphabetical order. A template is a collection of settings that can be used when creating workflows. You can use templates to create workflows quickly."
 ---
 = Templates window
 :icons: font
@@ -13,8 +13,8 @@ The Templates window displays the available templates in alphabetical order. A t
 
 NOTE: Depending on your role and account privileges, this window might not be displayed.
 
-* <<GUID-03349071-D237-4048-A804-4B8393A4153B,Templates table>>
-* <<SECTION_56A8573F5684463E88DC7F15575E0EFF,Toolbar>>
+* Templates table
+* Toolbar
 
 == Templates table
 
@@ -57,7 +57,7 @@ Displays the dictionary object type of the template--for example, volume and Sna
 
 * *Entity Version*
 +
-Displays the version number of the object in major.minor.revision format--for example, 1.0.0.
+Displays the version number of the object in `major.minor.revision` format--for example, 1.0.0.
 
 * *Description*
 +
@@ -115,10 +115,10 @@ NOTE: You cannot export a sample template.
 +
 Opens the Add To Pack Templates dialog box, which enables you to add the template and its dependable entities to a pack, which is editable.
 +
-NOTE: The Add To Pack feature is enabled only for templates for which the certification is set to None.
+NOTE: The Add To Pack feature is enabled only for templates for which the certification is set to *None.*
 
 * *image:../media/remove_from_pack.png[remove from pack icon] (Remove From Pack)*
 +
 Opens the Remove From Pack Templates dialog box for the selected template, which enables you to delete or remove the template.
 +
-NOTE: The Remove From Pack feature is enabled only for templates for which the certification is set to None.
+NOTE: The Remove From Pack feature is enabled only for templates for which the certification is set to *None.*
