@@ -85,7 +85,7 @@ Admin user password        The admin user password must satisfy the following cr
   *** One special character
   *** The following characters are not allowed and cause password input to fail:
 +
-`" ; < > , = & {caret} |
+`" ; < > , = & {caret} \|
 
 a|
 -m
@@ -124,4 +124,4 @@ Option to display        Displays the Help
 
 *Related information*
 
-https://mysupport.netapp.com/site/[NetApp Support]
+https://mysupport.netapp.com/site/[NetApp Support^]

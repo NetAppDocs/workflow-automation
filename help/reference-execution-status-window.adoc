@@ -208,7 +208,3 @@ Enables you to clean the resource reservation made for a workflow from the local
 * *image:../media/refresh_wfa_icon.gif[Refrech icon] (Refresh)*
 +
 Refreshes the list of workflows. The view refreshes automatically. You can toggle auto refresh on and off by clicking image:../media/refresh_icon_wfa.gif[] in the status bar.
-
-*Related information*
-
-xref:reference-monitoring-window.adoc[Monitoring window]

@@ -94,7 +94,3 @@ Saves the workflow.
 * *Close*
 +
 Closes the window. In the process, if any changes were made to the configuration, a Save Changes confirmation dialog box is opened, prompting you to either save the changes, close the window without saving changes, or cancel the closing action.
-
-*Related information*
-
-xref:reference-preview-workflow-dialog-box.adoc[Preview Workflow dialog box]

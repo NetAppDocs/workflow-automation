@@ -59,7 +59,3 @@ Saves the modified configuration settings of the remote system type and closes t
 * *Cancel*
 +
 Cancels changes, if any, and closes the dialog box.
-
-*Related information*
-
-xref:reference-remote-system-types-window.adoc[Remote System Types window]

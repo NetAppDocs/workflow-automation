@@ -26,16 +26,15 @@ The construction of each workflow might vary based on the goal and requirement o
 . Click *Workflow Design* > *Workflows*.
 . Click image:../media/new_wfa_icon.gif[New icon] on the toolbar.
 . In the *Workflow* tab, perform the following steps:
- .. Expand the required schema, and then double-click the required image:../media/wfa_command_icon.gif[Command icon] (command) or image:../media/wfa_workflow_icon.gif[Workflow icon] (workflow) from the *Available Steps* list.
+.. Expand the required schema, and then double-click the required image:../media/wfa_command_icon.gif[Command icon] (command) or image:../media/wfa_workflow_icon.gif[Workflow icon] (workflow) from the *Available Steps* list.
 +
 You can repeat this step as required. You can drag-and-drop steps to rearrange the steps in the workflow editor.
 
- .. *Optional:* Click image:../media/add_row2_wfa_icon.gif[] to add the required number of rows, which are used to specify details for execution of steps.
+.. *Optional:* Click image:../media/add_row2_wfa_icon.gif[] to add the required number of rows, which are used to specify details for execution of steps.
 +
 Each step is executed based on the specified step details at the specified row and column. The steps are executed from left to right and in the top to bottom order.
-
- .. Position your cursor below the step you have added and click image:../media/add_object_wfa_icon.gif[command details icon] to add step details for the step execution, at the required row.
-
+.. Position your cursor below the step you have added and click image:../media/add_object_wfa_icon.gif[command details icon] to add step details for the step execution, at the required row.
++
 [cols="2*",options="header"]
 |===
 | For this step...| Do this...
@@ -53,27 +52,28 @@ a|
 Select the dictionary entry object that should be searched for or defined.
 |===
 The following illustration shows the available options for defining the object attributes:
-
++
 image::../media/define_object_options.gif[]
-
++
 Choose the appropriate action:
-
++
 [cols="2*",options="header"]
+
 |===
+
 | For...| Do this...
 a|
 by filling-in attributes
 a|
 Enter the value for attributes using the following options:
 
-  *** Expressions
-  *** Variables
-  *** User inputs
-  *** Resource selection
-  *** Incremental naming
+*** Expressions
+*** Variables
+*** User inputs
+*** Resource selection
+*** Incremental naming
 
 You must position your cursor over the attribute fields and click image:../media/elipsisicon.gif[] to use the resource selection or incremental naming capabilities.
-
 a|
 by using a previously defined `_object_`
 a|
@@ -81,28 +81,26 @@ Select the previously defined `object` in the box before the option list.
 a|
 by searching for an existing `_object_`
 a|
-
   ... Click *Enter search criteria* to search for the object using the resource selection capability.
   ... Select one of the required options for execution if the required object is not found:
-   **** Abort workflow
+  **** Abort workflow
 +
 This option aborts the workflow execution if the specific object is not found.
 
-   **** Disable this command
-+
-This option disables only the current step and executes the workflow.
+ **** Disable this command
+ +
+ This option disables only the current step and executes the workflow.
 
-   **** Fill-in attributes for `object` and execute the command
-+
-This option enables you to enter the required attributes and execute the workflow.
-+
+ **** Fill-in attributes for `object` and execute the command
+ +
+ This option enables you to enter the required attributes and execute the workflow.
 |===
 
 . If you want to insert an approval point, click image:../media/approval_point_hover_icon.gif[approval point hover icon] and enter the required comment for the approval point.
 +
 Approval point comments can include MVEL expressions.
 
-. Click image:../media/repeat_row_arrow.gif[] that is next to the row numbers to perform the following:
+  . Click image:../media/repeat_row_arrow.gif[] that is next to the row numbers to perform the following:
  ** Insert a row.
  ** Copy the row.
  ** Repeat the row.
@@ -126,9 +124,9 @@ You can use this option and then specify a search criteria for an object. The co
 +
 The workflow name and description must be unique for each workflow.
 
- .. *Optinal:* Specify the entity version.
- .. *Optinal:* Clear the *Consider Reserved Elements* check box if you do not want to use the reservation capability.
- .. *Optinal:* Clear the *Enable element existence validation* check box if you do not want to enable validation for elements that exist with the same name.
+ .. *Optional:* Specify the entity version.
+ .. *Optional:* Clear the *Consider Reserved Elements* check box if you do not want to use the reservation capability.
+ .. *Optional:* Clear the *Enable element existence validation* check box if you do not want to enable validation for elements that exist with the same name.
 . If you want to edit the user inputs, perform the following steps:
  .. Click the *User Inputs* tab.
  .. Double-click the user input you want to edit.
@@ -148,6 +146,7 @@ Aggregate: You can specify aggregate as a return parameter to see which aggregat
 If you have included a child workflow in your workflow and if the child workflow return parameter names contain a space, dollar sign ($), or a function, you should specify the return parameter name within square brackets in the parent workflow to view the child workflow return parameter value in your parent workflow.
 +
 [cols="2*",options="header"]
+
 |===
 | If the parameter name is...| Specify as...
 a|

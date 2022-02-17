@@ -65,8 +65,8 @@ To avoid this issue, configure antivirus scanning exclusions for the following W
 * The directory where you have installed OpenJDK
 * The MySQL Data Directory
 
-For more details, see the https://mysupport.netapp.com/matrix[Interoperability Matrix Tool].
+For more details, see the Interoperability Matrix Tool.
 
 *Related information*
 
-https://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool]
+https://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool^]

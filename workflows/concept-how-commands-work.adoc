@@ -52,8 +52,8 @@ invokeMySqlQuery
 |===
 *Related information*
 
-xref:task-creating-a-filter.adoc[Creating a filter]
+xref:task-create-a-filter.adoc[Create a filter]
 
-xref:task-creating-a-finder.adoc[Creating a finder]
+xref:task-create-a-finder.adoc[Create a finder]
 
-xref:task-creating-a-command.adoc[Creating a command]
+xref:task-create-a-command.adoc[Create a command]

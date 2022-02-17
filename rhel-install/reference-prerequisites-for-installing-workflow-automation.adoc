@@ -104,4 +104,5 @@ a|
 Send log data
 |===
 *Related information*
-https://mysupport.netapp.com/site/[NetApp Support]
+
+https://mysupport.netapp.com/site/[NetApp Support^]

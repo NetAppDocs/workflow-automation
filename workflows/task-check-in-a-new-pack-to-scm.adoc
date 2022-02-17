@@ -20,11 +20,11 @@ SCM must be set up and you must have admin or architect credentials.
 . Log in to the *WFA* window through a web browser.
 . Create a new workflow pack.
 +
-xref:task-creating-a-workflow-automation-pack.adoc[Creating a workflow automation pack]
+xref:task-create-a-workflow-automation-pack.adoc[Create a workflow automation pack]
 
 . Add entities to the pack you created.
 +
-xref:task-adding-entity-to-a-workflow-automation-pack.adoc[Adding entities to an OnCommand Workflow Automation pack]
+xref:task-add-entity-to-a-workflow-automation-pack.adoc[Add entities to an OnCommand Workflow Automation pack]
 
 . Click the *Export To Server* icon.
 . In the Export To Server Folder dialog box, in the *Folder location at server system* field, enter the file system location where the pack is to be saved in the server containing the SCM client.

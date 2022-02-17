@@ -22,7 +22,3 @@ You can add approval points for one or more steps.
 
 . In the *New Approval Point* dialog box, provide the comment and condition details.
 . Click *OK*.
-
-*Related information*
-
-xref:concept-what-approval-points-are.adoc[What approval points are]

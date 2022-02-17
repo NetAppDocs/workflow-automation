@@ -23,7 +23,7 @@ NOTE: During communication, LDAP sends the user name and password in plain text.
 +
 NOTE: You can add a list of AD group names to the required roles in the Active Directory Groups Window.
 +
-xref:task-adding-active-directory-group-names.adoc[Active Directory Groups window]
+xref:task-add-active-directory-group-names.adoc[Active Directory Groups window]
 
 . Click *Administration* > *WFA Configuration*.
 . In the WFA Configuration dialog box, click the *Authentication* tab, and then select the *Enable Active Directory* check box.

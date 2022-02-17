@@ -36,8 +36,8 @@ At the shell prompt:
 +
 During the silent upgrade, you must include values for all of the following command options:
 
-  *** -y skips the installation confirmation.
-  *** -u specifies the admin user name.
-  *** -p specifies the admin user password.
+  *** `-y` skips the installation confirmation.
+  *** `-u` specifies the admin user name.
+  *** `-p` specifies the admin user password.
 +
 If you have not provided the admin user password, then you must enter the password when prompted.

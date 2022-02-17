@@ -90,7 +90,3 @@ Saves the configurations settings and closes the dialog box.
 * *Cancel*
 +
 Cancels changes, if any, and closes the dialog box.
-
-*Related information*
-
-xref:reference-data-sources-window.adoc[Data Sources window]

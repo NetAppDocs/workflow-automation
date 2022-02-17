@@ -32,7 +32,3 @@ Opens a connection attempt to the host name or IP address.
 * *Close*
 +
 Cancels changes, if any, and closes the dialog box.
-
-*Related information*
-
-xref:reference-credentials-window.adoc[Credentials window]
