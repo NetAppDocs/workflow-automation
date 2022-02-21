@@ -88,11 +88,11 @@ a|
 This option aborts the workflow execution if the specific object is not found.
 
  **** Disable this command
- +
+
  This option disables only the current step and executes the workflow.
 
  **** Fill-in attributes for `object` and execute the command
- +
+
  This option enables you to enter the required attributes and execute the workflow.
 |===
 

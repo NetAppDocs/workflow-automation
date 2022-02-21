@@ -1,7 +1,7 @@
 ---
 permalink: workflows/reference-workflow-requirements-checklist.html
 sidebar: sidebar
-keywords: workflow, requirements, checklist, include, details, requirements, commands, user, input, resources, planned, workflow,identify, gap
+keywords: workflow, requirements, checklist, include, details, requirements, commands, user, input, resources, planned, workflow, identify, gap
 summary: "A workflow requirements checklist includes detailed requirements—such as commands, user input, and resources—for a planned workflow. You can use the checklist to plan your workflows and identify the gaps in the requirements."
 ---
 = Sample workflow requirements checklist
@@ -14,8 +14,12 @@ A workflow requirements checklist includes detailed requirements--such as comman
 == Requirements checklist example
 
 The following sample workflow requirements checklist lists the requirements for the "`Create a Clustered Data ONTAP Volume`" workflow. You can use this sample checklist as a template to list your workflow requirements.
-[cols="2*"]
+[cols="2*",options="header"]
 |===
+a|
+Requirement
+a|
+Description
 a|
 Workflow name
 a|
@@ -35,11 +39,9 @@ a|
 * The SVM that contains the volume is specified by the user (cluster, SVM names).
 * A volume is created based on the specified size.
 * The configuration of the volume is described in a template.
-
 a|
 Details
 a|
-
 * Use the *Create CM Volume* command
 * Command details for *Create CM Volume*:
  ** Execution is set as always
@@ -71,24 +73,20 @@ Cluster
 a|
 Locked query (tabular)
 a|
-
 * Cluster hosting the SVM
 * Query can be tabular display with primary address and name of the cluster
 * Sort alphabetically by name
-
 a|
 SVM
 a|
 Locked query
 a|
-
 * SVM in which the volume is provisioned
 * Query should only display SVM names belonging to the cluster chosen in the previous input
 +
 Show only cluster type SVMs, not admin or node (type column of cm_storage.vserver)
 
 * Sort alphabetically
-
 a|
 Volume
 a|
@@ -106,7 +104,10 @@ a|
 * Size of the volume to be provisioned
 * Data size (snap reserve should be considered)
 |===
+
 *Commands*
+
+[cols="3*",options="header"]
 |===
 | Name| Description| Status
 a|
@@ -117,6 +118,7 @@ a|
 Existing
 |===
 *Return Parameters*
+[cols="2*",options="header"]
 |===
 | Name| Value
 a|
@@ -137,6 +139,8 @@ a|
 Name of the cluster
 |===
 *Gaps and issues*
+[cols="2*"]
+
 |===
 a|
 1.

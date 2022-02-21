@@ -45,6 +45,7 @@ If you are installing WFA on a virtual machine (VM), you should reserve the requ
 
 The following table lists all the operating system versions compatible with the WFA server.
 
+[cols="2*",options="header"]
 |===
 a|
 Operating System

@@ -43,14 +43,19 @@ This installation does not affect any other instances of ActivePerl that you hav
   **** The following special characters are not supported in a password and cause installation failure:
   +
   `" ; < > , = & {caret} |
-  +
-  NOTE: You must note the credentials of the admin user.
-
++
+[NOTE]
+=====
+You must note the credentials of the admin user.
+=====
   ... Enter a user name and password for the WFA service logon. For a domain user provide a user name in the format DOMAIN\USER. For a local system user the format is just a user name. The default user name is "wfa".
 +
 WFA installer creates a local user if one does not exist. If a local user exists and the password entered is different than the existing password, WFA updates the password.
 +
-NOTE: Ensure the password conforms to the password policy configured for local users on the system. If the password does not conform to the password policy, the install fails.
+[NOTE]
+=====
+Ensure the password conforms to the password policy configured for local users on the system. If the password does not conform to the password policy, the install fails.
+=====
 
   ... Select the ports for the WFA configuration, and then click *Next*.
   ... Enter a site name and your company name, and then click *Next*.
@@ -73,7 +78,10 @@ The site name can include the location of the WFA installation, for example, Pit
 +
 WFA-x64-V5.1.0.0.1-B5355278.exe /s /v"WFA_ADMIN_USERNAME=admin WFA_ADMIN_PASSWORD=Company*123 WFA_ADMIN_CONFIRM_PASSWORD=Company*123 WFA_MYSQL_PASS=MySQL*123 CONFIRM_WFA_MYSQL_PASS=MySQL*123 WFA_INSTALL_SITE=nb WFA_INSTALL_SITE=nb WFA_INSTALL_ORGANIZATION=netapp WFA_HTTP_PORT=80 WFA_HTTPS_PORT=443 INSTALLDIR=\"C:\Program Files\NetApp\WFA\" JDKINSTALLDIR=\"C:\Program Files\NetApp\" PerlDir=\"C:\Perl64\" MySqlInstallDir=\"C:\Program Files\MySQL\"WFA_SERVICE_LOGON_USERNAME=wfa WFA_SERVICE_LOGON_PASSWORD=Wfa*1234\NetApp\WFA\" MYSQL_DATA_DIR=\"C:\Program Files\NetApp\WFA\Database\" /qr /l*v C:\install.log"
 +
-NOTE: The /qn option is not supported by WFA.
+[NOTE]
+=====
+The /qn option is not supported by WFA.
+=====
 +
 The command parameters are as follows:
 +

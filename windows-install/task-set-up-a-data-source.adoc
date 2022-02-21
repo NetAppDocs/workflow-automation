@@ -47,7 +47,10 @@ See the _OnCommand Unified Manager Online Help_ for details.
 +
 See the VMware vCenter Server documentation for details.
 +
-NOTE: You must have installed VMware PowerCLI. If you want to execute workflows only on vCenter Server data sources, setting up Unified Manager server as a data source is not required.
+[NOTE]
+=====
+You must have installed VMware PowerCLI. If you want to execute workflows only on vCenter Server data sources, setting up Unified Manager server as a data source is not required.
+=====
 
 * The TCP port for incoming connections on the VMware vCenter Server must be open.
 +

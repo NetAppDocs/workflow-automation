@@ -119,7 +119,6 @@ a|
 -h
 a|
 Option to display        Displays the Help
-+
 |===
 
 *Related information*
