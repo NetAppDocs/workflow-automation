@@ -32,8 +32,8 @@ This installation does not affect any other instances of ActivePerl that you hav
   ... Right-click and run the WFA installer executable (.exe) file as an admin user.
   ... Click *Next*.
   ... Enter the credentials for the default admin user, and then click *Next*.
-  +
-  The default admin password must satisfy the following criteria:
++
+The default admin password must satisfy the following criteria:
 
   **** Minimum of eight characters
   **** One uppercase character
@@ -41,8 +41,8 @@ This installation does not affect any other instances of ActivePerl that you hav
   **** One numeral
   **** One special character
   **** The following special characters are not supported in a password and cause installation failure:
-  +
-  `" ; < > , = & {caret} |
++
+`" ; < > , = & {caret} |
 +
 [NOTE]
 =====
