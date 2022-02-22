@@ -32,7 +32,7 @@ For example, exporting a workflow also exports the dependent commands, filters, 
 +
 The objects remain in the locked state when they are imported by other users.
 
-*Steps*
+.Steps
 
 . Log in to WFA through a web browser.
 . Export the necessary content:

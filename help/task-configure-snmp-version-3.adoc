@@ -23,7 +23,7 @@ Traps are sent unencrypted over the network. SNMP management applications, which
 +
 Traps are sent encrypted over the network. To receive and decrypt these traps, you must configure SNMP management applications with the same authentication parameters and encryption key as the SNMP traps.
 
-*Steps*
+.Steps
 
 . Log in to WFA through a web browser as an admin user, and then access the WFA server.
 . Click *Settings*, and under *Setup* click *SNMP*.

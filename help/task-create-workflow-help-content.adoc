@@ -19,7 +19,7 @@ You must be aware of how to create web pages using HTML.
 
 The help should provide information about the workflow and the user inputs for the workflow to the storage operator who executes the workflow.
 
-*Steps*
+.Steps
 
 . Create a folder with the following name: workflow-help.
 . Author the help content using an HTML editor or a text editor and save it as an `index.htm` file in the `workflow-help` folder.

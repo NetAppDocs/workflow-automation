@@ -16,7 +16,7 @@ You can add a new remote system type to OnCommand Workflow Automation (WFA) if a
 * You must have installed WFA.
 * You must have administrator privileges or architect credentials for WFA.
 
-*Steps*
+.Steps
 
 . Log in to WFA through a web browser as an administrator or architect.
 . Click *Data Source Design* > *Remote System Types*.

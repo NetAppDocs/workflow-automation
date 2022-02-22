@@ -21,7 +21,7 @@ Only Microsoft AD LDAP authentication is supported for WFA. You cannot use any o
 
 NOTE: During communication, LDAP sends the user name and password in plain text. However, LDAPS (LDAP secure) communication is encrypted and secure.
 
-*Steps*
+.Steps
 
 . Log in to WFA through a web browser as an admin.
 . Click *Settings*, and under *Setup* click *Authentication*.

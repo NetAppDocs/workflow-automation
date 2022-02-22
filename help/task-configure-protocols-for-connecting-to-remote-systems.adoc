@@ -11,7 +11,7 @@ summary: "You can configure the protocol used by OnCommand Workflow Automation (
 [.lead]
 You can configure the protocol used by OnCommand Workflow Automation (WFA) to connect to remote systems. You can configure the protocol based on your organization's security requirements and the protocol supported by the remote system.
 
-*Steps*
+.Steps
 
 . Log in to WFA through a web browser as an admin.
 . Click *Data Source Design* > *Remote System Types*.

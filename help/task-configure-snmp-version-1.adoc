@@ -8,7 +8,7 @@ summary: "Configure SNMP Version 1"
 :icons: font
 :imagesdir: ../media/
 
-*Steps*
+.Steps
 
 . Log in to WFA through a web browser as an admin user, and then access the WFA server.
 . Click *Settings*, and under *Setup* click *SNMP*.

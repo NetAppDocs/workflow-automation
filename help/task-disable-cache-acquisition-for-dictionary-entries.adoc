@@ -11,7 +11,7 @@ summary: "When it is not necessary to cache dictionary objects in OnCommand Work
 [.lead]
 When it is not necessary to cache dictionary objects in OnCommand Workflow Automation (WFA), you can disable the caching of these objects. Disabling the caching of unwanted objects can reduce the time taken by WFA to complete data source acquisitions.
 
-*Steps*
+.Steps
 
 . Click *Data Source Design* > *Dictionary*.
 . Select the dictionary entry for which you want to disable data acquisition.

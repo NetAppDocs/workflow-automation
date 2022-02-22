@@ -20,7 +20,7 @@ You can edit the display name, description, and entity version of a scheme that 
 
 You cannot modify predefined schemes.
 
-*Steps*
+.Steps
 
 . Log in to WFA through a web browser as an administrator or architect.
 . Click *Data Source Design* > *Schemes*.

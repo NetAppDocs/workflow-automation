@@ -15,7 +15,7 @@ You can configure OnCommand Workflow Automation (WFA) to send log data to a spec
 
 You must have configured the Syslog server to accept data from the WFA server.
 
-*Steps*
+.Steps
 
 . Log in to WFA through a web browser as an admin.
 . Click *Settings*, and under *Maintenance* click *Syslog*.

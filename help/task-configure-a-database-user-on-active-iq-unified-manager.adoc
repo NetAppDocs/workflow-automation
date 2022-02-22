@@ -11,7 +11,7 @@ summary: "You must create a database user on Active IQ Unified Manager to config
 [.lead]
 You must create a database user on Active IQ Unified Manager to configure read-only access of the Active IQ Unified Manager database to OnCommand Workflow Automation.
 
-*Steps*
+.Steps
 
 . Log in to Active IQ Unified Manager with administrator credentials.
 . Click *Settings* > *Users*.

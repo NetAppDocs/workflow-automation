@@ -45,7 +45,7 @@ This user has complete access to the WFA server.
 +
 This is the only user who can remotely generate backups of the WFA server. However, the user is restricted from all other access.
 
-*Steps*
+.Steps
 
 . Click *Settings*, and under *Management* click *Users*.
 . Create a new user by clicking image:../media/new_wfa_icon.gif[New icon] on the toolbar.

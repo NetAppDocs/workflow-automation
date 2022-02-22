@@ -15,7 +15,7 @@ You can control the notifications that are generated in OnCommand Workflow Autom
 
 You must have configured email notifications in OnCommand Workflow Automation (WFA).
 
-*Steps*
+.Steps
 
 . Log in to WFA through a web browser as an administrator.
 . Configure the notification threshold:

@@ -21,7 +21,7 @@ For example, if you attempt to delete a pack that includes a command that is par
 +
 To delete an entity that is part of a pack, you must delete the pack containing that entity. If an entity is part of multiple packs, the entity will be deleted from the WFA server only when all the packs containing that entity are deleted.
 
-*Steps*
+.Steps
 
 . Log in to WFA through a web browser as an admin.
 . Click *Content Management* > *Packs*.

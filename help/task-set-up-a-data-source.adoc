@@ -57,7 +57,7 @@ For more information about pairing WFA with Unified Manager server 6.x, see the 
 
 NOTE: While setting up a data source with WFA, you must be aware that Active IQ Unified Manager 6.0, 6.1, and 6.2 data source types are deprecated in the WFA 4.0 release, and these data source types will not be supported in future releases.
 
-*Steps*
+.Steps
 
 . Access WFA using a web browser.
 . Click *Settings*, and under *Setup* click *Data Sources*.

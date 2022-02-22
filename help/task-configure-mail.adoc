@@ -15,7 +15,7 @@ You can configure OnCommand Workflow Automation (WFA) to send you email notifica
 
 You must have configured a mail host in your environment.
 
-*Steps*
+.Steps
 
 . Log in to WFA through a web browser as an admin.
 . Click *Settings*, and under *Setup* click *Mail*.
