@@ -145,7 +145,7 @@ entries:
       url: "/windows-install/concept-backing-up-the-wfa-database-using-rest-apis.html"
       entries:
       - title: Perform a full backup of the WFA database using REST APIs
-        url: "/windows-install/task-backing-up-full-oncommand-workflow-automation-database-using-rest-api.html"
+        url: "/windows-install/task-back-up-full-oncommand-workflow-automation-database-using-rest-api.html"
       - title: Perform a regular backup of the WFA database using REST APIs
         url: "/windows-install/task-back-up-regular-oncommand-workflow-automation-database-using-rest-api.html"
   - title: Restoring the OnCommand Workflow Automation database
