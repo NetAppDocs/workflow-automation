@@ -1,0 +1,17 @@
+---
+permalink: windows-install/concept-known-limitations-and-enhancements.html
+sidebar: sidebar
+keywords: oncommand, workflow, automation, limitations, enhancements
+summary: "OnCommand Workflow Automation (WFA) 5.1 includes some limitations and unsupported features that you should be aware of before you install and configure WFA."
+---
+= Known limitations and enhancements
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+OnCommand Workflow Automation (WFA) 5.1 includes some limitations and unsupported features that you should be aware of before you install and configure WFA.
+
+* *Creating category names*
+ ** When a hyphen (-) is used in a category name, it is replaced with a space once the category is saved. For example, if the category name "abc-xyz" is provided, the category name is saved as "abc xyz", with the hyphen removed. To avoid this issue, do not use hyphens in category names.
+ ** When a colon (:) is used in a category name, the text string before the colon is ignored once the category is saved. For example, if the category name "abc : xyz" is provided, the category name is saved as "xyz", with the "abc" string removed. To avoid this issue, do not use colons in category names.
+ ** There is no check to prevent two categories having the same name. However, this causes a problem when selecting these categories from the navigation pane. To avoid this issue, make sure that each category name is unique.
