@@ -9,7 +9,7 @@ summary: "The Edit Command Definition dialog box enables you to edit the selecte
 :imagesdir: ../media/
 
 [.lead]
-TheEdit Command Definition dialog box enables you to edit the selected command.
+The *Edit Command Definition* dialog box enables you to edit the selected command.
 
 * Properties tab
 * Code tab

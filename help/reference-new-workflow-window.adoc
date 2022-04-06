@@ -9,11 +9,11 @@ summary: "The New Workflow window displays a newly created workflow and its asso
 :imagesdir: ../media/
 
 [.lead]
-The New Workflow window displays a newly created workflow and its associated commands.
+The *New Workflow* window displays a newly created workflow and its associated commands.
 
 == New Workflow
 
-TheNew Workflow window displays the name of the workflow in the header of the window. The associated commands are displayed as blue boxes in columns that are presented in the sequential order of execution--read left to right, top to bottom. The variables and objects for each command are displayed as gray boxes in the column of the command.
+The *New Workflow* window displays the name of the workflow in the header of the window. The associated commands are displayed as blue boxes in columns that are presented in the sequential order of execution--read left to right, top to bottom. The variables and objects for each command are displayed as gray boxes in the column of the command.
 
 * *Insert a row*
 +
@@ -31,15 +31,15 @@ Places the last item saved to the clipboard in a new row below the selected row.
 
 * *Repeat row*
 +
-Opens the Row Repetition Details dialog box.
+Opens the *Row Repetition Details* dialog box.
 
 * *Edit row repetition*
 +
-Opens the Row Repetition Details dialog box, which enables you to modify the *Repeat Row* action set for the selected row.
+Opens the *Row Repetition Details* dialog box, which enables you to modify the *Repeat Row* action set for the selected row.
 
 * *Remove row repetition*
 +
-Cancels the *Repeat Row* action set in the Row Repetition Details dialog box for the selected row.
+Cancels the *Repeat Row* action set in the *Row Repetition Details* dialog box for the selected row.
 
 * *Add condition*
 +
@@ -51,11 +51,11 @@ Deletes the selected row from the workflow.
 
 * *New Approval Point*
 +
-You can click image:../media/approval_point_disabled.gif[] to open the New Approval Point dialog box, which enables you to add an approval point before the execution of the command.
+You can click image:../media/approval_point_disabled.gif[] to open the *New Approval Point* dialog box, which enables you to add an approval point before the execution of the command.
 
 * *Edit Approval Point*
 +
-You can click image:../media/approval_point_enabled.gif[] to open the Edit Approval Point dialog box, which enables you to edit the approval point comment.
+You can click image:../media/approval_point_enabled.gif[] to open the *Edit Approval Point* dialog box, which enables you to edit the approval point comment.
 
 * *Add Command Parameters*
 +
@@ -81,7 +81,7 @@ The command buttons are available at the bottom of the workflow window. The comm
 
 * *Preview*
 +
-Opens the Preview Workflow dialog box, which enables you to specify user input attributes.
+Opens the *Preview Workflow* dialog box, which enables you to specify user input attributes.
 
 * *Save As*
 +
@@ -93,4 +93,4 @@ Saves the workflow.
 
 * *Close*
 +
-Closes the window. In the process, if any changes were made to the configuration, a Save Changes confirmation dialog box is opened, prompting you to either save the changes, close the window without saving changes, or cancel the closing action.
+Closes the window. In the process, if any changes were made to the configuration, a *Save Changes confirmation* dialog box is opened, prompting you to either save the changes, close the window without saving changes, or cancel the closing action.

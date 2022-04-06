@@ -77,7 +77,11 @@ The unmapped parameters are displayed in the *Other parameters* tab of the Param
 . In the *Reservation* tab, enter a reservation script using SQL queries to reserve the resources that are required by the command during a scheduled workflow execution:
  .. *Optional:* In the *Reservation Representation* field, enter a string representation for the reservation using MVEL syntax.
 +
-``"Add rule for SnapMirror label ``" + SnapMirrorLabel + "[.code]`` to the SnapMirror policy ``" + PolicyName + "`"`
+`"Add rule for SnapMirror label `
++
+`" + SnapMirrorLabel + "[.code]` to the SnapMirror policy `
++
+`" + PolicyName + "`"`
 +
 The string representation is used to display the details of the resources reserved in the Reservations window.
 
