@@ -97,9 +97,8 @@ Performance Advisor for (Active IQ Unified Manager versions earlier than 6.0)
 a|
 Enter the credentials of an Active IQ Unified Manager user with a minimum role of GlobalRead.
 
-[NOTE]
-=====
-You must not provide the credentials of an Active IQ Unified Manager Database User account that was created using the command-line interface or the ocsetup tool.
+NOTE: You must not provide the credentials of an Active IQ Unified Manager Database User account that was created using the command-line interface or the ocsetup tool.
+
 |===
 
 . Click *Save*.

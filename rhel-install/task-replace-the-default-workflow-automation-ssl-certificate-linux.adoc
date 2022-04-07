@@ -20,7 +20,9 @@ The default WFA installation path is used in this procedure. If you changed the 
 . At the shell prompt, navigate to the following directory on the WFA server: WFA_install_location/wfa/bin
 . Stop the WFA database and server services:
 +
-`./wfa --stop=WFA``./wfa --stop=DB`
+`./wfa --stop=WFA`
++
+`./wfa --stop=DB`
 . Delete the wfa.keystore file from the following location: WFA_install_location/wfa/jboss/standalone/configuration/keystore.
 . Open a shell prompt on the WFA server, and then change directories to the following location: <OpenJDK_install_location>/bin
 . Obtain the database key:
@@ -42,4 +44,6 @@ changeit is the default password. If you do not want to use the default password
 . Press *Enter* when prompted by the following message: Enter key password for <SSL keystore> <RETURN if same as keystore password>.
 . Restart the WFA services:
 +
-`./wfa --start=DB``./wfa --start=WFA`
+`./wfa --start=DB`
++
+`./wfa --start=WFA`

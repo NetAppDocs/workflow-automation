@@ -30,13 +30,17 @@ You can only upgrade to minor updates of MySQL 5.7, for example, 5.7.22 to 5.7.2
 Delete all other .rpm packages. Installing all packages in an rpm bundle will not cause any problems.
 . At the shell prompt, stop the WFA database and server services:
 +
-`service wfa-db stop``service wfa-server stop`
+`service wfa-db stop`
++
+`service wfa-server stop`
 . Invoke the upgrade of MySQL by using the following command:
 +
 `rpm -uvh *.rpm`
 +
-*.rpm refers to the .rpm packages in the directory where you downloaded the newer version of MySQL.
+`*.rpm` refers to the .rpm packages in the directory where you downloaded the newer version of MySQL.
 
 . Start the WFA services:
 +
-`service wfa-db start``service wfa-server start`
+`service wfa-db start`
++
+`service wfa-server start`

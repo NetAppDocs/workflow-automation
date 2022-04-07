@@ -17,8 +17,6 @@ entries:
       url: "/windows-install/reference-ports-required-for-oncommand-workflow-automation.html"
   - title: Prerequisites for installing Workflow Automation
     url: "/windows-install/reference-prerequisites-for-installing-workflow-automation.html"
-  - title: Install OnCommand Workflow Automation on Windows
-    url: "/windows-install/task-install-workflow-automation-on-windows.html"
   - title: Managing high availability
     url: "/windows-install/concept-managing-high-availability.html"
     entries:
@@ -39,15 +37,6 @@ entries:
     - title: Back up and restore the OnCommand Workflow Automation database and
         configurations on Windows
       url: "/windows-install/task-back-up-and-restore-the-wfa-database-and-configurations-windows.html"
-  - title: Set up Workflow Automation in MSCS for high availability
-    url: "/windows-install/task-set-up-wfa-in-mscs.html"
-    entries:
-    - title: Configure MSCS to install Workflow Automation
-      url: "/windows-install/task-configure-mscs-to-install-wfa.html"
-    - title: Install OnCommand Workflow Automation on Windows
-      url: "/windows-install/task-install-workflow-automation-on-windows.html"
-    - title: Configure Workflow Automation with MSCS
-      url: "/windows-install/task-configure-wfa-with-mscs-using-configuration-scripts.html"
   - title: Setting up OnCommand Workflow Automation
     url: "/windows-install/concept-setting-up-oncommand-workflow-automation.html"
     entries:

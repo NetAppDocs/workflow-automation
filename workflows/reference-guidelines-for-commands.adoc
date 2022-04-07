@@ -64,7 +64,7 @@ a|
 a|
 Provide meaningful labels to every value in string representation.
 a|
-`_Volume name=VoumeName_`
+`_Volume name=VolumeName_`
 |===
 
 == Command definition language
