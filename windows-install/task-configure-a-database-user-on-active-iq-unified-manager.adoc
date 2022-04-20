@@ -1,0 +1,20 @@
+---
+permalink: windows-install/task-configure-a-database-user-on-active-iq-unified-manager.html
+sidebar: sidebar
+keywords: configure, database, user, active iq unified manager
+summary: "You must create a database user on Active IQ Unified Manager to configure read-only access of the Active IQ Unified Manager database to OnCommand Workflow Automation."
+---
+= Configure a database user on Active IQ Unified Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You must create a database user on Active IQ Unified Manager to configure read-only access of the Active IQ Unified Manager database to OnCommand Workflow Automation.
+
+.Steps
+. Log in to Active IQ Unified Manager with administrator credentials.
+. Click *Settings* > *Users*.
+. Click *Add a New User*.
+. Select *Database User* as the type of user.
++
+The same user should be used in OnCommand Workflow Automation while adding Active IQ Unified Manager as a data source in OnCommand Workflow Automation.
