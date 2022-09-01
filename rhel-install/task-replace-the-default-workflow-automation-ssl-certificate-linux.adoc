@@ -33,7 +33,11 @@ xxxx is the number of days for the validity of the new certificate.
 
 . When prompted, provide the password (default or new).
 +
-changeit is the default password. If you do not want to use the default password, you must change the password attribute of the SSL element in the standalone-full.xml file from the following location: WFA_install_location/wfa/jboss/standalone/configuration
+The default password is a randomly generated encrypted password.
++
+To obtain and decrypt the default password, use the steps in the Knowledge Base article link:https://kb.netapp.com/?title=Advice_and_Troubleshooting%2FData_Infrastructure_Management%2FOnCommand_Suite%2FHow_to_renew_the_self-signed_certificate_on_WFA_5.1.1.0.4%253F[How to renew the self-signed certificate on WFA 5.1.1.0.4^]
++
+If you do not want to use the default password, you must change the password attribute of the SSL element in the standalone-full.xml file from the following location: WFA_install_location/wfa/jboss/standalone/configuration
 +
 ----
 <ssl name="ssl" password="new_password" certificate-key-file="${jboss.server.config.dir}/keystore/wfa.keystore"
@@ -47,3 +51,5 @@ changeit is the default password. If you do not want to use the default password
 `./wfa --start=DB`
 +
 `./wfa --start=WFA`
+
+// BURT 1498856, 2022-09-01
