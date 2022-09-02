@@ -31,12 +31,6 @@ file_name is the name of the CSR file.
 The default password is a randomly generated encrypted password.
 +
 To obtain and decrypt the default password, use the steps in the Knowledge Base article link:https://kb.netapp.com/?title=Advice_and_Troubleshooting%2FData_Infrastructure_Management%2FOnCommand_Suite%2FHow_to_renew_the_self-signed_certificate_on_WFA_5.1.1.0.4%253F[How to renew the self-signed certificate on WFA 5.1.1.0.4^]
-+
-If you do not want to use the default password, you must change the password attribute of the SSL element in the standalone-full.xml file from the WFA_install_location\WFA\jboss\standalone\configuration\ location.
-+
-----
-<ssl name="ssl" password="new_password" certificate-key-file="${jboss.server.config.dir}/keystore/wfa.keystore"
-----
 
 . Send the file_name.csr file to the CA to obtain a signed certificate.
 +
