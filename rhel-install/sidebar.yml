@@ -155,6 +155,7 @@ entries:
   - title: Uninstall OnCommand Workflow Automation
     url: "/rhel-install/task-uninstall-oncommand-workflow-automation-linux.html"
   - title: Managing OnCommand Workflow Automation SSL certificate
+    pdf-filename: Manage OnCommand Workflow Automation SSL certificate Linux
     url: "/rhel-install/reference-managing-oncommand-workflow-automation-ssl-certificates.html"
     entries:
     - title: Replace the default Workflow Automation SSL certificate
