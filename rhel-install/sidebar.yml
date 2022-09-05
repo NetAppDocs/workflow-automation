@@ -158,6 +158,7 @@ entries:
     url: "/rhel-install/reference-managing-oncommand-workflow-automation-ssl-certificates.html"
     entries:
     - title: Replace the default Workflow Automation SSL certificate
+      pdf-filename: Replace the default Workflow Automation SSL ceritficate Linux
       url: "/rhel-install/task-replace-the-default-workflow-automation-ssl-certificate-linux.html"
     - title: Create a certificate signing request for Workflow Automation
       url: "/rhel-install/task-create-a-certificate-signing-request-for-workflow-automation-linux.html"
