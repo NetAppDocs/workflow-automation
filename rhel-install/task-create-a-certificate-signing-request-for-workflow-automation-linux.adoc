@@ -49,6 +49,8 @@ See the CA web site for details.
 
 . Start the WFA services:
 +
-`./wfa --start=DB./wfa --start=WFA`
+`./wfa --start=DB`
++
+`./wfa --start=WFA`
 
 // BURT 1498856, 2022-09-01
