@@ -35,15 +35,17 @@ To obtain and decrypt the default password, use the steps in the Knowledge Base 
 +
 See the CA web site for details.
 
-. Download a chain certificate from the CA, and then import the chain certificate to your keystore: `keytool -import -alias "ssl keystore CA certificate" -keystore WFA_install_location/wfa/jboss/standalone/configuration/keystore/wfa.keystore" -trustcacerts -file C:\chain_cert.cer`
+. Download a chain certificate from the CA, and then import the chain certificate to your keystore:
 +
-C:\chain_cert.cer is the chain certificate file that is received from the CA. The file must be in the X.509 format.
+`keytool -import -alias "ssl keystore CA certificate" -keystore WFA_install_location/wfa/jboss/standalone/configuration/keystore/wfa.keystore" -trustcacerts -file cert_file_location`
++
+`file cert_file_location` is the chain certificate file that is received from the CA. The file must be in the X.509 format.
 
 . Import the signed certificate that you received from the CA:
 +
-`keytool -import -alias "ssl keystore" -keystore WFA_install_location/wfa/jboss/standalone/configuration/keystore/wfa.keystore" -trustcacerts -file C:\certificate.cer`
+`keytool -import -alias "ssl keystore" -keystore WFA_install_location/wfa/jboss/standalone/configuration/keystore/wfa.keystore" -trustcacerts -file cert_file_location`
 +
-C:\certificate.cer is the chain certificate file that is received from the CA.
+`file cert_file_location` is the chain certificate file that is received from the CA.
 
 . Start the WFA services:
 +
