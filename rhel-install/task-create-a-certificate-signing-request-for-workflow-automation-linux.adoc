@@ -37,15 +37,15 @@ See the CA web site for details.
 
 . Download a chain certificate from the CA, and then import the chain certificate to your keystore:
 +
-`keytool -import -alias "ssl keystore CA certificate" -keystore WFA_install_location/wfa/jboss/standalone/configuration/keystore/wfa.keystore" -trustcacerts -file cert_file_location`
+`keytool -import -alias "ssl keystore CA certificate" -keystore WFA_install_location/wfa/jboss/standalone/configuration/keystore/wfa.keystore" -trustcacerts -file chain_cert.cer`
 +
-`file cert_file_location` is the chain certificate file that is received from the CA. The file must be in the X.509 format.
+`chain_cert.cer` is the chain certificate file that is received from the CA. The file must be in the X.509 format.
 
 . Import the signed certificate that you received from the CA:
 +
-`keytool -import -alias "ssl keystore" -keystore WFA_install_location/wfa/jboss/standalone/configuration/keystore/wfa.keystore" -trustcacerts -file cert_file_location`
+`keytool -import -alias "ssl keystore" -keystore WFA_install_location/wfa/jboss/standalone/configuration/keystore/wfa.keystore" -trustcacerts -file certificate.cer`
 +
-`file cert_file_location` is the chain certificate file that is received from the CA.
+`certificate.cer` is the chain certificate file that is received from the CA.
 
 . Start the WFA services:
 +
