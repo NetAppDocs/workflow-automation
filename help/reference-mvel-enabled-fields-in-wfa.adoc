@@ -20,8 +20,8 @@ a|
 Creating or editing a workflow
 a|
 
-* menu:_Workflow_[Details > Return Parameters > Parameter Value]
-* menu:_Workflow_[Details > Constants > Value]
+* `_menu:Workflow_`[Details > Return Parameters > Parameter Value]
+* `_menu:Workflow_`[Details > Constants > Value]
 
 a|
 Creating or editing command details in a workflow
@@ -55,9 +55,9 @@ a|
 Editing a row
 a|
 
-* menu:_Workflow_[Workflow > Repeat row > Repeats > Number of times]
-* menu:_Workflow_[Workflow > Repeat row > Variables > Variables for initial_value and expression]
-* menu:_Workflow_[Workflow > Repeat row > Repeats > For every resource in a group > Resource Search Criteria > Parameters to filter]
-* menu:_Workflow_[Workflow > Add condition > If the following expression is TRUE]
+* `_menu:Workflow_`[Workflow > Repeat row > Repeats > Number of times]
+* `_menu:Workflow_`[Workflow > Repeat row > Variables > Variables for initial_value and expression]
+* `_menu:Workflow_`[Workflow > Repeat row > Repeats > For every resource in a group > Resource Search Criteria > Parameters to filter]
+* `_menu:Workflow_`[Workflow > Add condition > If the following expression is TRUE]
 
 |===
