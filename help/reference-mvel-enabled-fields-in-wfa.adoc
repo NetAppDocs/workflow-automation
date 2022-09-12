@@ -20,44 +20,44 @@ a|
 Creating or editing a workflow
 a|
 
-* `_menu:Workflow_`[Details > Return Parameters > Parameter Value]
-* `_menu:Workflow_`[Details > Constants > Value]
+* _menu:Workflow_[Details > Return Parameters > Parameter Value]
+* _menu:Workflow_[Details > Constants > Value]
 
 a|
 Creating or editing command details in a workflow
 a|
 
-* menu:Commands[Parameters for `_parameter_name_` > Enter search criteria > Resource Selection > Finder > Parameters]
-* menu:Commands[Parameters for `_parameter_name_` > Enter search criteria > Resource Selection > Advanced > Execute search only when the following expression evaluates to TRUE]
-* menu:Commands[Parameters for `_parameter_name_` > Advanced > If the following expression is TRUE]
-* menu:Commands[Parameters for `_parameter_name_` > Other Parameters]
-* menu:Commands[`_parameter_name_` > Attributes]
+* menu:Commands[Parameters for _parameter_name_ > Enter search criteria > Resource Selection > Finder > Parameters]
+* menu:Commands[Parameters for _parameter_name_ > Enter search criteria > Resource Selection > Advanced > Execute search only when the following expression evaluates to TRUE]
+* menu:Commands[Parameters for _parameter_name_ > Advanced > If the following expression is TRUE]
+* menu:Commands[Parameters for _parameter_name_ > Other Parameters]
+* menu:Commands[_parameter_name_ > Attributes]
 
 a|
 Creating or editing a command
 a|
 
-* menu:Commands[Command Definition `_command_name_` > Properties > String Representation]
+* menu:Commands[Command Definition _command_name_ > Properties > String Representation]
 
 a|
 Creating or editing a function
 a|
 
-* menu:Functions[Function `_function_name_` > Function definition]
+* menu:Functions[Function _function_name_ > Function definition]
 
 a|
 Creating or editing a template
 a|
 
-* menu:Template[Parameters for `_parameter_name_` > Template `_template_name_` > Attributes > Value]
+* menu:Template[Parameters for _parameter_name_ > Template _template_name_ > Attributes > Value]
 
 a|
 Editing a row
 a|
 
-* `_menu:Workflow_`[Workflow > Repeat row > Repeats > Number of times]
-* `_menu:Workflow_`[Workflow > Repeat row > Variables > Variables for `_initial_value_` and `_expression_`]
-* `_menu:Workflow_`[Workflow > Repeat row > Repeats > For every resource in a group > Resource Search Criteria > Parameters to filter]
-* `_menu:Workflow_`[Workflow > Add condition > If the following expression is TRUE]
+* _menu:Workflow_[Workflow > Repeat row > Repeats > Number of times]
+* _menu:Workflow_[Workflow > Repeat row > Variables > Variables for _initial_value_ and _expression_]
+* _menu:Workflow_[Workflow > Repeat row > Repeats > For every resource in a group > Resource Search Criteria > Parameters to filter]
+* _menu:Workflow_[Workflow > Add condition > If the following expression is TRUE]
 
 |===
