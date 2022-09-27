@@ -2,7 +2,7 @@
 permalink: help/reference-mvel-enabled-fields-in-wfa.html
 sidebar: sidebar
 keywords: field, oncommand, workflow, automation, enable, expression, language, syntax, design
-summary: 'Several fields in OnCommand Workflow Automation \(WFA\) are enabled for MVFLEX Expression Language \(MVEL\). You can use MVEL syntaxes in these fields while designing workflows.'
+summary: "Several fields in OnCommand Workflow Automation (WFA) are enabled for MVFLEX Expression Language (MVEL). You can use MVEL syntaxes in these fields while designing workflows."
 ---
 = MVEL-enabled fields in OnCommand Workflow Automation
 :experimental:
