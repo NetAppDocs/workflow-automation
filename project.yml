@@ -30,7 +30,7 @@ homepage:
         - title: Manage high availability
           url: rhel-install/concept-managing-high-availability.html
         - title: Set up OnCommand Workflow Automation
-          url: rhel-install/concept-set-up-oncommand-workflow-automation.html
+          url: rhel-install/concept-setting-up-oncommand-workflow-automation.html
         - title: Back up the OnCommand Workflow Automation database
           url: rhel-install/reference-backing-up-of-the-oncommand-workflow-automation-database.html
         - title: Restore the OnCommand Workflow Automation database
