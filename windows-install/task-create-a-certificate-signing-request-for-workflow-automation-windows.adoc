@@ -41,7 +41,7 @@ See the CA web site for details.
 +
 C:\chain_cert.cer is the chain certificate file that is received from the CA. The file must be in the X.509 format.
 
-. Import the signed certificate that you received from the CA:
+. Import the signed certificate that you received from the CA: 
 +
 `keytool -import -alias "ssl keystore" -keystore "WFA_install_location\WFA\jboss\standalone\configuration\keystore\wfa.keystore" -file C:\certificate.cer`
 +
