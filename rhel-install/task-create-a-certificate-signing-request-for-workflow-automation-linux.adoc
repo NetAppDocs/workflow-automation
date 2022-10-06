@@ -29,8 +29,9 @@ file_name is the name of the CSR file.
 +
 The default password is a randomly generated encrypted password.
 +
-To obtain and decrypt the default password, use the steps in the Knowledge Base article link:https://kb.netapp.com/?title=Advice_and_Troubleshooting%2FData_Infrastructure_Management%2FOnCommand_Suite%2FHow_to_renew_the_self-signed_certificate_on_WFA_5.1.1.0.4%253F[How to renew the self-signed certificate on WFA 5.1.1.0.4^]
-
+To obtain and decrypt the default password, follow the steps in the Knowledge Base article link:https://kb.netapp.com/?title=Advice_and_Troubleshooting%2FData_Infrastructure_Management%2FOnCommand_Suite%2FHow_to_renew_the_self-signed_certificate_on_WFA_5.1.1.0.4%253F[How to renew the self-signed certificate on WFA 5.1.1.0.4^]
++
+To use a new password, follow the steps in the Knowledge Base article link:https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/OnCommand_Suite/How_to_update_a_new_password_for_the_keystore_in_WFA[How to update a new password for the keystore in WFA.^]
 . Send the file_name.csr file to the CA to obtain a signed certificate.
 +
 See the CA web site for details.
