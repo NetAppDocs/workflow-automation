@@ -1,11 +1,12 @@
 section: help
-title: Online Help
+title: Manage and configure
 entries:
   - title: Overview of OnCommand Workflow Automation
     url: "/help/concept-overview-of-oncommand-workflow-automation.html"
   - title: Create local users
     url: "/help/task-create-local-users.html"
   - title: Configuring OnCommand Workflow Automation
+    pdf-filename: Configuring OnCommand Workflow Automation help
     url: "/help/concept-advanced-configuring-oncommand-workflow-automation.html"
     entries:
     - title: Configure authentication settings
@@ -13,6 +14,7 @@ entries:
     - title: Configure email notifications
       url: "/help/task-configure-mail.html"
     - title: Configure SNMP
+      pdf-filename: Configure SNMP help
       url: "/help/task-configure-snmp.html"
       entries:
       - title: Configure SNMP Version 1
