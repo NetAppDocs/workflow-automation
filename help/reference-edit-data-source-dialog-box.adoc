@@ -43,7 +43,6 @@ Displays the associated user name, if any, for the selected data source type.
 +
 You must specify the appropriate user name for this data source to override the default user name:
 
- ** For Unified Manager versions earlier than 6.0, you must enter the user name that you used for overriding the default credentials while running ocsetup.
  ** For Unified Manager 6.0 and later, you must enter the user name of the database user account that you created on the Unified Manager server.
  ** For Performance Advisor, you must enter the user name of an Active IQ Unified Manager user with a minimum role of GlobalRead.
 
@@ -53,7 +52,6 @@ Enables you to specify a password for the selected data source type.
 +
 You must specify a password to override the default password for the user name of this data source:
 
- ** For Unified Manager versions earlier than 6.0, you must enter the password that you used for overriding the default credentials while running ocsetup.
  ** For Unified Manager 6.0 and later, you must enter the password of the database user account that you created on the server.
  ** For Performance Advisor, you must enter the password of an Unified Manager user with a minimum role of GlobalRead.
 
@@ -91,3 +89,5 @@ Saves the configurations settings and closes the dialog box.
 * *Cancel*
 +
 Cancels changes, if any, and closes the dialog box.
+
+// 2022 Dec 19, BURT 1491437

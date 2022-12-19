@@ -89,14 +89,6 @@ The following table lists the default ports that should be open on the Unified M
 |===
 | Port| Protocol| Direction| Purpose
 a|
-2638
-a|
-Sybase
-a|
-Incoming
-a|
-Caching data from Active IQ Unified Manager earlier than 6.0
-a|
 3306
 a|
 MySQL
@@ -141,3 +133,5 @@ Incoming
 a|
 Receiving SNMP messages on the status of workflows
 |===
+
+// 2022 Dec 19, BURT 1491437

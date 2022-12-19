@@ -36,7 +36,6 @@ SQL
 a|
 From the *Driver type* list, select one of the following drivers that is appropriate for the data source:
 
- ** *Sybase jConnect3*
  ** *MySQL Connector/J*
  ** *MySQL Server JDBC Driver 3.0*
  ** *Oracle JDBC Driver 11.2.0.3*
@@ -53,3 +52,5 @@ The data in the dictionary entry equivalent CSV files should include tabs as fie
 |===
 
 . Click *Save*.
+
+// 2022 Dec 19, BURT 1491437
