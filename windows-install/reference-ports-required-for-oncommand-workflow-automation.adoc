@@ -96,14 +96,6 @@ a|
 Incoming
 a|
 Caching data from Active IQ Unified Manager 6.0 and later
-a|
-8088, 8488
-a|
-HTTP, HTTPS
-a|
-Incoming
-a|
-Caching data from Performance Advisor, which is a part of Active IQ Unified Manager earlier than 6.0
 |===
 The following table lists the default port that should be open on the VMware vCenter:
 
