@@ -11,7 +11,7 @@ summary: "The Cache Queries window enables you to manage cache queries for the W
 [.lead]
 The Cache Queries window enables you to manage cache queries for the WFA dictionary entries and their associated data source types.
 
-A cache query is an SQL query that retrieves the required data from the table specified in the query. A cache query is associated with a dictionary entry and one or more data source types--for example, cache query for *Volume (storage)* is associated with both Active IQ Unified Manager 5.1 and 5.2 data source types. You can define a cache query when you want retrieve some information, such as volume from a table of a data source Active IQ Unified Manager 6.0 into WFA's cache.
+A cache query is an SQL query that retrieves the required data from the table specified in the query. A cache query is associated with a dictionary entry and one or more data source types. You can define a cache query when you want retrieve some information, such as volume from a table of a data source OnCommand Unified Manager 6.0 into the WFA cache.
 
 * Cache Queries table
 * Toolbar
@@ -108,3 +108,5 @@ NOTE: The Add To Pack feature is enabled only for the cache query for which the 
 Opens the Remove From Pack Cache Query dialog box for the selected cache query, which enables you to delete or remove the cache query from the pack.
 +
 NOTE: The Remove From Pack feature is enabled only for cache query for which the certification is set to *None.*
+
+// 2022 Dec 19, BURT 1491437
