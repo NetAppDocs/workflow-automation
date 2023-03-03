@@ -27,6 +27,7 @@ The following are the default TCP port numbers:
 |===
 | TCP port number| Unified Manager server version| Description
 a|
+3306
 a|
 6.x
 a|
