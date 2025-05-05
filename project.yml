@@ -1,6 +1,6 @@
 ---
 settings:
-  name: OnCommand Workflow Automation 5.1
+  name: OnCommand Workflow Automation
   internal:
     pdf_enabled: true
   prod:
@@ -8,7 +8,7 @@ settings:
     harmony_enabled: true
 sidebar:
   entries:
-    - title: OnCommand Workflow Automation 5.1 docs
+    - title: OnCommand Workflow Automation docs
       url: "/index.html"
     - title: Release notes
       url: "/reference-releasenotes.html"
